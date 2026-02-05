@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T22:53:01.983Z",
+  "lastUpdated": "2026-02-05T23:00:08.722Z",
   "generatedWith": "GitHub Models API",
   "forks": [
     {
@@ -16,7 +16,7 @@
       "parent": {
         "name": "abhinavxd/libredesk",
         "url": "https://github.com/abhinavxd/libredesk",
-        "stars": 2155
+        "stars": 2157
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -91,7 +91,7 @@
       "name": "slidev",
       "displayName": "slidev",
       "description": "Presentation Slides for Developers",
-      "summary": "Exploring slidev — a various technologies repository that caught my attention. It showcases techniques worth understanding for any serious developer.",
+      "summary": "slidev offers an interesting approach built with various technologies. The codebase demonstrates practical solutions that could accelerate your next project.",
       "url": "https://github.com/yebeai/slidev",
       "language": null,
       "stars": 0,
