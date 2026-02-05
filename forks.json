@@ -1,21 +1,22 @@
 {
-  "lastUpdated": "2026-02-05T21:57:28.279Z",
+  "lastUpdated": "2026-02-05T22:08:08.540Z",
   "generatedWith": "GitHub Models API",
   "forks": [
     {
-      "id": 676126641,
-      "name": "mosesyebei.github.io",
-      "displayName": "mosesyebei.github.io",
-      "description": "portfolio",
-      "summary": "mosesyebei.github.io offers an interesting approach built with CSS. The codebase demonstrates practical solutions that could accelerate your next project.",
-      "url": "https://github.com/moses-y/mosesyebei.github.io",
-      "language": "CSS",
-      "stars": 0,
+      "id": 847620283,
+      "name": "ycombinator-job-scraper",
+      "displayName": "ycombinator job scraper",
+      "description": "Y Combinator Job Scraper  This repository houses an automated job scraping tool designed to streamline the job search process for tech professionals. Focused on Y Combinator's job board, this project aims to provide timely, relevant job listings to aid in career advancement.  Key Features: • Automated Scraping: Daily scraping of Y Combinator's jobs",
+      "summary": "Y Combinator Job Scraper  This repository houses an automated job scraping tool designed to streamline the job search process for tech professionals. Focused on Y Combinator's job board, this project aims to provide timely, relevant job listings to aid in career advancement.  Key Features: • Automated Scraping: Daily scraping of Y Combinator's jobs",
+      "url": "https://github.com/moses-y/ycombinator-job-scraper",
+      "language": "Python",
+      "stars": 4,
       "forks": 1,
       "topics": [],
       "parent": null,
+      "type": "original",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
-      "forkedAt": "August 8, 2023",
+      "forkedAt": "August 26, 2024",
       "updatedAt": "February 5, 2026",
       "readTime": 2
     },
@@ -35,6 +36,7 @@
         "url": "https://github.com/Kocoro-lab/Shannon",
         "stars": 921
       },
+      "type": "fork",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
       "forkedAt": "February 5, 2026",
       "updatedAt": "February 5, 2026",
@@ -54,8 +56,9 @@
       "parent": {
         "name": "4ian/GDevelop",
         "url": "https://github.com/4ian/GDevelop",
-        "stars": 20173
+        "stars": 20174
       },
+      "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
       "forkedAt": "February 5, 2026",
       "updatedAt": "February 5, 2026",
@@ -66,7 +69,7 @@
       "name": "slidev",
       "displayName": "slidev",
       "description": "Presentation Slides for Developers",
-      "summary": "A compelling various technologies project that explores slidev. Worth diving into for developers interested in modern software patterns and clean implementations.",
+      "summary": "slidev offers an interesting approach built with various technologies. The codebase demonstrates practical solutions that could accelerate your next project.",
       "url": "https://github.com/moses-y/slidev",
       "language": null,
       "stars": 0,
@@ -77,6 +80,7 @@
         "url": "https://github.com/slidevjs/slidev",
         "stars": 44172
       },
+      "type": "fork",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
       "forkedAt": "February 5, 2026",
       "updatedAt": "February 5, 2026",
@@ -98,6 +102,7 @@
         "url": "https://github.com/invoicerr-app/invoicerr",
         "stars": 631
       },
+      "type": "fork",
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
       "forkedAt": "February 4, 2026",
       "updatedAt": "February 4, 2026",
@@ -119,6 +124,7 @@
         "url": "https://github.com/callstackincubator/agent-device",
         "stars": 398
       },
+      "type": "fork",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
       "forkedAt": "February 3, 2026",
       "updatedAt": "February 3, 2026",
@@ -140,6 +146,7 @@
         "url": "https://github.com/tsoding/lamb",
         "stars": 185
       },
+      "type": "fork",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
       "forkedAt": "February 3, 2026",
       "updatedAt": "February 3, 2026",
@@ -161,6 +168,7 @@
         "url": "https://github.com/davidgeorgehope/elasticsearch-skill",
         "stars": 19
       },
+      "type": "fork",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
       "forkedAt": "February 3, 2026",
       "updatedAt": "February 3, 2026",
@@ -182,6 +190,7 @@
         "url": "https://github.com/winfunc/opcode",
         "stars": 20421
       },
+      "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
       "forkedAt": "February 3, 2026",
       "updatedAt": "February 3, 2026",
