@@ -138,9 +138,10 @@ function generateFallbackSummary(repo) {
   return templates[Math.floor(Math.random() * templates.length)];
 }
 
-async function fetchForks() {
+async function fetchRepos() {
+  // Fetch all repos (includes both owned and forks)
   const response = await fetch(
-    `https://api.github.com/users/${GITHUB_USERNAME}/repos?type=forks&sort=updated&per_page=100`,
+    `https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated&per_page=100`,
     {
       headers: {
         'Accept': 'application/vnd.github.v3+json',
@@ -154,7 +155,20 @@ async function fetchForks() {
     throw new Error(`GitHub API error: ${response.status}`);
   }
 
-  return response.json();
+  const repos = await response.json();
+
+  // Mark repos as fork or original based on the `fork` property
+  repos.forEach(r => {
+    r._type = r.fork ? 'fork' : 'original';
+  });
+
+  // Filter and sort
+  const all = repos
+    .filter(r => !r.name.includes('.github.io')) // Exclude github.io repos
+    .filter(r => !r.archived) // Exclude archived repos
+    .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
+
+  return all;
 }
 
 async function fetchRepoDetails(repo) {
@@ -200,10 +214,12 @@ function estimateReadTime(description) {
 }
 
 async function main() {
-  console.log('Fetching forked repositories...');
+  console.log('Fetching repositories...');
 
-  const repos = await fetchForks();
-  console.log(`Found ${repos.length} forked repos`);
+  const repos = await fetchRepos();
+  const forkCount = repos.filter(r => r._type === 'fork').length;
+  const ownedCount = repos.filter(r => r._type === 'original').length;
+  console.log(`Found ${repos.length} repos (${forkCount} forks, ${ownedCount} original)`);
 
   const recentForks = repos.slice(0, FORKS_TO_SHOW);
 
@@ -230,6 +246,7 @@ async function main() {
       forks: repo.forks_count,
       topics: detailed.topics || [],
       parent: detailed.parent || null,
+      type: repo._type || 'fork', // 'fork' or 'original'
       image: getRandomUnsplashUrl(i),
       forkedAt: formatDate(repo.created_at),
       updatedAt: formatDate(repo.updated_at),

@@ -460,6 +460,27 @@
             background: rgba(59, 130, 246, 0.2);
         }
 
+        .fork-card .repo-type {
+            font-size: 0.7rem;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .fork-card .repo-type.original {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.2) 0%, rgba(5, 150, 105, 0.2) 100%);
+            color: #10b981;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .fork-card .repo-type.fork {
+            background: rgba(139, 92, 246, 0.1);
+            color: #a78bfa;
+            border: 1px solid rgba(139, 92, 246, 0.2);
+        }
+
         .fork-card h3 {
             font-size: 1.25rem;
             font-weight: 600;
@@ -718,11 +739,11 @@
         </div>
     </section>
 
-    <!-- Forks Feed -->
-    <section id="forks" class="opportunities">
+    <!-- Projects Feed -->
+    <section id="projects-feed" class="opportunities">
         <div class="container">
-            <h2 class="section-title">What I'm <span>Exploring</span></h2>
-            <p class="section-subtitle">AI-generated insights on projects I've forked — updated daily</p>
+            <h2 class="section-title">What I'm <span>Building & Exploring</span></h2>
+            <p class="section-subtitle">My projects and interesting forks — AI-generated insights, updated every 6 hours</p>
             <div id="forks-container" class="forks-grid">
                 <div class="forks-loading">
                     <div class="spinner"></div>
@@ -901,13 +922,14 @@
                     </div>
                     <div class="content">
                         <div class="meta-top">
+                            <span class="repo-type ${fork.type || 'fork'}">${fork.type === 'original' ? 'Original' : 'Fork'}</span>
                             <span class="read-time">
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
                                 </svg>
                                 ${fork.readTime || 2} min read
                             </span>
-                            ${fork.parent ? `<a href="${fork.parent.url}" class="parent-link" target="_blank" rel="noopener">forked from ${fork.parent.name.split('/')[0]}</a>` : ''}
+                            ${fork.parent ? `<a href="${fork.parent.url}" class="parent-link" target="_blank" rel="noopener">from ${fork.parent.name.split('/')[0]}</a>` : ''}
                         </div>
                         <h3><a href="${fork.url}" target="_blank" rel="noopener">${fork.displayName || fork.name}</a></h3>
                         <p class="summary ${hasLongSummary ? 'collapsed' : ''}">${fork.summary || fork.description}</p>
