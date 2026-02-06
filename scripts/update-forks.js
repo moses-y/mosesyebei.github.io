@@ -186,28 +186,42 @@ function generateFallbackSummary(repo) {
 }
 
 async function fetchRepos() {
-  const response = await fetch(
-    `https://api.github.com/users/${CONFIG.username}/repos?sort=updated&per_page=100`,
-    {
-      headers: {
-        'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'GitHub-Pages-Blog-Generator',
-        ...(GITHUB_TOKEN && { 'Authorization': `token ${GITHUB_TOKEN}` })
-      }
-    }
-  );
+  let allRepos = [];
+  let page = 1;
 
-  if (!response.ok) {
-    throw new Error(`GitHub API error: ${response.status}`);
+  // Paginate through all repos (GitHub API returns max 100 per page)
+  while (true) {
+    const response = await fetch(
+      `https://api.github.com/users/${CONFIG.username}/repos?sort=updated&per_page=100&page=${page}`,
+      {
+        headers: {
+          'Accept': 'application/vnd.github.v3+json',
+          'User-Agent': 'GitHub-Pages-Blog-Generator',
+          ...(GITHUB_TOKEN && { 'Authorization': `token ${GITHUB_TOKEN}` })
+        }
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`GitHub API error: ${response.status}`);
+    }
+
+    const repos = await response.json();
+
+    if (repos.length === 0) break;
+
+    allRepos = allRepos.concat(repos);
+    console.log(`Fetched page ${page}: ${repos.length} repos (total: ${allRepos.length})`);
+
+    if (repos.length < 100) break; // Last page
+    page++;
   }
 
-  const repos = await response.json();
-
-  repos.forEach(r => {
+  allRepos.forEach(r => {
     r._type = r.fork ? 'fork' : 'original';
   });
 
-  const all = repos
+  const all = allRepos
     .filter(r => !r.name.includes('.github.io'))
     .filter(r => !r.archived)
     .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
