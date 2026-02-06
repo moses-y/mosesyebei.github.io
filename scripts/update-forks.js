@@ -5,14 +5,13 @@ const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 // Configuration
 const CONFIG = {
   username: 'yebeai',
-  reposToShow: 200, // All repos
-  apiDelay: 1500, // ms between requests (rate limiting for large batch)
+  reposToShow: 999, // All repos - no limit
+  apiDelay: 2000, // ms between requests
   models: {
     endpoint: 'https://models.inference.ai.azure.com/chat/completions',
-    // Available: gpt-4o, gpt-4o-mini, claude-3-5-sonnet, llama-3.1-70b-instruct, mistral-large
-    model: 'gpt-4o',
-    maxTokens: 800,  // Full blog articles
-    temperature: 0.75
+    model: 'claude-3-5-sonnet', // Claude Sonnet 3.5 for best writing
+    maxTokens: 5000, // Full in-depth blog articles
+    temperature: 0.7
   }
 };
 
@@ -53,8 +52,8 @@ async function fetchReadme(repo) {
 
     if (response.ok) {
       const readme = await response.text();
-      // Truncate to first 2000 chars to stay within token limits
-      return readme.slice(0, 2000);
+      // Truncate to first 4000 chars for more context
+      return readme.slice(0, 4000);
     }
   } catch (e) {
     console.log(`Could not fetch README for ${repo.name}`);
