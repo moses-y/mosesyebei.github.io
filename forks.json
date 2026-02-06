@@ -1,6 +1,8 @@
 {
-  "lastUpdated": "2026-02-06T00:38:49.663Z",
+  "lastUpdated": "2026-02-06T01:32:49.391Z",
   "generatedWith": "GitHub Models API (GPT-4o)",
+  "totalRepos": 196,
+  "aiGeneratedCount": 3,
   "forks": [
     {
       "id": 1151009743,
@@ -56,7 +58,7 @@
       "parent": {
         "name": "abhinavxd/libredesk",
         "url": "https://github.com/abhinavxd/libredesk",
-        "stars": 2170
+        "stars": 2179
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -122,7 +124,7 @@
       "parent": {
         "name": "slidevjs/slidev",
         "url": "https://github.com/slidevjs/slidev",
-        "stars": 44176
+        "stars": 44177
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
@@ -166,7 +168,7 @@
       "parent": {
         "name": "callstackincubator/agent-device",
         "url": "https://github.com/callstackincubator/agent-device",
-        "stars": 404
+        "stars": 405
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
@@ -320,7 +322,7 @@
       "parent": {
         "name": "timoncool/videosos",
         "url": "https://github.com/timoncool/videosos",
-        "stars": 817
+        "stars": 818
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -342,7 +344,7 @@
       "parent": {
         "name": "spieglt/FlyingCarpet",
         "url": "https://github.com/spieglt/FlyingCarpet",
-        "stars": 4941
+        "stars": 4942
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
@@ -430,7 +432,7 @@
       "parent": {
         "name": "TauricResearch/TradingAgents",
         "url": "https://github.com/TauricResearch/TradingAgents",
-        "stars": 29341
+        "stars": 29346
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
@@ -474,7 +476,7 @@
       "parent": {
         "name": "dair-ai/ML-Papers-Explained",
         "url": "https://github.com/dair-ai/ML-Papers-Explained",
-        "stars": 8476
+        "stars": 8477
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
@@ -672,7 +674,7 @@
       "parent": {
         "name": "clarsbyte/onshape-mcp",
         "url": "https://github.com/clarsbyte/onshape-mcp",
-        "stars": 123
+        "stars": 124
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
@@ -694,7 +696,7 @@
       "parent": {
         "name": "reconurge/flowsint",
         "url": "https://github.com/reconurge/flowsint",
-        "stars": 2503
+        "stars": 2502
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
@@ -716,7 +718,7 @@
       "parent": {
         "name": "supermemoryai/claude-supermemory",
         "url": "https://github.com/supermemoryai/claude-supermemory",
-        "stars": 2084
+        "stars": 2086
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -804,7 +806,7 @@
       "parent": {
         "name": "openclaw/openclaw",
         "url": "https://github.com/openclaw/openclaw",
-        "stars": 167631
+        "stars": 167781
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -848,7 +850,7 @@
       "parent": {
         "name": "microsoft/agent-lightning",
         "url": "https://github.com/microsoft/agent-lightning",
-        "stars": 14107
+        "stars": 14112
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -958,7 +960,7 @@
       "parent": {
         "name": "numman-ali/openskills",
         "url": "https://github.com/numman-ali/openskills",
-        "stars": 7937
+        "stars": 7938
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
@@ -1002,7 +1004,7 @@
       "parent": {
         "name": "going-doer/Paper2Code",
         "url": "https://github.com/going-doer/Paper2Code",
-        "stars": 4063
+        "stars": 4066
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
@@ -1024,7 +1026,7 @@
       "parent": {
         "name": "Orchestra-Research/AI-research-SKILLs",
         "url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
-        "stars": 2401
+        "stars": 2405
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
@@ -1046,7 +1048,7 @@
       "parent": {
         "name": "microsoft/BitNet",
         "url": "https://github.com/microsoft/BitNet",
-        "stars": 27921
+        "stars": 27923
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
@@ -1112,7 +1114,7 @@
       "parent": {
         "name": "open-webui/open-webui",
         "url": "https://github.com/open-webui/open-webui",
-        "stars": 123048
+        "stars": 123057
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -1134,7 +1136,7 @@
       "parent": {
         "name": "forrestchang/andrej-karpathy-skills",
         "url": "https://github.com/forrestchang/andrej-karpathy-skills",
-        "stars": 3624
+        "stars": 3625
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
@@ -1178,7 +1180,7 @@
       "parent": {
         "name": "AnmolSaini16/mapcn",
         "url": "https://github.com/AnmolSaini16/mapcn",
-        "stars": 5530
+        "stars": 5531
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
@@ -1222,7 +1224,7 @@
       "parent": {
         "name": "zampierilucas/scx_horoscope",
         "url": "https://github.com/zampierilucas/scx_horoscope",
-        "stars": 1073
+        "stars": 1074
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
@@ -1244,7 +1246,7 @@
       "parent": {
         "name": "unicodeveloper/globalthreatmap",
         "url": "https://github.com/unicodeveloper/globalthreatmap",
-        "stars": 995
+        "stars": 999
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -1288,7 +1290,7 @@
       "parent": {
         "name": "firecrawl/open-lovable",
         "url": "https://github.com/firecrawl/open-lovable",
-        "stars": 23923
+        "stars": 23925
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
@@ -1376,7 +1378,7 @@
       "parent": {
         "name": "smartstore/Smartstore",
         "url": "https://github.com/smartstore/Smartstore",
-        "stars": 1457
+        "stars": 1458
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -1530,7 +1532,7 @@
       "parent": {
         "name": "aiming-lab/SimpleMem",
         "url": "https://github.com/aiming-lab/SimpleMem",
-        "stars": 2718
+        "stars": 2720
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
@@ -1574,7 +1576,7 @@
       "parent": {
         "name": "antirez/flux2.c",
         "url": "https://github.com/antirez/flux2.c",
-        "stars": 1672
+        "stars": 1673
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
@@ -1640,7 +1642,7 @@
       "parent": {
         "name": "tonyantony300/alt-sendme",
         "url": "https://github.com/tonyantony300/alt-sendme",
-        "stars": 5297
+        "stars": 5298
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -1706,7 +1708,7 @@
       "parent": {
         "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
         "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-        "stars": 113429
+        "stars": 113435
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
@@ -1816,7 +1818,7 @@
       "parent": {
         "name": "xai-org/x-algorithm",
         "url": "https://github.com/xai-org/x-algorithm",
-        "stars": 14933
+        "stars": 14939
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
@@ -1860,7 +1862,7 @@
       "parent": {
         "name": "originalankur/maptoposter",
         "url": "https://github.com/originalankur/maptoposter",
-        "stars": 9434
+        "stars": 9454
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -1970,7 +1972,7 @@
       "parent": {
         "name": "danielmiessler/Personal_AI_Infrastructure",
         "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
-        "stars": 6233
+        "stars": 6234
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
@@ -1992,7 +1994,7 @@
       "parent": {
         "name": "Liquid4All/liquid-audio",
         "url": "https://github.com/Liquid4All/liquid-audio",
-        "stars": 391
+        "stars": 392
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
@@ -2174,6 +2176,2067 @@
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
       "forkedAt": "January 16, 2026",
       "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135853604,
+      "name": "copilot-sdk",
+      "displayName": "copilot sdk",
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "summary": "copilot sdk is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/copilot-sdk",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "github/copilot-sdk",
+        "url": "https://github.com/github/copilot-sdk",
+        "stars": 6797
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135847047,
+      "name": "grok-1",
+      "displayName": "grok 1",
+      "description": "Grok open release",
+      "summary": "grok 1 is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/grok-1",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "xai-org/grok-1",
+        "url": "https://github.com/xai-org/grok-1",
+        "stars": 51464
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135844803,
+      "name": "open-researcher",
+      "displayName": "open researcher",
+      "description": "🔥 Visual AI research assistant that displays real-time thinking, provides split-view analysis, and automatic citations using Claude and Firecrawl",
+      "summary": "🔥 Visual AI research assistant that displays real-time thinking, provides split-view analysis, and automatic citations using Claude and Firecrawl\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/open-researcher",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "firecrawl/open-researcher",
+        "url": "https://github.com/firecrawl/open-researcher",
+        "stars": 601
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135831037,
+      "name": "toon",
+      "displayName": "toon",
+      "description": "🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.",
+      "summary": "🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/toon",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "toon-format/toon",
+        "url": "https://github.com/toon-format/toon",
+        "stars": 22448
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135827323,
+      "name": "credit-ocr-system",
+      "displayName": "credit ocr system",
+      "description": "No description available",
+      "summary": "credit ocr system is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/credit-ocr-system",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "markuskuehnle/credit-ocr-system",
+        "url": "https://github.com/markuskuehnle/credit-ocr-system",
+        "stars": 225
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135738362,
+      "name": "AgenticTrading",
+      "displayName": "AgenticTrading",
+      "description": "No description available",
+      "summary": "AgenticTrading is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/AgenticTrading",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "Open-Finance-Lab/AgenticTrading",
+        "url": "https://github.com/Open-Finance-Lab/AgenticTrading",
+        "stars": 61
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135654047,
+      "name": "agentic-internet",
+      "displayName": "agentic internet",
+      "description": "AgenticInternet is an innovative project focused on empowering agents to autonomously browse, interact, and collaborate across the web. Our goal is to create an intelligent assistant capable of executing complex online workflows, enhancing productivity and creativity for end-users and organizations.",
+      "summary": "AgenticInternet is an innovative project focused on empowering agents to autonomously browse, interact, and collaborate across the web. Our goal is to create an intelligent assistant capable of executing complex online workflows, enhancing productivity and creativity for end-users and organizations.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/agentic-internet",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "AgenticInternet/agentic-internet",
+        "url": "https://github.com/AgenticInternet/agentic-internet",
+        "stars": 33
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135653643,
+      "name": "MathVizAI",
+      "displayName": "MathVizAI",
+      "description": "A complete end-to-end system that takes mathematical problems and automatically generates polished educational videos",
+      "summary": "A complete end-to-end system that takes mathematical problems and automatically generates polished educational videos\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/MathVizAI",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "anirudhsengar/MathVizAI",
+        "url": "https://github.com/anirudhsengar/MathVizAI",
+        "stars": 30
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135629383,
+      "name": "AI-ML-Book-References",
+      "displayName": "AI ML Book References",
+      "description": "This repository is for all those AI enthusiastics who actually loves to read books and learn.",
+      "summary": "AI ML Book References is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/AI-ML-Book-References",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "Ramakm/AI-ML-Book-References",
+        "url": "https://github.com/Ramakm/AI-ML-Book-References",
+        "stars": 318
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135617894,
+      "name": "crawlee",
+      "displayName": "crawlee",
+      "description": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+      "summary": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/crawlee",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "apify/crawlee",
+        "url": "https://github.com/apify/crawlee",
+        "stars": 21557
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135615802,
+      "name": "codeflow",
+      "displayName": "codeflow",
+      "description": "Visualise code",
+      "summary": "codeflow is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/codeflow",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "braedonsaunders/codeflow",
+        "url": "https://github.com/braedonsaunders/codeflow",
+        "stars": 526
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135581132,
+      "name": "fastapi_mcp",
+      "displayName": "fastapi mcp",
+      "description": "Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
+      "summary": "fastapi mcp is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/fastapi_mcp",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "AIGeniusInstitute/fastapi_mcp",
+        "url": "https://github.com/AIGeniusInstitute/fastapi_mcp",
+        "stars": 18
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135521052,
+      "name": "pagesource",
+      "displayName": "pagesource",
+      "description": "CLI to download websites' actual JS/CSS/assets (not flattened HTML)",
+      "summary": "pagesource is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/pagesource",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "timf34/pagesource",
+        "url": "https://github.com/timf34/pagesource",
+        "stars": 314
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135518406,
+      "name": "ekphos",
+      "displayName": "ekphos",
+      "description": "A lightweight, fast, terminal-based markdown research tool inspired by Obsidian",
+      "summary": "ekphos is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/ekphos",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "hanebox/ekphos",
+        "url": "https://github.com/hanebox/ekphos",
+        "stars": 794
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135471072,
+      "name": "TradeMaster",
+      "displayName": "TradeMaster",
+      "description": "TradeMaster is an open-source platform for quantitative trading empowered by reinforcement learning :fire: :zap: :rainbow:",
+      "summary": "TradeMaster is an open-source platform for quantitative trading empowered by reinforcement learning :fire: :zap: :rainbow:\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/TradeMaster",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "TradeMaster-NTU/TradeMaster",
+        "url": "https://github.com/TradeMaster-NTU/TradeMaster",
+        "stars": 2469
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135456085,
+      "name": "puter",
+      "displayName": "puter",
+      "description": "🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.",
+      "summary": "puter is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/puter",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "HeyPuter/puter",
+        "url": "https://github.com/HeyPuter/puter",
+        "stars": 39252
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135452329,
+      "name": "awesome-agent-learning",
+      "displayName": "awesome agent learning",
+      "description": "Guides, courses & reading lists for learning to build autonomous LLM agents",
+      "summary": "awesome agent learning is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/awesome-agent-learning",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "artnitolog/awesome-agent-learning",
+        "url": "https://github.com/artnitolog/awesome-agent-learning",
+        "stars": 93
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135451962,
+      "name": "VibeWorkflowPlatform",
+      "displayName": "VibeWorkflowPlatform",
+      "description": "Vibe Workflow Platform for Non-technical Creators.",
+      "summary": "VibeWorkflowPlatform is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/VibeWorkflowPlatform",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "AIGeniusInstitute/VibeWorkflowPlatform",
+        "url": "https://github.com/AIGeniusInstitute/VibeWorkflowPlatform",
+        "stars": 11
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135450976,
+      "name": "BoldWallet",
+      "displayName": "BoldWallet",
+      "description": "Your Superior Bitcoin Wallet",
+      "summary": "BoldWallet is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/BoldWallet",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "BoldBitcoinWallet/BoldWallet",
+        "url": "https://github.com/BoldBitcoinWallet/BoldWallet",
+        "stars": 18
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135450615,
+      "name": "whatseerr",
+      "displayName": "whatseerr",
+      "description": "WhatsApp bot for Seerr that allows users to search and request media via WhatsApp messages",
+      "summary": "whatseerr is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/whatseerr",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "SuFxGIT/whatseerr",
+        "url": "https://github.com/SuFxGIT/whatseerr",
+        "stars": 18
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135450276,
+      "name": "awesome-agentic-patterns",
+      "displayName": "awesome agentic patterns",
+      "description": "Visual card-based snippets for 99 AI agent design patterns. Fork of awesome-agentic-patterns.",
+      "summary": "awesome agentic patterns is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/awesome-agentic-patterns",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "esc5221/awesome-agentic-patterns",
+        "url": "https://github.com/esc5221/awesome-agentic-patterns",
+        "stars": 93
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135450037,
+      "name": "Neoflow",
+      "displayName": "Neoflow",
+      "description": "Neoflow is an open-source whiteboard application designed for seamless collaboration and creativity. It combines simplicity with advanced features, making it perfect for teams, designers, and creative minds.",
+      "summary": "Neoflow is an open-source whiteboard application designed for seamless collaboration and creativity. It combines simplicity with advanced features, making it perfect for teams, designers, and creative minds.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/Neoflow",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "kiraaziz/Neoflow",
+        "url": "https://github.com/kiraaziz/Neoflow",
+        "stars": 240
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135447763,
+      "name": "soccerdata",
+      "displayName": "soccerdata",
+      "description": "⛏⚽ Scrape soccer data from Club Elo, ESPN, FBref, Football-Data.co.uk, FotMob, Sofascore, SoFIFA, Understat and WhoScored. ",
+      "summary": "⛏⚽ Scrape soccer data from Club Elo, ESPN, FBref, Football-Data.co.uk, FotMob, Sofascore, SoFIFA, Understat and WhoScored. \n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/soccerdata",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "probberechts/soccerdata",
+        "url": "https://github.com/probberechts/soccerdata",
+        "stars": 1487
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 16, 2026",
+      "updatedAt": "January 16, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135137980,
+      "name": "maplibre-gl-lidar",
+      "displayName": "maplibre gl lidar",
+      "description": "A MapLibre plugin for visualizing LiDAR Point Cloud",
+      "summary": "maplibre gl lidar is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/maplibre-gl-lidar",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "opengeos/maplibre-gl-lidar",
+        "url": "https://github.com/opengeos/maplibre-gl-lidar",
+        "stars": 141
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135131603,
+      "name": "Acontext",
+      "displayName": "Acontext",
+      "description": "Data platform for context engineering. Context data platform that stores, observes and learns. Join the community❤️: https://discord.acontext.io",
+      "summary": "Data platform for context engineering. Context data platform that stores, observes and learns. Join the community❤️: https://discord.acontext.io\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/Acontext",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "memodb-io/Acontext",
+        "url": "https://github.com/memodb-io/Acontext",
+        "stars": 2811
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135128731,
+      "name": "vscode",
+      "displayName": "vscode",
+      "description": "Visual Studio Code",
+      "summary": "vscode is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/vscode",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "microsoft/vscode",
+        "url": "https://github.com/microsoft/vscode",
+        "stars": 181437
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135128135,
+      "name": "json-render",
+      "displayName": "json render",
+      "description": "AI → JSON → UI",
+      "summary": "json render is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/json-render",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "vercel-labs/json-render",
+        "url": "https://github.com/vercel-labs/json-render",
+        "stars": 10027
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1135124688,
+      "name": "neonize",
+      "displayName": "neonize",
+      "description": "whatsapp automation library, written in python",
+      "summary": "neonize is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/neonize",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "krypton-byte/neonize",
+        "url": "https://github.com/krypton-byte/neonize",
+        "stars": 315
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134830400,
+      "name": "eigent",
+      "displayName": "eigent",
+      "description": "Eigent: The Open Source Cowork Desktop to Unlock Your Exceptional Productivity.",
+      "summary": "eigent is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/eigent",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "eigent-ai/eigent",
+        "url": "https://github.com/eigent-ai/eigent",
+        "stars": 11950
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134819106,
+      "name": "lemon-chat",
+      "displayName": "lemon chat",
+      "description": "No description available",
+      "summary": "lemon chat is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/lemon-chat",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "azc5OQ/lemon-chat",
+        "url": "https://github.com/azc5OQ/lemon-chat",
+        "stars": 12
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134804505,
+      "name": "Salon-Management-System",
+      "displayName": "Salon Management System",
+      "description": "This is a web-based application designed to help salon owners and managers manage their business operations more efficiently.",
+      "summary": "This is a web-based application designed to help salon owners and managers manage their business operations more efficiently.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/Salon-Management-System",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "Abhisheksingh0303/Salon-Management-System",
+        "url": "https://github.com/Abhisheksingh0303/Salon-Management-System",
+        "stars": 36
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134802136,
+      "name": "BeautySmart",
+      "displayName": "BeautySmart",
+      "description": "System management to Salon/SPA  LARAVEL ",
+      "summary": "BeautySmart is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/BeautySmart",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "IsaacMeirelles/BeautySmart",
+        "url": "https://github.com/IsaacMeirelles/BeautySmart",
+        "stars": 44
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134801873,
+      "name": "CRM-laravel",
+      "displayName": "CRM laravel",
+      "description": "A Laravel based Booking + CRM system for a fictional salon called Salon Bliss. This project was developed as per the requirements of a Server Side Programming Module. ",
+      "summary": "A Laravel based Booking + CRM system for a fictional salon called Salon Bliss. This project was developed as per the requirements of a Server Side Programming Module. \n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/CRM-laravel",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "sachintha-lk/CRM-laravel",
+        "url": "https://github.com/sachintha-lk/CRM-laravel",
+        "stars": 56
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134801521,
+      "name": "Multi-Beauty-Salon-Web-Application-In-ReactJS-Firebase",
+      "displayName": "Multi Beauty Salon Web Application In ReactJS Firebase",
+      "description": "Introducing Your Ultimate Beauty Salon Management System – a next-gen platform to streamline and elevate salon operations! Whether you're a single salon or a multi-salon business, our system has everything you need to manage bookings, services, and customers effortlessly.",
+      "summary": "Introducing Your Ultimate Beauty Salon Management System – a next-gen platform to streamline and elevate salon operations! Whether you're a single salon or a multi-salon business, our system has everything you need to manage bookings, services, and customers effortlessly.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/Multi-Beauty-Salon-Web-Application-In-ReactJS-Firebase",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "Zaibten/Multi-Beauty-Salon-Web-Application-In-ReactJS-Firebase",
+        "url": "https://github.com/Zaibten/Multi-Beauty-Salon-Web-Application-In-ReactJS-Firebase",
+        "stars": 0
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134801264,
+      "name": "SEA-Salon",
+      "displayName": "SEA Salon",
+      "description": "salon management system website ",
+      "summary": "SEA Salon is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/SEA-Salon",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "Filbert88/SEA-Salon",
+        "url": "https://github.com/Filbert88/SEA-Salon",
+        "stars": 4
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134797367,
+      "name": "ai-knowledge-graph",
+      "displayName": "ai knowledge graph",
+      "description": "AI Powered Knowledge Graph Generator",
+      "summary": "ai knowledge graph is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/ai-knowledge-graph",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "robert-mcdermott/ai-knowledge-graph",
+        "url": "https://github.com/robert-mcdermott/ai-knowledge-graph",
+        "stars": 1867
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134792760,
+      "name": "midday",
+      "displayName": "midday",
+      "description": "Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers",
+      "summary": "Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/midday",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "midday-ai/midday",
+        "url": "https://github.com/midday-ai/midday",
+        "stars": 13660
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134792360,
+      "name": "supermemory",
+      "displayName": "supermemory",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "summary": "supermemory is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/supermemory",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "supermemoryai/supermemory",
+        "url": "https://github.com/supermemoryai/supermemory",
+        "stars": 16261
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134791393,
+      "name": "FOSSBilling",
+      "displayName": "FOSSBilling",
+      "description": "Empower your hosting business with FOSSBilling, the free and open-source solution for efficient billing and client management.",
+      "summary": "Empower your hosting business with FOSSBilling, the free and open-source solution for efficient billing and client management.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/FOSSBilling",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "FOSSBilling/FOSSBilling",
+        "url": "https://github.com/FOSSBilling/FOSSBilling",
+        "stars": 1415
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134790867,
+      "name": "pocketbase",
+      "displayName": "pocketbase",
+      "description": "Open Source realtime backend in 1 file",
+      "summary": "pocketbase is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/pocketbase",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "pocketbase/pocketbase",
+        "url": "https://github.com/pocketbase/pocketbase",
+        "stars": 55910
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134789760,
+      "name": "QloApps",
+      "displayName": "QloApps",
+      "description": "QloApps is a Free and Open-source hotel management and reservation system to take a hotel business online. QloApps offers a Property Management System (PMS), a Booking Engine, and an attractive Hotel Website. Elevate hotel operations with QloApps to streamline processes and provide an enhanced experience for both hoteliers and guests.",
+      "summary": "QloApps is a Free and Open-source hotel management and reservation system to take a hotel business online. QloApps offers a Property Management System (PMS), a Booking Engine, and an attractive Hotel Website. Elevate hotel operations with QloApps to streamline processes and provide an enhanced experience for both hoteliers and guests.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/QloApps",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "Qloapps/QloApps",
+        "url": "https://github.com/Qloapps/QloApps",
+        "stars": 11929
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134788719,
+      "name": "Events",
+      "displayName": "Events",
+      "description": "Open-source event management and ticket selling platform — perfect for concerts, conferences, and everything in between 🎟️  If you find this project helpful, please consider giving us a star ⭐️ ",
+      "summary": "Open-source event management and ticket selling platform — perfect for concerts, conferences, and everything in between 🎟️  If you find this project helpful, please consider giving us a star ⭐️ \n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/Events",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "HiEventsDev/Hi.Events",
+        "url": "https://github.com/HiEventsDev/Hi.Events",
+        "stars": 3506
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134787997,
+      "name": "crm",
+      "displayName": "crm",
+      "description": "Fully featured, open source CRM",
+      "summary": "crm is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/crm",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "frappe/crm",
+        "url": "https://github.com/frappe/crm",
+        "stars": 2317
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134786455,
+      "name": "Awesome-AI-Agents-for-Healthcare",
+      "displayName": "Awesome AI Agents for Healthcare",
+      "description": "Latest Advances on Agentic AI & AI Agents for Healthcare",
+      "summary": "Awesome AI Agents for Healthcare is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/Awesome-AI-Agents-for-Healthcare",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "AgenticHealthAI/Awesome-AI-Agents-for-Healthcare",
+        "url": "https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare",
+        "stars": 613
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134786081,
+      "name": "tauri-plugin-aptabase",
+      "displayName": "tauri plugin aptabase",
+      "description": "Tauri Plugin for Aptabase: Open Source, Privacy-First and Simple Analytics for Mobile, Desktop and Web Apps",
+      "summary": "Tauri Plugin for Aptabase: Open Source, Privacy-First and Simple Analytics for Mobile, Desktop and Web Apps\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/tauri-plugin-aptabase",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "aptabase/tauri-plugin-aptabase",
+        "url": "https://github.com/aptabase/tauri-plugin-aptabase",
+        "stars": 151
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134785756,
+      "name": "modal-metabase",
+      "displayName": "modal metabase",
+      "description": "Run metabase on modal!",
+      "summary": "modal metabase is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/modal-metabase",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "anthonycorletti/modal-metabase",
+        "url": "https://github.com/anthonycorletti/modal-metabase",
+        "stars": 4
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134785523,
+      "name": "daniels-home-office-portfolio",
+      "displayName": "daniels home office portfolio",
+      "description": "Life is too boring to have one personality, so let's have two",
+      "summary": "daniels home office portfolio is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/daniels-home-office-portfolio",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "andrewwoan/daniels-home-office-portfolio",
+        "url": "https://github.com/andrewwoan/daniels-home-office-portfolio",
+        "stars": 62
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134785230,
+      "name": "AionUi",
+      "displayName": "AionUi",
+      "description": "Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it!",
+      "summary": "Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it!\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/AionUi",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "iOfficeAI/AionUi",
+        "url": "https://github.com/iOfficeAI/AionUi",
+        "stars": 12352
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134784733,
+      "name": "opencode",
+      "displayName": "opencode",
+      "description": "The open source coding agent.",
+      "summary": "opencode is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/opencode",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "anomalyco/opencode",
+        "url": "https://github.com/anomalyco/opencode",
+        "stars": 98480
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134784407,
+      "name": "expo-ecommerce",
+      "displayName": "expo ecommerce",
+      "description": "No description available",
+      "summary": "expo ecommerce is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/expo-ecommerce",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "burakorkmez/expo-ecommerce",
+        "url": "https://github.com/burakorkmez/expo-ecommerce",
+        "stars": 334
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134783968,
+      "name": "LLMs-local",
+      "displayName": "LLMs local",
+      "description": " list of awesome platforms, tools, and resources   run for LLMs locally",
+      "summary": "LLMs local is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/LLMs-local",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "0xSojalSec/LLMs-local",
+        "url": "https://github.com/0xSojalSec/LLMs-local",
+        "stars": 545
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134783708,
+      "name": "faceswap",
+      "displayName": "faceswap",
+      "description": "Industry leading face manipulation platform",
+      "summary": "faceswap is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/faceswap",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "allenk/facefusion",
+        "url": "https://github.com/allenk/facefusion",
+        "stars": 62
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134783276,
+      "name": "invoice-builder",
+      "displayName": "invoice builder",
+      "description": "Invoice and quotation builder desktop app with PDF export, designed for small businesses and freelancers. Create, manage, and export invoices and quotes easily using a local database in an Electron-based app.",
+      "summary": "Invoice and quotation builder desktop app with PDF export, designed for small businesses and freelancers. Create, manage, and export invoices and quotes easily using a local database in an Electron-based app.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/invoice-builder",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "piratuks/invoice-builder",
+        "url": "https://github.com/piratuks/invoice-builder",
+        "stars": 147
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134782394,
+      "name": "iot-projects",
+      "displayName": "iot projects",
+      "description": "🤖 A curated list of awesome Internet of Things projects and resources.",
+      "summary": "iot projects is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/iot-projects",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "HQarroum/awesome-iot",
+        "url": "https://github.com/HQarroum/awesome-iot",
+        "stars": 3835
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134782014,
+      "name": "codegraph-rust",
+      "displayName": "codegraph rust",
+      "description": "100% Rust implementation of code graphRAG with blazing fast AST+FastML parsing, surrealDB backend and advanced agentic code analysis tools through MCP for efficient code agent context management",
+      "summary": "100% Rust implementation of code graphRAG with blazing fast AST+FastML parsing, surrealDB backend and advanced agentic code analysis tools through MCP for efficient code agent context management\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/codegraph-rust",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "Jakedismo/codegraph-rust",
+        "url": "https://github.com/Jakedismo/codegraph-rust",
+        "stars": 135
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134781734,
+      "name": "admin-dashboard",
+      "displayName": "admin dashboard",
+      "description": "Free and open-source admin dashboard template built with Tailwind CSS and Flowbite",
+      "summary": "admin dashboard is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/admin-dashboard",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "themesberg/flowbite-admin-dashboard",
+        "url": "https://github.com/themesberg/flowbite-admin-dashboard",
+        "stars": 2801
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134780546,
+      "name": "meetai",
+      "displayName": "meetai",
+      "description": "Meet.AI is a powerful, full-stack AI platform designed to help users create, manage, and interact with custom AI agents in seconds. From secure authentication to AI-powered meeting assistants, Meet.AI blends advanced technologies into an intuitive, production-ready app.",
+      "summary": "Meet.AI is a powerful, full-stack AI platform designed to help users create, manage, and interact with custom AI agents in seconds. From secure authentication to AI-powered meeting assistants, Meet.AI blends advanced technologies into an intuitive, production-ready app.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/meetai",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "AppajiDheeraj/meetai",
+        "url": "https://github.com/AppajiDheeraj/meetai",
+        "stars": 25
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134780318,
+      "name": "whatomate",
+      "displayName": "whatomate",
+      "description": "Whatomate is an open-source WhatsApp integration",
+      "summary": "whatomate is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/whatomate",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "shridarpatil/whatomate",
+        "url": "https://github.com/shridarpatil/whatomate",
+        "stars": 875
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134780004,
+      "name": "aikit",
+      "displayName": "aikit",
+      "description": "A comprehensive, SDK-agnostic UI library built on Atomic Design principles. Create beautiful, accessible AI chat experiences with full TypeScript support, theming, and extensive customization options.",
+      "summary": "A comprehensive, SDK-agnostic UI library built on Atomic Design principles. Create beautiful, accessible AI chat experiences with full TypeScript support, theming, and extensive customization options.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/aikit",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "gravity-ui/aikit",
+        "url": "https://github.com/gravity-ui/aikit",
+        "stars": 141
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134778666,
+      "name": "react-native-starter",
+      "displayName": "react native starter",
+      "description": "🚀A powerful react native starter template that bootstraps development of your mobile application ",
+      "summary": "react native starter is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/react-native-starter",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "flatlogic/react-native-starter",
+        "url": "https://github.com/flatlogic/react-native-starter",
+        "stars": 2511
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 15, 2026",
+      "updatedAt": "January 15, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134563577,
+      "name": "seedbox-lite",
+      "displayName": "seedbox lite",
+      "description": "A light-weight torrent media center at one place.",
+      "summary": "seedbox lite is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/seedbox-lite",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "hotheadhacker/seedbox-lite",
+        "url": "https://github.com/hotheadhacker/seedbox-lite",
+        "stars": 4479
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 14, 2026",
+      "updatedAt": "January 14, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134563092,
+      "name": "claude-code-router",
+      "displayName": "claude code router",
+      "description": "Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.",
+      "summary": "Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/claude-code-router",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "musistudio/claude-code-router",
+        "url": "https://github.com/musistudio/claude-code-router",
+        "stars": 27313
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 14, 2026",
+      "updatedAt": "January 14, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134499482,
+      "name": "ralph-wiggum",
+      "displayName": "ralph wiggum",
+      "description": "Ralph Wiggum: Autonomous AI coding with spec-driven development. Point your AI agent here to get started.",
+      "summary": "Ralph Wiggum: Autonomous AI coding with spec-driven development. Point your AI agent here to get started.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/ralph-wiggum",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "fstandhartinger/ralph-wiggum",
+        "url": "https://github.com/fstandhartinger/ralph-wiggum",
+        "stars": 150
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 14, 2026",
+      "updatedAt": "January 14, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134497985,
+      "name": "ralph-wiggum-marketer",
+      "displayName": "ralph wiggum marketer",
+      "description": "A Claude Code Plugin that provides an autonomous AI copywriter.",
+      "summary": "ralph wiggum marketer is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/ralph-wiggum-marketer",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "muratcankoylan/ralph-wiggum-marketer",
+        "url": "https://github.com/muratcankoylan/ralph-wiggum-marketer",
+        "stars": 616
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 14, 2026",
+      "updatedAt": "January 14, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134497452,
+      "name": "agent-browser",
+      "displayName": "agent browser",
+      "description": "Browser automation CLI for AI agents",
+      "summary": "agent browser is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/agent-browser",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "vercel-labs/agent-browser",
+        "url": "https://github.com/vercel-labs/agent-browser",
+        "stars": 12802
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 14, 2026",
+      "updatedAt": "January 14, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134496112,
+      "name": "agent-skills",
+      "displayName": "agent skills",
+      "description": "No description available",
+      "summary": "agent skills is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/agent-skills",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "vercel-labs/agent-skills",
+        "url": "https://github.com/vercel-labs/agent-skills",
+        "stars": 19145
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 14, 2026",
+      "updatedAt": "January 14, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134495140,
+      "name": "Hozn-RealEstate-Fullstack",
+      "displayName": "Hozn RealEstate Fullstack",
+      "description": "🚀 Hozn - Real Estate Fullstack is a Website complete real estate platform built with React, Next.js, TypeScript, Express, and PostgreSQL. ",
+      "summary": "🚀 Hozn - Real Estate Fullstack is a Website complete real estate platform built with React, Next.js, TypeScript, Express, and PostgreSQL. \n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/Hozn-RealEstate-Fullstack",
+      "language": null,
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "AHMAD-JX/Hozn-RealEstate-Fullstack",
+        "url": "https://github.com/AHMAD-JX/Hozn-RealEstate-Fullstack",
+        "stars": 129
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 14, 2026",
+      "updatedAt": "January 14, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134493827,
+      "name": "maplibre-gl-usgs-lidar",
+      "displayName": "maplibre gl usgs lidar",
+      "description": "A web-based LiDAR point cloud viewer for USGS 3DEP LiDAR",
+      "summary": "maplibre gl usgs lidar is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/maplibre-gl-usgs-lidar",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "opengeos/maplibre-gl-usgs-lidar",
+        "url": "https://github.com/opengeos/maplibre-gl-usgs-lidar",
+        "stars": 140
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 14, 2026",
+      "updatedAt": "January 14, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134493195,
+      "name": "LAN-Orangutan",
+      "displayName": "LAN Orangutan",
+      "description": "LAN Orangutan is a lightweight network scanner with persistent device labeling, multi-network support, and Tailscale integration. Built by 291 Group.",
+      "summary": "LAN Orangutan is a lightweight network scanner with persistent device labeling, multi-network support, and Tailscale integration. Built by 291 Group.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/LAN-Orangutan",
+      "language": null,
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "291-Group/LAN-Orangutan",
+        "url": "https://github.com/291-Group/LAN-Orangutan",
+        "stars": 147
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 14, 2026",
+      "updatedAt": "January 14, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134352925,
+      "name": "Claude-Cowork",
+      "displayName": "Claude Cowork",
+      "description": "OpenSource Claude Cowork. A desktop AI assistant that helps you with programming, file management, and any task you can describe.",
+      "summary": "OpenSource Claude Cowork. A desktop AI assistant that helps you with programming, file management, and any task you can describe.\n\nThis various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/Claude-Cowork",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "DevAgentForge/Claude-Cowork",
+        "url": "https://github.com/DevAgentForge/Claude-Cowork",
+        "stars": 2746
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 14, 2026",
+      "updatedAt": "January 14, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1134345761,
+      "name": "Finance-Guru",
+      "displayName": "Finance Guru",
+      "description": "Finance Guru™ - AI-powered family office system built on BMAD-CORE™ v6 architecture",
+      "summary": "Finance Guru is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/Finance-Guru",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "AojdevStudio/Finance-Guru",
+        "url": "https://github.com/AojdevStudio/Finance-Guru",
+        "stars": 269
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 14, 2026",
+      "updatedAt": "January 14, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1133803979,
+      "name": "llm-god",
+      "displayName": "llm god",
+      "description": "Desktop app to multi-prompt ChatGPT, Gemini and more at the same time!",
+      "summary": "llm god is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/llm-god",
+      "language": null,
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "czhou578/llm-god",
+        "url": "https://github.com/czhou578/llm-god",
+        "stars": 240
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 13, 2026",
+      "updatedAt": "January 13, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1133775173,
+      "name": "llama.cpp",
+      "displayName": "llama.cpp",
+      "description": "LLM inference in C/C++",
+      "summary": "llama.cpp is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/llama.cpp",
+      "language": null,
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "ggml-org/llama.cpp",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "stars": 94464
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 13, 2026",
+      "updatedAt": "January 13, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1133770707,
+      "name": "tailspin",
+      "displayName": "tailspin",
+      "description": "🌀 A log file highlighter",
+      "summary": "tailspin is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/tailspin",
+      "language": null,
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "bensadeh/tailspin",
+        "url": "https://github.com/bensadeh/tailspin",
+        "stars": 7641
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 13, 2026",
+      "updatedAt": "January 13, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 605572406,
+      "name": "YOLOv8_Segmentation_DeepSORT_TRACKING_SpeedEstimation",
+      "displayName": "YOLOv8 Segmentation DeepSORT TRACKING SpeedEstimation",
+      "description": "Estimating speed using YoloV8 , Google Colab by modifying predict.py Script in segmentation folder.",
+      "summary": "YOLOv8 Segmentation DeepSORT TRACKING SpeedEstimation is a Jupyter Notebook project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with Jupyter Notebook or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/YOLOv8_Segmentation_DeepSORT_TRACKING_SpeedEstimation",
+      "language": "Jupyter Notebook",
+      "stars": 2,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "February 23, 2023",
+      "updatedAt": "July 14, 2025",
+      "readTime": 2
+    },
+    {
+      "id": 951980885,
+      "name": "ecommerce-chatbot",
+      "displayName": "ecommerce chatbot",
+      "description": "This repo contains an Agentic Chatbot (Ari) to query a Database and get Order Status Delivery , Request to speak with a Customer Care Agent or ask about Return. All done using Google Gemini AI.",
+      "summary": "This repo contains an Agentic Chatbot (Ari) to query a Database and get Order Status Delivery , Request to speak with a Customer Care Agent or ask about Return. All done using Google Gemini AI.\n\nThis Python project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/ecommerce-chatbot",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "March 20, 2025",
+      "updatedAt": "June 30, 2025",
+      "readTime": 2
+    },
+    {
+      "id": 1004131322,
+      "name": "ICCLexAI",
+      "displayName": "ICCLexAI",
+      "description": " AI-Powered Evidence Analysis Platform for ICC Legal Professionals - Production Ready with React Frontend & Groq AI Integration",
+      "summary": " AI-Powered Evidence Analysis Platform for ICC Legal Professionals - Production Ready with React Frontend & Groq AI Integration\n\nThis Python project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/ICCLexAI",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "June 18, 2025",
+      "updatedAt": "June 18, 2025",
+      "readTime": 2
+    },
+    {
+      "id": 989521438,
+      "name": "gdg",
+      "displayName": "gdg",
+      "description": "No description available",
+      "summary": "gdg is a CSS project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with CSS or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/gdg",
+      "language": "CSS",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "May 24, 2025",
+      "updatedAt": "May 24, 2025",
+      "readTime": 2
+    },
+    {
+      "id": 989525869,
+      "name": "mikoko-guardian",
+      "displayName": "mikoko guardian",
+      "description": "An autonomous AI agent using Google ADK for Mangrove Health monitoring",
+      "summary": "mikoko guardian is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/mikoko-guardian",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "mwanyumba7/mikoko-guardian",
+        "url": "https://github.com/mwanyumba7/mikoko-guardian",
+        "stars": 0
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "May 24, 2025",
+      "updatedAt": "May 24, 2025",
+      "readTime": 2
+    },
+    {
+      "id": 972101968,
+      "name": "retail-analytics",
+      "displayName": "retail analytics",
+      "description": "This repo contains Retail Analytics with LLMs for sentiment analysis",
+      "summary": "retail analytics is a Python project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with Python or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/retail-analytics",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "April 24, 2025",
+      "updatedAt": "May 19, 2025",
+      "readTime": 2
+    },
+    {
+      "id": 610009502,
+      "name": "Data-Annotation-for-Beginners",
+      "displayName": "Data Annotation for Beginners",
+      "description": "Data Annotation for Beginners: A Guide to Understanding and Automating the Process Using Python.",
+      "summary": "Data Annotation for Beginners is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/Data-Annotation-for-Beginners",
+      "language": null,
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "March 5, 2023",
+      "updatedAt": "March 31, 2025",
+      "readTime": 2
+    },
+    {
+      "id": 943861639,
+      "name": "Real-Estate-Chatbot",
+      "displayName": "Real Estate Chatbot",
+      "description": "This repo contains a Real Estate Q&A Chatbot",
+      "summary": "Real Estate Chatbot is a HTML project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with HTML or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/Real-Estate-Chatbot",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "March 6, 2025",
+      "updatedAt": "March 11, 2025",
+      "readTime": 2
+    },
+    {
+      "id": 763039998,
+      "name": "mypackage",
+      "displayName": "mypackage",
+      "description": "No description available",
+      "summary": "mypackage is a Python project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with Python or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/mypackage",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "February 25, 2024",
+      "updatedAt": "February 25, 2024",
+      "readTime": 2
+    },
+    {
+      "id": 735262554,
+      "name": "Transformers",
+      "displayName": "Transformers",
+      "description": "No description available",
+      "summary": "Transformers is a Python project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with Python or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/Transformers",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "December 24, 2023",
+      "updatedAt": "December 24, 2023",
+      "readTime": 2
+    },
+    {
+      "id": 734789281,
+      "name": "speedtest",
+      "displayName": "speedtest",
+      "description": "The `Internet Speed Test Script` is a Python tool for measuring and tracking internet performance. It utilizes `speedtest-cli` to gather data on download and upload speeds, plus latency, saving the results for trend analysis and visualization over time with `matplotlib`.",
+      "summary": "The `Internet Speed Test Script` is a Python tool for measuring and tracking internet performance. It utilizes `speedtest-cli` to gather data on download and upload speeds, plus latency, saving the results for trend analysis and visualization over time with `matplotlib`.\n\nThis Python project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/speedtest",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "December 22, 2023",
+      "updatedAt": "December 22, 2023",
+      "readTime": 2
+    },
+    {
+      "id": 719814481,
+      "name": "narratorAI",
+      "displayName": "narratorAI",
+      "description": "David Attenborough narrates your life",
+      "summary": "narratorAI is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/narratorAI",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "cbh123/narrator",
+        "url": "https://github.com/cbh123/narrator",
+        "stars": 4416
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "November 17, 2023",
+      "updatedAt": "November 17, 2023",
+      "readTime": 2
+    },
+    {
+      "id": 677993108,
+      "name": "mosesyebei",
+      "displayName": "mosesyebei",
+      "description": "No description available",
+      "summary": "mosesyebei is a CSS project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with CSS or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/mosesyebei",
+      "language": "CSS",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "August 13, 2023",
+      "updatedAt": "August 13, 2023",
+      "readTime": 2
+    },
+    {
+      "id": 649106325,
+      "name": "TradeDataCoinbase",
+      "displayName": "TradeDataCoinbase",
+      "description": "a process for fetching real-time trade data from the Coinbase Websocket API, transforming the trade data into OHLC (Open, High, Low, Close) data using Bytewax, and then plotting the OHLC data using Bokeh and Streamlit.",
+      "summary": "a process for fetching real-time trade data from the Coinbase Websocket API, transforming the trade data into OHLC (Open, High, Low, Close) data using Bytewax, and then plotting the OHLC data using Bokeh and Streamlit.\n\nThis HTML project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.",
+      "url": "https://github.com/yebeai/TradeDataCoinbase",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "June 3, 2023",
+      "updatedAt": "June 3, 2023",
+      "readTime": 2
+    },
+    {
+      "id": 625041724,
+      "name": "Auto-GPT",
+      "displayName": "Auto GPT",
+      "description": "An experimental open-source attempt to make GPT-4 fully autonomous.",
+      "summary": "Auto GPT is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/Auto-GPT",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "Significant-Gravitas/AutoGPT",
+        "url": "https://github.com/Significant-Gravitas/AutoGPT",
+        "stars": 181666
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "April 7, 2023",
+      "updatedAt": "April 7, 2023",
+      "readTime": 2
+    },
+    {
+      "id": 597005930,
+      "name": "ObjectCountingYOLOv8DeepSORT",
+      "displayName": "ObjectCountingYOLOv8DeepSORT",
+      "description": "Counting cars using Yolov8 and DeepSORT",
+      "summary": "ObjectCountingYOLOv8DeepSORT is a Jupyter Notebook project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with Jupyter Notebook or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/ObjectCountingYOLOv8DeepSORT",
+      "language": "Jupyter Notebook",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "February 3, 2023",
+      "updatedAt": "February 3, 2023",
+      "readTime": 2
+    },
+    {
+      "id": 594873631,
+      "name": "YOLOv8_Segmentation_DeepSORT_TRACKING_Colab",
+      "displayName": "YOLOv8 Segmentation DeepSORT TRACKING Colab",
+      "description": "Using Yolov8 and Deep Sort for Computer Vision",
+      "summary": "YOLOv8 Segmentation DeepSORT TRACKING Colab is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/YOLOv8_Segmentation_DeepSORT_TRACKING_Colab",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 29, 2023",
+      "updatedAt": "January 29, 2023",
+      "readTime": 2
+    },
+    {
+      "id": 590887739,
+      "name": "Object-Detection-in-YOLOv8",
+      "displayName": "Object Detection in YOLOv8",
+      "description": "No description available",
+      "summary": "Object Detection in YOLOv8 is a Jupyter Notebook project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with Jupyter Notebook or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/Object-Detection-in-YOLOv8",
+      "language": "Jupyter Notebook",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "January 19, 2023",
+      "updatedAt": "January 19, 2023",
+      "readTime": 2
+    },
+    {
+      "id": 498430066,
+      "name": "Object-Detection-using-Yolov7",
+      "displayName": "Object Detection using Yolov7",
+      "description": "Config files for my GitHub profile.",
+      "summary": "Object Detection using Yolov7 is a Jupyter Notebook project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with Jupyter Notebook or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/Object-Detection-using-Yolov7",
+      "language": "Jupyter Notebook",
+      "stars": 0,
+      "forks": 0,
+      "topics": [
+        "config",
+        "github-config"
+      ],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "May 31, 2022",
+      "updatedAt": "January 11, 2023",
+      "readTime": 2
+    },
+    {
+      "id": 582018627,
+      "name": "Drawing-a-Christmas-Tree-in-Python",
+      "displayName": "Drawing a Christmas Tree in Python",
+      "description": "No description available",
+      "summary": "Drawing a Christmas Tree in Python is a Python project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with Python or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/Drawing-a-Christmas-Tree-in-Python",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "December 25, 2022",
+      "updatedAt": "December 25, 2022",
+      "readTime": 2
+    },
+    {
+      "id": 580938057,
+      "name": "Neural-Networks",
+      "displayName": "Neural Networks",
+      "description": "No description available",
+      "summary": "Neural Networks is a Jupyter Notebook project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with Jupyter Notebook or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/Neural-Networks",
+      "language": "Jupyter Notebook",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "December 21, 2022",
+      "updatedAt": "December 21, 2022",
+      "readTime": 2
+    },
+    {
+      "id": 517570318,
+      "name": "qwiklabs_challenges",
+      "displayName": "qwiklabs challenges",
+      "description": "Qwiklabs challenges helper guide",
+      "summary": "qwiklabs challenges is a various technologies project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with various technologies or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/qwiklabs_challenges",
+      "language": null,
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "GDSC-IIIT-Kalyani/qwiklabs_challenges",
+        "url": "https://github.com/GDSC-IIIT-Kalyani/qwiklabs_challenges",
+        "stars": 133
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "July 25, 2022",
+      "updatedAt": "July 25, 2022",
+      "readTime": 2
+    },
+    {
+      "id": 482038562,
+      "name": "Data-Science-Machine-Learning",
+      "displayName": "Data Science Machine Learning",
+      "description": "data science with python.",
+      "summary": "Data Science Machine Learning is a Jupyter Notebook project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with Jupyter Notebook or interested in clean, maintainable code architecture.",
+      "url": "https://github.com/yebeai/Data-Science-Machine-Learning",
+      "language": "Jupyter Notebook",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": null,
+      "type": "original",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "April 15, 2022",
+      "updatedAt": "April 15, 2022",
       "readTime": 2
     }
   ]
