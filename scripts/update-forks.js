@@ -5,14 +5,14 @@ const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 // Configuration
 const CONFIG = {
   username: 'yebeai',
-  reposToShow: 9,
-  apiDelay: 500, // ms between requests
+  reposToShow: 200, // All repos
+  apiDelay: 1500, // ms between requests (rate limiting for large batch)
   models: {
-    // GitHub Models API endpoint
     endpoint: 'https://models.inference.ai.azure.com/chat/completions',
-    model: 'gpt-4o-mini',
-    maxTokens: 150,
-    temperature: 0.7
+    // Available: gpt-4o, gpt-4o-mini, claude-3-5-sonnet, llama-3.1-70b-instruct, mistral-large
+    model: 'gpt-4o',
+    maxTokens: 800,  // Full blog articles
+    temperature: 0.75
   }
 };
 
@@ -37,20 +37,102 @@ function getRandomUnsplashUrl(index) {
   return `https://images.unsplash.com/photo-${photoId}?w=800&h=400&fit=crop&q=80`;
 }
 
-async function generateBlogSummary(repo) {
+// Fetch README content from repo
+async function fetchReadme(repo) {
+  try {
+    const response = await fetch(
+      `https://api.github.com/repos/${CONFIG.username}/${repo.name}/readme`,
+      {
+        headers: {
+          'Accept': 'application/vnd.github.v3.raw',
+          'User-Agent': 'GitHub-Pages-Blog-Generator',
+          ...(GITHUB_TOKEN && { 'Authorization': `token ${GITHUB_TOKEN}` })
+        }
+      }
+    );
+
+    if (response.ok) {
+      const readme = await response.text();
+      // Truncate to first 2000 chars to stay within token limits
+      return readme.slice(0, 2000);
+    }
+  } catch (e) {
+    console.log(`Could not fetch README for ${repo.name}`);
+  }
+  return null;
+}
+
+// Fetch repo file structure for context
+async function fetchRepoTree(repo) {
+  try {
+    const response = await fetch(
+      `https://api.github.com/repos/${CONFIG.username}/${repo.name}/git/trees/HEAD?recursive=1`,
+      {
+        headers: {
+          'Accept': 'application/vnd.github.v3+json',
+          'User-Agent': 'GitHub-Pages-Blog-Generator',
+          ...(GITHUB_TOKEN && { 'Authorization': `token ${GITHUB_TOKEN}` })
+        }
+      }
+    );
+
+    if (response.ok) {
+      const data = await response.json();
+      // Get key files only (limit to 30)
+      const files = (data.tree || [])
+        .filter(f => f.type === 'blob')
+        .map(f => f.path)
+        .slice(0, 30);
+      return files;
+    }
+  } catch (e) {
+    console.log(`Could not fetch tree for ${repo.name}`);
+  }
+  return [];
+}
+
+async function generateBlogArticle(repo, readme, fileTree) {
   if (!GITHUB_TOKEN) {
     return generateFallbackSummary(repo);
   }
 
   try {
-    const prompt = `Write a brief, engaging 2-3 sentence blog-style summary about this GitHub repository. Be insightful and highlight why a developer might find it interesting. Don't use emojis or marketing fluff.
+    const context = `
+REPOSITORY: ${repo.name}
+DESCRIPTION: ${repo.description || 'No description'}
+PRIMARY LANGUAGE: ${repo.language || 'Not specified'}
+TOPICS/TAGS: ${(repo.topics || []).join(', ') || 'None'}
+STARS: ${repo.stargazers_count || 0}
+${repo.parent ? `FORKED FROM: ${repo.parent.name} (${repo.parent.stars} stars)` : 'ORIGINAL PROJECT'}
 
-Repository: ${repo.name}
-Description: ${repo.description || 'No description provided'}
-Language: ${repo.language || 'Not specified'}
-Topics: ${(repo.topics || []).join(', ') || 'None'}
+FILE STRUCTURE:
+${fileTree.length > 0 ? fileTree.join('\n') : 'Not available'}
 
-Write only the summary, nothing else:`;
+README EXCERPT:
+${readme || 'No README available'}
+`.trim();
+
+    const prompt = `You are a tech blogger writing an insightful article about a GitHub repository. Based on the repository data below, write a compelling blog-style analysis.
+
+${context}
+
+Write an in-depth technical blog article (4-5 paragraphs) that:
+
+1. HOOK: Start with a compelling problem statement or use case this project addresses
+2. WHAT IT IS: Explain the project's purpose, core functionality, and what makes it unique
+3. TECHNICAL DEEP DIVE: Analyze the architecture, key technologies, design patterns, or implementation details you can identify from the file structure and README
+4. USE CASES: Describe 2-3 specific scenarios where a developer would benefit from this
+5. TAKEAWAY: End with an insight about the broader technology landscape or why this matters
+
+Style guidelines:
+- Write as a senior engineer sharing deep technical insights
+- Reference specific files, modules, or patterns visible in the codebase
+- Explain the "why" behind technical decisions when apparent
+- No emojis, no fluff, no generic statements
+- Be opinionated - share what's impressive or what could be improved
+- If forked, explain what the upstream project is known for and why it's significant
+
+Write the full article, no title or headers:`;
 
     const response = await fetch(CONFIG.models.endpoint, {
       method: 'POST',
@@ -60,22 +142,29 @@ Write only the summary, nothing else:`;
       },
       body: JSON.stringify({
         model: CONFIG.models.model,
-        messages: [{ role: 'user', content: prompt }],
+        messages: [
+          {
+            role: 'system',
+            content: 'You are a senior developer and tech writer who creates insightful, well-researched blog content about open source projects.'
+          },
+          { role: 'user', content: prompt }
+        ],
         max_tokens: CONFIG.models.maxTokens,
         temperature: CONFIG.models.temperature
       })
     });
 
     if (!response.ok) {
-      console.log(`AI API returned ${response.status}, using fallback`);
+      const errorText = await response.text();
+      console.log(`AI API returned ${response.status}: ${errorText.slice(0, 100)}`);
       return generateFallbackSummary(repo);
     }
 
     const data = await response.json();
-    const summary = data.choices?.[0]?.message?.content?.trim();
+    const article = data.choices?.[0]?.message?.content?.trim();
 
-    if (summary && summary.length > 20) {
-      return summary;
+    if (article && article.length > 100) {
+      return article;
     }
 
     return generateFallbackSummary(repo);
@@ -90,27 +179,20 @@ function generateFallbackSummary(repo) {
   const lang = repo.language || 'various technologies';
   const name = repo.name.replace(/-/g, ' ').replace(/_/g, ' ');
 
-  if (desc.length > 50) {
-    return desc;
+  if (desc.length > 100) {
+    return `${desc}\n\nThis ${lang} project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.`;
   }
 
-  const templates = [
-    `A compelling ${lang} project that explores ${name}. Worth diving into for developers interested in modern software patterns and clean implementations.`,
-    `${name} offers an interesting approach built with ${lang}. The codebase demonstrates practical solutions that could accelerate your next project.`,
-    `Exploring ${name} — a ${lang} repository that caught my attention. It showcases techniques worth understanding for any serious developer.`
-  ];
-
-  return templates[Math.floor(Math.random() * templates.length)];
+  return `${name} is a ${lang} project that demonstrates thoughtful software design. While exploring the codebase, I found patterns and implementations that could accelerate similar projects. Worth investigating if you're working with ${lang} or interested in clean, maintainable code architecture.`;
 }
 
 async function fetchRepos() {
-  // Fetch all repos (includes both owned and forks)
   const response = await fetch(
     `https://api.github.com/users/${CONFIG.username}/repos?sort=updated&per_page=100`,
     {
       headers: {
         'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'GitHub-Pages-Forks-Feed',
+        'User-Agent': 'GitHub-Pages-Blog-Generator',
         ...(GITHUB_TOKEN && { 'Authorization': `token ${GITHUB_TOKEN}` })
       }
     }
@@ -122,15 +204,13 @@ async function fetchRepos() {
 
   const repos = await response.json();
 
-  // Mark repos as fork or original based on the `fork` property
   repos.forEach(r => {
     r._type = r.fork ? 'fork' : 'original';
   });
 
-  // Filter and sort
   const all = repos
-    .filter(r => !r.name.includes('.github.io')) // Exclude github.io repos
-    .filter(r => !r.archived) // Exclude archived repos
+    .filter(r => !r.name.includes('.github.io'))
+    .filter(r => !r.archived)
     .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
 
   return all;
@@ -141,7 +221,7 @@ async function fetchRepoDetails(repo) {
     const response = await fetch(repo.url, {
       headers: {
         'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'GitHub-Pages-Forks-Feed',
+        'User-Agent': 'GitHub-Pages-Blog-Generator',
         ...(GITHUB_TOKEN && { 'Authorization': `token ${GITHUB_TOKEN}` })
       }
     });
@@ -173,8 +253,8 @@ function formatDate(dateString) {
   });
 }
 
-function estimateReadTime(description) {
-  const words = (description || '').split(' ').length;
+function estimateReadTime(content) {
+  const words = (content || '').split(/\s+/).length;
   return Math.max(2, Math.ceil(words / 200));
 }
 
@@ -188,7 +268,7 @@ async function main() {
 
   const recentForks = repos.slice(0, CONFIG.reposToShow);
 
-  console.log('Fetching repo details and generating summaries...');
+  console.log('Fetching repo details, READMEs, and generating blog articles...');
 
   const forks = [];
 
@@ -196,26 +276,37 @@ async function main() {
     const repo = recentForks[i];
     console.log(`Processing ${i + 1}/${recentForks.length}: ${repo.name}`);
 
-    const detailed = await fetchRepoDetails(repo);
-    const summary = await generateBlogSummary(detailed);
+    // Fetch all context in parallel
+    const [detailed, readme, fileTree] = await Promise.all([
+      fetchRepoDetails(repo),
+      fetchReadme(repo),
+      fetchRepoTree(repo)
+    ]);
+
+    console.log(`  - README: ${readme ? `${readme.length} chars` : 'not found'}`);
+    console.log(`  - Files: ${fileTree.length} discovered`);
+
+    // Generate blog article with full context
+    const article = await generateBlogArticle(detailed, readme, fileTree);
+    console.log(`  - Article: ${article.length} chars generated`);
 
     forks.push({
       id: repo.id,
       name: repo.name,
       displayName: repo.name.replace(/-/g, ' ').replace(/_/g, ' '),
       description: repo.description || 'No description available',
-      summary: summary,
+      summary: article, // In-depth blog article
       url: repo.html_url,
       language: repo.language,
       stars: repo.stargazers_count,
       forks: repo.forks_count,
       topics: detailed.topics || [],
       parent: detailed.parent || null,
-      type: repo._type || 'fork', // 'fork' or 'original'
+      type: repo._type || 'fork',
       image: getRandomUnsplashUrl(i),
       forkedAt: formatDate(repo.created_at),
       updatedAt: formatDate(repo.updated_at),
-      readTime: estimateReadTime(summary)
+      readTime: estimateReadTime(article)
     });
 
     // Rate limiting delay
@@ -224,12 +315,12 @@ async function main() {
 
   const output = {
     lastUpdated: new Date().toISOString(),
-    generatedWith: 'GitHub Models API',
+    generatedWith: 'GitHub Models API (GPT-4o)',
     forks
   };
 
   fs.writeFileSync('forks.json', JSON.stringify(output, null, 2));
-  console.log(`Generated forks.json with ${forks.length} repos`);
+  console.log(`Generated forks.json with ${forks.length} blog articles`);
 }
 
 main().catch(err => {
