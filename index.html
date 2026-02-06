@@ -383,8 +383,7 @@
         /* Bento Grid - Skills */
         .bento-grid {
             display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: repeat(2, 180px);
+            grid-template-columns: repeat(3, 1fr);
             gap: 16px;
         }
 
@@ -392,14 +391,14 @@
             background: var(--bg-card);
             border: 1px solid var(--border);
             border-radius: 20px;
-            padding: 24px;
+            padding: 28px;
+            min-height: 160px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
-            backdrop-filter: blur(10px);
         }
 
         .bento-card::before {
@@ -425,6 +424,7 @@
             font-size: 2.5rem;
             position: relative;
             z-index: 1;
+            margin-bottom: 16px;
         }
 
         .bento-card .info {
@@ -433,18 +433,17 @@
         }
 
         .bento-card h3 {
-            font-size: 1rem;
+            font-size: 1.1rem;
             font-weight: 600;
-            margin-bottom: 4px;
+            margin-bottom: 6px;
+            color: var(--text-primary);
         }
 
         .bento-card p {
-            font-size: 0.8rem;
+            font-size: 0.85rem;
             color: var(--text-secondary);
+            line-height: 1.5;
         }
-
-        .bento-card.span-2 { grid-column: span 2; }
-        .bento-card.span-3 { grid-column: span 3; }
 
         /* Glass Cards */
         .glass-card {
@@ -964,10 +963,6 @@
         @media (max-width: 1024px) {
             .bento-grid {
                 grid-template-columns: repeat(2, 1fr);
-                grid-template-rows: auto;
-            }
-            .bento-card.span-2, .bento-card.span-3 {
-                grid-column: span 1;
             }
         }
 
@@ -982,6 +977,11 @@
                 grid-template-columns: 1fr;
             }
 
+            .bento-card {
+                min-height: auto;
+                padding: 24px;
+            }
+
             .projects-grid {
                 grid-template-columns: 1fr;
             }
@@ -992,6 +992,10 @@
             }
 
             .btn { width: 100%; max-width: 280px; justify-content: center; }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -1072,39 +1076,46 @@
                 <p class="section-subtitle">Technologies and domains I specialize in</p>
             </div>
             <div class="bento-grid">
-                <div class="bento-card span-2">
+                <div class="bento-card">
                     <span class="icon">🐍</span>
                     <div class="info">
-                        <h3>Python & ML Frameworks</h3>
-                        <p>TensorFlow, PyTorch, scikit-learn, Pandas</p>
+                        <h3>Python & ML</h3>
+                        <p>TensorFlow, PyTorch, scikit-learn, Pandas, NumPy</p>
                     </div>
                 </div>
-                <div class="bento-card span-2">
+                <div class="bento-card">
                     <span class="icon">🤖</span>
                     <div class="info">
                         <h3>AI Agents & LLMs</h3>
-                        <p>LangChain, OpenAI, Anthropic, RAG systems</p>
+                        <p>LangChain, OpenAI, Anthropic, RAG, Fine-tuning</p>
                     </div>
                 </div>
-                <div class="bento-card span-2">
+                <div class="bento-card">
                     <span class="icon">☁️</span>
                     <div class="info">
                         <h3>Cloud & MLOps</h3>
                         <p>AWS, GCP, Docker, Kubernetes, MLflow</p>
                     </div>
                 </div>
-                <div class="bento-card span-3">
+                <div class="bento-card">
                     <span class="icon">📊</span>
                     <div class="info">
-                        <h3>Data Visualization & Analytics</h3>
+                        <h3>Data Visualization</h3>
                         <p>Plotly, D3.js, Tableau, Apache Superset</p>
                     </div>
                 </div>
-                <div class="bento-card span-3">
+                <div class="bento-card">
                     <span class="icon">🔗</span>
                     <div class="info">
                         <h3>Full-Stack & APIs</h3>
                         <p>FastAPI, Next.js, PostgreSQL, Redis</p>
+                    </div>
+                </div>
+                <div class="bento-card">
+                    <span class="icon">📈</span>
+                    <div class="info">
+                        <h3>Statistics & Analytics</h3>
+                        <p>Statistical modeling, A/B testing, forecasting</p>
                     </div>
                 </div>
             </div>
