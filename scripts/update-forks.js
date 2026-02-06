@@ -314,6 +314,10 @@ async function main() {
   if (needsGeneration.length > 0) {
     console.log(`Generating articles for ${needsGeneration.length} repos (7s delay between AI calls)...\n`);
 
+    let consecutiveRateLimits = 0;
+    let aiSuccessCount = 0;
+    let rateLimitHit = false;
+
     for (let i = 0; i < needsGeneration.length; i++) {
       const repo = needsGeneration[i];
       console.log(`Processing ${i + 1}/${needsGeneration.length}: ${repo.name}`);
@@ -327,9 +331,25 @@ async function main() {
       console.log(`  - README: ${readme ? `${readme.length} chars` : 'not found'}`);
       console.log(`  - Files: ${fileTree.length} discovered`);
 
-      // Try to generate AI article
-      const article = await generateBlogArticle(detailed, readme, fileTree);
-      aiCallCount++;
+      // Try to generate AI article (skip if rate limited)
+      let article = null;
+      if (!rateLimitHit) {
+        article = await generateBlogArticle(detailed, readme, fileTree);
+        aiCallCount++;
+
+        if (article) {
+          consecutiveRateLimits = 0;
+          aiSuccessCount++;
+        } else {
+          consecutiveRateLimits++;
+          // Stop trying AI after 3 consecutive failures (likely rate limited)
+          if (consecutiveRateLimits >= 3) {
+            console.log(`\n⚠️  Rate limit detected. Skipping AI for remaining ${needsGeneration.length - i - 1} repos.`);
+            console.log(`   Successfully generated ${aiSuccessCount} AI articles before limit.\n`);
+            rateLimitHit = true;
+          }
+        }
+      }
 
       const finalArticle = article || generateFallbackSummary(repo);
       console.log(`  - Article: ${finalArticle.length} chars ${article ? '(AI generated)' : '(fallback)'}`);
@@ -353,11 +373,13 @@ async function main() {
         readTime: estimateReadTime(finalArticle)
       });
 
-      // Rate limiting delay (only between AI calls)
-      if (i < needsGeneration.length - 1) {
+      // Rate limiting delay (only between AI calls, skip if rate limited)
+      if (!rateLimitHit && i < needsGeneration.length - 1) {
         await new Promise(r => setTimeout(r, CONFIG.apiDelay));
       }
     }
+
+    console.log(`\nAI generation summary: ${aiSuccessCount} successful, ${needsGeneration.length - aiSuccessCount} fallback`);
   }
 
   // Sort by updated date
