@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-08T00:15:24.905Z",
+  "lastUpdated": "2026-02-08T06:15:43.372Z",
   "generatedWith": "GitHub Models API (GPT-4o, GPT-4o-mini, GPT-4.1)",
   "totalRepos": 220,
   "progress": {
@@ -9,6 +9,94 @@
     "complete": true
   },
   "forks": [
+    {
+      "id": 1152364673,
+      "name": "echolon",
+      "displayName": "echolon",
+      "description": "A powerful, local-first API client with Git integration, offline support, and multi-protocol capabilities. Open source alternative to Postman.",
+      "summary": "## The Problem\n\nPostman is great—until it’s not. If you’ve ever been annoyed by its sluggishness, forced login, or bloated UI, you’re not alone. And let’s not even get started on the lack of version control for team workflows unless you fork over cash. API testing should be fast, local, and Git-friendly without requiring a cloud-based account or a multi-step onboarding process. That’s what `echolon` solves.\n\n## What This Does\n\nEcholon is a local-first API client with Git integration, built with `Electron` and `React`. It’s essentially your API workspace, but smarter. No accounts, no data leaving your machine (unless you use the optional cloud features), and full control over versioning via Git baked right into the app.\n\nThe project lives in the `core` folder, which houses the Electron app. You’ve got everything you’d expect: `core/main/httpRequest.ts` handles sending API requests, `core/main/git.ts` manages Git operations, and `core/main/mockServer.ts` lets you mock APIs locally or via a cloud proxy. The `core/assets/app-icon` directory is where you’ll find the slick branding (props for the clean design). \n\nIt’s not just a tool for one-off API calls—it supports collections, folders, and environment variables like Postman, but with more control. You can even export requests as `cURL` commands, which is great for command-line junkies. And yes, you can import your Postman collections or OpenAPI specs to make switching painless.\n\n## Real-World Use\n\nImagine you’re building a microservices-based app and want to test APIs without dealing with Postman’s constant updates or login prompts. You clone your repo, fire up Echolon, and start creating collections for each service. You commit your API workspace (requests, collections, etc.) to Git right from the app using `core/main/git.ts`. Need to test a new auth flow? Build requests in Echolon, mock responses using `core/main/mockServer.ts`, and refine your workflow—all offline.\n\nSwitching to a production environment? Just swap out your variables in the environment manager. Everything stays local unless you explicitly push it to GitHub via the integrated Git client.\n\n## The Bottom Line\n\nEcholon is like Postman for people who hate Postman. It’s fast, private, and developer-first. The Git integration is killer for teams, and the local-first approach makes it ideal for privacy-conscious devs. That said, it’s an Electron app, so if you’re a purist who hates anything heavier than a CLI, this might not be your jam. But for everyone else? Highly recommend giving it a spin, especially if you’re already using Git in your workflow.",
+      "url": "https://github.com/yebeai/echolon",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "echolon-app/echolon",
+        "url": "https://github.com/echolon-app/echolon",
+        "stars": 23
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "February 7, 2026",
+      "updatedAt": "February 7, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1152348004,
+      "name": "lumentis",
+      "displayName": "lumentis",
+      "description": "AI powered one-click comprehensive docs from transcripts and text.",
+      "summary": "## The Problem\nWe’ve all been there—staring at a mountain of meeting transcripts or sprawling notes, wondering how to turn that chaos into something remotely useful. The pain of manually sifting through and structuring information is real, especially when you're on a tight deadline. You need a solution that cuts through the noise without sacrificing quality.\n\n## What This Does\nEnter Lumentis. This tool generates documentation from your transcripts or unstructured text with a single command. After running `npx lumentis`, you're prompted to provide your content. The magic happens in the `src/page-generator.ts`, where it transforms your input into a structured outline based on themes and audience. You can also switch between models using the functions defined in `src/prompts.ts`, allowing you to customize the output based on your needs.\n\nThe project is built using TypeScript, as indicated by the presence of `tsconfig.json` and `.npmignore`. It’s lightweight, with the main logic encapsulated in the `src` directory. You only need to care about a few files, making it straightforward to dive in.\n\n## Real-World Use\nImagine you just wrapped up a crucial product meeting. You have a 2-hour video transcript and a pile of notes. You run `npx lumentis`, feed it the transcript, answer a few prompts about your audience, and wait. In mere moments, you have a polished document ready to be deployed to Vercel. Here’s how your command might look:\n```bash\nnpx lumentis\n```\nThen just provide the transcript when prompted, and let Lumentis do the heavy lifting. \n\n## The Bottom Line\nLumentis is a practical tool for anyone drowning in documentation tasks. It’s not perfect—there's a known issue with the cache that requires you to clear it if you've used it before—but once you get past that, it’s a time-saver. If you’re regularly converting transcripts to docs, this is worth a shot. Otherwise, you might find it overkill for small projects. Just be prepared to manage your caching issues.",
+      "url": "https://github.com/yebeai/lumentis",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "hrishioa/lumentis",
+        "url": "https://github.com/hrishioa/lumentis",
+        "stars": 1691
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "February 7, 2026",
+      "updatedAt": "February 7, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1152344773,
+      "name": "toad",
+      "displayName": "toad",
+      "description": "A unified interface for AI in your terminal.",
+      "summary": "## The Problem\n\nTalking to AI agents from the terminal sucks. You get half-baked wrappers that can't remember your shell state, mangle anything more complex than plain text, and break the moment you try something interactive. Forget about switching between agents, editing prompts with any decency, or doing anything that feels like modern software. It's like gluing ChatGPT to `cat` and calling it a day.\n\n## What This Does\n\n`toad` gives you a real terminal UI for AI agents—Claude, Gemini, Codex, OpenHand, whatever—without the usual hacky nonsense. The guts live in `src/toad/`, with things like `acp/agent.py` and `acp/api.py` handling connections via Agent Client Protocol. The shell itself isn't just a wrapper—it actually runs a legit shell, so your state sticks around (`src/toad/__main__.py` and `_loop.py` are key here). You get a Markdown editor for prompts, file picker with fuzzy search, and diff viewer with syntax highlighting. All those \"nice to have\" bits people usually skip in CLI tools? They're here.\n\n## Real-World Use\n\nSay you want to refactor a Python file and ask Claude for help. Fire up `toad` in your terminal, hit `@` to attach the file using the picker (not some garbage path autocomplete), write your prompt in the Markdown editor, and get a color-coded diff back. Your shell history, environment, and working directory persist like you'd expect. You can swap agents or install new ones through the \"app store\" (see `acp/agent.py` for integration). No more copy-pasting garbage or losing context between commands.\n\n## The Bottom Line\n\n`toad` fixes the mess most AI terminal interfaces make. It's overkill if you're just slapping together one-off prompts, but if you actually work with code and want sane workflows, it's the first CLI that feels like someone gave a damn about UX. Still early days—expect quirks—but it's the only one I'd bother with for serious dev work. If you want a terminal AI sidekick that doesn't feel like a toy, try it.",
+      "url": "https://github.com/yebeai/toad",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "batrachianai/toad",
+        "url": "https://github.com/batrachianai/toad",
+        "stars": 2123
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "February 7, 2026",
+      "updatedAt": "February 7, 2026",
+      "readTime": 2
+    },
+    {
+      "id": 1152343788,
+      "name": "dexter",
+      "displayName": "dexter",
+      "description": "An autonomous agent for deep financial research",
+      "summary": "## The Problem\n\nFinancial research is a dumpster fire of complexity. It's tedious, time-consuming, and full of manual work—digging through balance sheets, income statements, and APIs that feel like they were designed in 1997. Worse, when you're done, you're left wondering if you missed something critical. There's no structure, no automation, and definitely no self-checking. Enter: `dexter`.\n\n## What This Does\n\n`dexter` is essentially an LLM-powered intern for financial research, but unlike your usual intern, it doesn’t need two weeks of onboarding and definitely won’t forget to double-check its work. It breaks down complex financial questions into clear, actionable steps and executes them autonomously. It’s all in the code—start in `src/agent/` to see how the agent plans tasks (`agent.ts`), generates prompts (`prompts.ts`), and tracks progress with a scratchpad (`scratchpad.ts`).\n\nThe project is built on the `Bun` runtime (if you’re still using Node.js, maybe it’s time to modernize), and it integrates with APIs like OpenAI, financial datasets, and Exa for web search. The `src/components/` folder handles the interactive UI, with parts like `AgentEventView.tsx` for task logs and `ModelSelector.tsx` for picking your LLM poison. There's also an evaluation suite (`src/evals/`) that lets you test `dexter` with real-world financial questions. Bonus: it even logs results to LangSmith for tracking accuracy.\n\n## Real-World Use\n\nSay you’re asked, “What’s Tesla’s current debt-to-equity ratio, and how does it compare to Ford’s over the last five years?” Instead of manually scraping financial statements and Googling for hours, you fire up `dexter`:\n\n```bash\nbun start\n```\n\nYou input the question, and `dexter` does the rest: fetching Tesla and Ford's financials, calculating ratios, and presenting the results in an organized format. It even self-checks its calculations using the `token-counter.ts` utility to avoid hallucinations. Debugging along the way? Check the scratchpad logs for every tool call—it’s all there.\n\n## The Bottom Line\n\n`dexter` is impressive for automating tedious financial research, especially if you already live in a world of LLMs and APIs. It’s not a plug-and-play toy, though—you’ll need API keys, some familiarity with `Bun`, and probably a few hours to tweak `.env` configs. If you’re a finance nerd or a quant looking to save time, it’s worth trying. For casual users? Probably overkill.",
+      "url": "https://github.com/yebeai/dexter",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "parent": {
+        "name": "virattt/dexter",
+        "url": "https://github.com/virattt/dexter",
+        "stars": 11802
+      },
+      "type": "fork",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
+      "forkedAt": "February 7, 2026",
+      "updatedAt": "February 7, 2026",
+      "readTime": 2
+    },
     {
       "id": 1152153309,
       "name": "awesome-homelab",
@@ -23,7 +111,7 @@
       "parent": {
         "name": "miantiao-me/awesome-homelab",
         "url": "https://github.com/miantiao-me/awesome-homelab",
-        "stars": 1641
+        "stars": 1652
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -67,7 +155,7 @@
       "parent": {
         "name": "yoheinakajima/babyagi3",
         "url": "https://github.com/yoheinakajima/babyagi3",
-        "stars": 45
+        "stars": 60
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
@@ -89,7 +177,7 @@
       "parent": {
         "name": "madnanrizqu/vibe-cv-resume",
         "url": "https://github.com/madnanrizqu/vibe-cv-resume",
-        "stars": 17
+        "stars": 21
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -111,7 +199,7 @@
       "parent": {
         "name": "Nutlope/llamacoder",
         "url": "https://github.com/Nutlope/llamacoder",
-        "stars": 6861
+        "stars": 6860
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
@@ -133,7 +221,7 @@
       "parent": {
         "name": "Beingpax/VoiceInk",
         "url": "https://github.com/Beingpax/VoiceInk",
-        "stars": 3615
+        "stars": 3621
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
@@ -155,7 +243,7 @@
       "parent": {
         "name": "sseanliu/VisionClaw",
         "url": "https://github.com/sseanliu/VisionClaw",
-        "stars": 203
+        "stars": 277
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
@@ -177,7 +265,7 @@
       "parent": {
         "name": "CoreWorxLab/CAAL",
         "url": "https://github.com/CoreWorxLab/CAAL",
-        "stars": 293
+        "stars": 294
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -199,7 +287,7 @@
       "parent": {
         "name": "Hawksight-AI/semantica",
         "url": "https://github.com/Hawksight-AI/semantica",
-        "stars": 640
+        "stars": 652
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
@@ -230,94 +318,6 @@
       "readTime": 2
     },
     {
-      "id": 1152364673,
-      "name": "echolon",
-      "displayName": "echolon",
-      "description": "A powerful, local-first API client with Git integration, offline support, and multi-protocol capabilities. Open source alternative to Postman.",
-      "summary": "## The Problem\n\nPostman is great—until it’s not. If you’ve ever been annoyed by its sluggishness, forced login, or bloated UI, you’re not alone. And let’s not even get started on the lack of version control for team workflows unless you fork over cash. API testing should be fast, local, and Git-friendly without requiring a cloud-based account or a multi-step onboarding process. That’s what `echolon` solves.\n\n## What This Does\n\nEcholon is a local-first API client with Git integration, built with `Electron` and `React`. It’s essentially your API workspace, but smarter. No accounts, no data leaving your machine (unless you use the optional cloud features), and full control over versioning via Git baked right into the app.\n\nThe project lives in the `core` folder, which houses the Electron app. You’ve got everything you’d expect: `core/main/httpRequest.ts` handles sending API requests, `core/main/git.ts` manages Git operations, and `core/main/mockServer.ts` lets you mock APIs locally or via a cloud proxy. The `core/assets/app-icon` directory is where you’ll find the slick branding (props for the clean design). \n\nIt’s not just a tool for one-off API calls—it supports collections, folders, and environment variables like Postman, but with more control. You can even export requests as `cURL` commands, which is great for command-line junkies. And yes, you can import your Postman collections or OpenAPI specs to make switching painless.\n\n## Real-World Use\n\nImagine you’re building a microservices-based app and want to test APIs without dealing with Postman’s constant updates or login prompts. You clone your repo, fire up Echolon, and start creating collections for each service. You commit your API workspace (requests, collections, etc.) to Git right from the app using `core/main/git.ts`. Need to test a new auth flow? Build requests in Echolon, mock responses using `core/main/mockServer.ts`, and refine your workflow—all offline.\n\nSwitching to a production environment? Just swap out your variables in the environment manager. Everything stays local unless you explicitly push it to GitHub via the integrated Git client.\n\n## The Bottom Line\n\nEcholon is like Postman for people who hate Postman. It’s fast, private, and developer-first. The Git integration is killer for teams, and the local-first approach makes it ideal for privacy-conscious devs. That said, it’s an Electron app, so if you’re a purist who hates anything heavier than a CLI, this might not be your jam. But for everyone else? Highly recommend giving it a spin, especially if you’re already using Git in your workflow.",
-      "url": "https://github.com/yebeai/echolon",
-      "language": null,
-      "stars": 0,
-      "forks": 0,
-      "topics": [],
-      "parent": {
-        "name": "echolon-app/echolon",
-        "url": "https://github.com/echolon-app/echolon",
-        "stars": 23
-      },
-      "type": "fork",
-      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
-      "forkedAt": "February 7, 2026",
-      "updatedAt": "February 7, 2026",
-      "readTime": 2
-    },
-    {
-      "id": 1152348004,
-      "name": "lumentis",
-      "displayName": "lumentis",
-      "description": "AI powered one-click comprehensive docs from transcripts and text.",
-      "summary": "## The Problem\nWe’ve all been there—staring at a mountain of meeting transcripts or sprawling notes, wondering how to turn that chaos into something remotely useful. The pain of manually sifting through and structuring information is real, especially when you're on a tight deadline. You need a solution that cuts through the noise without sacrificing quality.\n\n## What This Does\nEnter Lumentis. This tool generates documentation from your transcripts or unstructured text with a single command. After running `npx lumentis`, you're prompted to provide your content. The magic happens in the `src/page-generator.ts`, where it transforms your input into a structured outline based on themes and audience. You can also switch between models using the functions defined in `src/prompts.ts`, allowing you to customize the output based on your needs.\n\nThe project is built using TypeScript, as indicated by the presence of `tsconfig.json` and `.npmignore`. It’s lightweight, with the main logic encapsulated in the `src` directory. You only need to care about a few files, making it straightforward to dive in.\n\n## Real-World Use\nImagine you just wrapped up a crucial product meeting. You have a 2-hour video transcript and a pile of notes. You run `npx lumentis`, feed it the transcript, answer a few prompts about your audience, and wait. In mere moments, you have a polished document ready to be deployed to Vercel. Here’s how your command might look:\n```bash\nnpx lumentis\n```\nThen just provide the transcript when prompted, and let Lumentis do the heavy lifting. \n\n## The Bottom Line\nLumentis is a practical tool for anyone drowning in documentation tasks. It’s not perfect—there's a known issue with the cache that requires you to clear it if you've used it before—but once you get past that, it’s a time-saver. If you’re regularly converting transcripts to docs, this is worth a shot. Otherwise, you might find it overkill for small projects. Just be prepared to manage your caching issues.",
-      "url": "https://github.com/yebeai/lumentis",
-      "language": null,
-      "stars": 0,
-      "forks": 0,
-      "topics": [],
-      "parent": {
-        "name": "hrishioa/lumentis",
-        "url": "https://github.com/hrishioa/lumentis",
-        "stars": 1690
-      },
-      "type": "fork",
-      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
-      "forkedAt": "February 7, 2026",
-      "updatedAt": "February 7, 2026",
-      "readTime": 2
-    },
-    {
-      "id": 1152344773,
-      "name": "toad",
-      "displayName": "toad",
-      "description": "A unified interface for AI in your terminal.",
-      "summary": "## The Problem\n\nTalking to AI agents from the terminal sucks. You get half-baked wrappers that can't remember your shell state, mangle anything more complex than plain text, and break the moment you try something interactive. Forget about switching between agents, editing prompts with any decency, or doing anything that feels like modern software. It's like gluing ChatGPT to `cat` and calling it a day.\n\n## What This Does\n\n`toad` gives you a real terminal UI for AI agents—Claude, Gemini, Codex, OpenHand, whatever—without the usual hacky nonsense. The guts live in `src/toad/`, with things like `acp/agent.py` and `acp/api.py` handling connections via Agent Client Protocol. The shell itself isn't just a wrapper—it actually runs a legit shell, so your state sticks around (`src/toad/__main__.py` and `_loop.py` are key here). You get a Markdown editor for prompts, file picker with fuzzy search, and diff viewer with syntax highlighting. All those \"nice to have\" bits people usually skip in CLI tools? They're here.\n\n## Real-World Use\n\nSay you want to refactor a Python file and ask Claude for help. Fire up `toad` in your terminal, hit `@` to attach the file using the picker (not some garbage path autocomplete), write your prompt in the Markdown editor, and get a color-coded diff back. Your shell history, environment, and working directory persist like you'd expect. You can swap agents or install new ones through the \"app store\" (see `acp/agent.py` for integration). No more copy-pasting garbage or losing context between commands.\n\n## The Bottom Line\n\n`toad` fixes the mess most AI terminal interfaces make. It's overkill if you're just slapping together one-off prompts, but if you actually work with code and want sane workflows, it's the first CLI that feels like someone gave a damn about UX. Still early days—expect quirks—but it's the only one I'd bother with for serious dev work. If you want a terminal AI sidekick that doesn't feel like a toy, try it.",
-      "url": "https://github.com/yebeai/toad",
-      "language": null,
-      "stars": 0,
-      "forks": 0,
-      "topics": [],
-      "parent": {
-        "name": "batrachianai/toad",
-        "url": "https://github.com/batrachianai/toad",
-        "stars": 2117
-      },
-      "type": "fork",
-      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
-      "forkedAt": "February 7, 2026",
-      "updatedAt": "February 7, 2026",
-      "readTime": 2
-    },
-    {
-      "id": 1152343788,
-      "name": "dexter",
-      "displayName": "dexter",
-      "description": "An autonomous agent for deep financial research",
-      "summary": "## The Problem\n\nFinancial research is a dumpster fire of complexity. It's tedious, time-consuming, and full of manual work—digging through balance sheets, income statements, and APIs that feel like they were designed in 1997. Worse, when you're done, you're left wondering if you missed something critical. There's no structure, no automation, and definitely no self-checking. Enter: `dexter`.\n\n## What This Does\n\n`dexter` is essentially an LLM-powered intern for financial research, but unlike your usual intern, it doesn’t need two weeks of onboarding and definitely won’t forget to double-check its work. It breaks down complex financial questions into clear, actionable steps and executes them autonomously. It’s all in the code—start in `src/agent/` to see how the agent plans tasks (`agent.ts`), generates prompts (`prompts.ts`), and tracks progress with a scratchpad (`scratchpad.ts`).\n\nThe project is built on the `Bun` runtime (if you’re still using Node.js, maybe it’s time to modernize), and it integrates with APIs like OpenAI, financial datasets, and Exa for web search. The `src/components/` folder handles the interactive UI, with parts like `AgentEventView.tsx` for task logs and `ModelSelector.tsx` for picking your LLM poison. There's also an evaluation suite (`src/evals/`) that lets you test `dexter` with real-world financial questions. Bonus: it even logs results to LangSmith for tracking accuracy.\n\n## Real-World Use\n\nSay you’re asked, “What’s Tesla’s current debt-to-equity ratio, and how does it compare to Ford’s over the last five years?” Instead of manually scraping financial statements and Googling for hours, you fire up `dexter`:\n\n```bash\nbun start\n```\n\nYou input the question, and `dexter` does the rest: fetching Tesla and Ford's financials, calculating ratios, and presenting the results in an organized format. It even self-checks its calculations using the `token-counter.ts` utility to avoid hallucinations. Debugging along the way? Check the scratchpad logs for every tool call—it’s all there.\n\n## The Bottom Line\n\n`dexter` is impressive for automating tedious financial research, especially if you already live in a world of LLMs and APIs. It’s not a plug-and-play toy, though—you’ll need API keys, some familiarity with `Bun`, and probably a few hours to tweak `.env` configs. If you’re a finance nerd or a quant looking to save time, it’s worth trying. For casual users? Probably overkill.",
-      "url": "https://github.com/yebeai/dexter",
-      "language": null,
-      "stars": 0,
-      "forks": 0,
-      "topics": [],
-      "parent": {
-        "name": "virattt/dexter",
-        "url": "https://github.com/virattt/dexter",
-        "stars": 11524
-      },
-      "type": "fork",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
-      "forkedAt": "February 7, 2026",
-      "updatedAt": "February 7, 2026",
-      "readTime": 2
-    },
-    {
       "id": 1151728663,
       "name": "awesome-llm-apps",
       "displayName": "awesome llm apps",
@@ -331,7 +331,7 @@
       "parent": {
         "name": "Shubhamsaboo/awesome-llm-apps",
         "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-        "stars": 92607
+        "stars": 92686
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -353,7 +353,7 @@
       "parent": {
         "name": "tinyfish-io/agentql",
         "url": "https://github.com/tinyfish-io/agentql",
-        "stars": 1205
+        "stars": 1207
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
@@ -375,7 +375,7 @@
       "parent": {
         "name": "microsoft/call-center-ai",
         "url": "https://github.com/microsoft/call-center-ai",
-        "stars": 6232
+        "stars": 6234
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -397,7 +397,7 @@
       "parent": {
         "name": "rivo/tview",
         "url": "https://github.com/rivo/tview",
-        "stars": 13487
+        "stars": 13488
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
@@ -419,7 +419,7 @@
       "parent": {
         "name": "rahulnyk/knowledge_graph",
         "url": "https://github.com/rahulnyk/knowledge_graph",
-        "stars": 2450
+        "stars": 2498
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -463,7 +463,7 @@
       "parent": {
         "name": "antirez/voxtral.c",
         "url": "https://github.com/antirez/voxtral.c",
-        "stars": 359
+        "stars": 369
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
@@ -485,7 +485,7 @@
       "parent": {
         "name": "allmonday/fastapi-voyager",
         "url": "https://github.com/allmonday/fastapi-voyager",
-        "stars": 424
+        "stars": 426
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -507,7 +507,7 @@
       "parent": {
         "name": "lukilabs/beautiful-mermaid",
         "url": "https://github.com/lukilabs/beautiful-mermaid",
-        "stars": 6631
+        "stars": 6648
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
@@ -529,7 +529,7 @@
       "parent": {
         "name": "agno-agi/dash",
         "url": "https://github.com/agno-agi/dash",
-        "stars": 1420
+        "stars": 1429
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -591,7 +591,7 @@
       "parent": {
         "name": "abhinavxd/libredesk",
         "url": "https://github.com/abhinavxd/libredesk",
-        "stars": 2284
+        "stars": 2286
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -613,7 +613,7 @@
       "parent": {
         "name": "Kocoro-lab/Shannon",
         "url": "https://github.com/Kocoro-lab/Shannon",
-        "stars": 928
+        "stars": 930
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
@@ -635,7 +635,7 @@
       "parent": {
         "name": "4ian/GDevelop",
         "url": "https://github.com/4ian/GDevelop",
-        "stars": 20250
+        "stars": 20253
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
@@ -657,7 +657,7 @@
       "parent": {
         "name": "slidevjs/slidev",
         "url": "https://github.com/slidevjs/slidev",
-        "stars": 44218
+        "stars": 44222
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
@@ -701,7 +701,7 @@
       "parent": {
         "name": "callstackincubator/agent-device",
         "url": "https://github.com/callstackincubator/agent-device",
-        "stars": 477
+        "stars": 481
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -767,7 +767,7 @@
       "parent": {
         "name": "winfunc/opcode",
         "url": "https://github.com/winfunc/opcode",
-        "stars": 20452
+        "stars": 20462
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
@@ -789,7 +789,7 @@
       "parent": {
         "name": "fastrepl/hyprnote",
         "url": "https://github.com/fastrepl/hyprnote",
-        "stars": 7667
+        "stars": 7668
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -855,7 +855,7 @@
       "parent": {
         "name": "timoncool/videosos",
         "url": "https://github.com/timoncool/videosos",
-        "stars": 1013
+        "stars": 1028
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
@@ -877,7 +877,7 @@
       "parent": {
         "name": "spieglt/FlyingCarpet",
         "url": "https://github.com/spieglt/FlyingCarpet",
-        "stars": 4942
+        "stars": 4944
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
@@ -899,7 +899,7 @@
       "parent": {
         "name": "ar51an/unbound-dashboard",
         "url": "https://github.com/ar51an/unbound-dashboard",
-        "stars": 588
+        "stars": 589
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
@@ -921,7 +921,7 @@
       "parent": {
         "name": "agentic-mcp-tools/memora",
         "url": "https://github.com/agentic-mcp-tools/memora",
-        "stars": 253
+        "stars": 257
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
@@ -943,7 +943,7 @@
       "parent": {
         "name": "AtsushiSakai/PythonRobotics",
         "url": "https://github.com/AtsushiSakai/PythonRobotics",
-        "stars": 28587
+        "stars": 28591
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -965,7 +965,7 @@
       "parent": {
         "name": "TauricResearch/TradingAgents",
         "url": "https://github.com/TauricResearch/TradingAgents",
-        "stars": 29454
+        "stars": 29466
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -1075,7 +1075,7 @@
       "parent": {
         "name": "anvaka/city-roads",
         "url": "https://github.com/anvaka/city-roads",
-        "stars": 8896
+        "stars": 8897
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
@@ -1119,7 +1119,7 @@
       "parent": {
         "name": "poloclub/transformer-explainer",
         "url": "https://github.com/poloclub/transformer-explainer",
-        "stars": 6604
+        "stars": 6614
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
@@ -1229,7 +1229,7 @@
       "parent": {
         "name": "reconurge/flowsint",
         "url": "https://github.com/reconurge/flowsint",
-        "stars": 2523
+        "stars": 2527
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -1251,7 +1251,7 @@
       "parent": {
         "name": "supermemoryai/claude-supermemory",
         "url": "https://github.com/supermemoryai/claude-supermemory",
-        "stars": 2122
+        "stars": 2124
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -1317,7 +1317,7 @@
       "parent": {
         "name": "xenodium/agent-shell",
         "url": "https://github.com/xenodium/agent-shell",
-        "stars": 655
+        "stars": 656
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -1339,7 +1339,7 @@
       "parent": {
         "name": "openclaw/openclaw",
         "url": "https://github.com/openclaw/openclaw",
-        "stars": 173928
+        "stars": 174520
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
@@ -1361,7 +1361,7 @@
       "parent": {
         "name": "commaai/openpilot",
         "url": "https://github.com/commaai/openpilot",
-        "stars": 60023
+        "stars": 60025
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
@@ -1383,7 +1383,7 @@
       "parent": {
         "name": "microsoft/agent-lightning",
         "url": "https://github.com/microsoft/agent-lightning",
-        "stars": 14236
+        "stars": 14252
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
@@ -1449,7 +1449,7 @@
       "parent": {
         "name": "snwfdhmp/awesome-ralph",
         "url": "https://github.com/snwfdhmp/awesome-ralph",
-        "stars": 677
+        "stars": 681
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
@@ -1471,7 +1471,7 @@
       "parent": {
         "name": "GetStream/Vision-Agents",
         "url": "https://github.com/GetStream/Vision-Agents",
-        "stars": 4918
+        "stars": 4942
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
@@ -1493,7 +1493,7 @@
       "parent": {
         "name": "numman-ali/openskills",
         "url": "https://github.com/numman-ali/openskills",
-        "stars": 8005
+        "stars": 8014
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
@@ -1515,7 +1515,7 @@
       "parent": {
         "name": "hpcaitech/ColossalAI",
         "url": "https://github.com/hpcaitech/ColossalAI",
-        "stars": 41340
+        "stars": 41342
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -1537,7 +1537,7 @@
       "parent": {
         "name": "going-doer/Paper2Code",
         "url": "https://github.com/going-doer/Paper2Code",
-        "stars": 4122
+        "stars": 4123
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
@@ -1559,7 +1559,7 @@
       "parent": {
         "name": "Orchestra-Research/AI-Research-SKILLs",
         "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
-        "stars": 2521
+        "stars": 2534
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
@@ -1581,7 +1581,7 @@
       "parent": {
         "name": "microsoft/BitNet",
         "url": "https://github.com/microsoft/BitNet",
-        "stars": 28032
+        "stars": 28053
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -1603,7 +1603,7 @@
       "parent": {
         "name": "droidrun/droidrun",
         "url": "https://github.com/droidrun/droidrun",
-        "stars": 7619
+        "stars": 7620
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
@@ -1647,7 +1647,7 @@
       "parent": {
         "name": "open-webui/open-webui",
         "url": "https://github.com/open-webui/open-webui",
-        "stars": 123245
+        "stars": 123255
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
@@ -1669,7 +1669,7 @@
       "parent": {
         "name": "forrestchang/andrej-karpathy-skills",
         "url": "https://github.com/forrestchang/andrej-karpathy-skills",
-        "stars": 3664
+        "stars": 3669
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -1713,7 +1713,7 @@
       "parent": {
         "name": "AnmolSaini16/mapcn",
         "url": "https://github.com/AnmolSaini16/mapcn",
-        "stars": 5614
+        "stars": 5619
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
@@ -1735,7 +1735,7 @@
       "parent": {
         "name": "roryclear/clearcam",
         "url": "https://github.com/roryclear/clearcam",
-        "stars": 653
+        "stars": 654
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
@@ -1757,7 +1757,7 @@
       "parent": {
         "name": "zampierilucas/scx_horoscope",
         "url": "https://github.com/zampierilucas/scx_horoscope",
-        "stars": 1095
+        "stars": 1096
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -1779,7 +1779,7 @@
       "parent": {
         "name": "unicodeveloper/globalthreatmap",
         "url": "https://github.com/unicodeveloper/globalthreatmap",
-        "stars": 1121
+        "stars": 1128
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
@@ -1823,7 +1823,7 @@
       "parent": {
         "name": "firecrawl/open-lovable",
         "url": "https://github.com/firecrawl/open-lovable",
-        "stars": 23941
+        "stars": 23945
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -1955,7 +1955,7 @@
       "parent": {
         "name": "AmineDjeghri/awesome-os-setup",
         "url": "https://github.com/AmineDjeghri/awesome-os-setup",
-        "stars": 511
+        "stars": 512
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
@@ -1999,7 +1999,7 @@
       "parent": {
         "name": "drawdb-io/drawdb",
         "url": "https://github.com/drawdb-io/drawdb",
-        "stars": 35861
+        "stars": 35862
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
@@ -2065,7 +2065,7 @@
       "parent": {
         "name": "aiming-lab/SimpleMem",
         "url": "https://github.com/aiming-lab/SimpleMem",
-        "stars": 2731
+        "stars": 2734
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
@@ -2109,7 +2109,7 @@
       "parent": {
         "name": "antirez/flux2.c",
         "url": "https://github.com/antirez/flux2.c",
-        "stars": 1711
+        "stars": 1715
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -2153,7 +2153,7 @@
       "parent": {
         "name": "freelensapp/freelens",
         "url": "https://github.com/freelensapp/freelens",
-        "stars": 4568
+        "stars": 4567
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -2175,7 +2175,7 @@
       "parent": {
         "name": "tonyantony300/alt-sendme",
         "url": "https://github.com/tonyantony300/alt-sendme",
-        "stars": 5313
+        "stars": 5314
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
@@ -2241,7 +2241,7 @@
       "parent": {
         "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
         "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-        "stars": 113668
+        "stars": 113690
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
@@ -2307,7 +2307,7 @@
       "parent": {
         "name": "IndAlok/rzweb",
         "url": "https://github.com/IndAlok/rzweb",
-        "stars": 582
+        "stars": 583
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -2351,7 +2351,7 @@
       "parent": {
         "name": "xai-org/x-algorithm",
         "url": "https://github.com/xai-org/x-algorithm",
-        "stars": 15077
+        "stars": 15089
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -2395,7 +2395,7 @@
       "parent": {
         "name": "originalankur/maptoposter",
         "url": "https://github.com/originalankur/maptoposter",
-        "stars": 9895
+        "stars": 9914
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -2417,7 +2417,7 @@
       "parent": {
         "name": "nautechsystems/nautilus_trader",
         "url": "https://github.com/nautechsystems/nautilus_trader",
-        "stars": 18862
+        "stars": 18864
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
@@ -2483,7 +2483,7 @@
       "parent": {
         "name": "feathr-ai/feathr",
         "url": "https://github.com/feathr-ai/feathr",
-        "stars": 1924
+        "stars": 1925
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
@@ -2505,7 +2505,7 @@
       "parent": {
         "name": "danielmiessler/Personal_AI_Infrastructure",
         "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
-        "stars": 6286
+        "stars": 6290
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&q=80",
@@ -2549,7 +2549,7 @@
       "parent": {
         "name": "Liquid4All/cookbook",
         "url": "https://github.com/Liquid4All/cookbook",
-        "stars": 1099
+        "stars": 1101
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
@@ -2571,7 +2571,7 @@
       "parent": {
         "name": "ln-dev7/square-ui",
         "url": "https://github.com/ln-dev7/square-ui",
-        "stars": 4723
+        "stars": 4724
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -2725,7 +2725,7 @@
       "parent": {
         "name": "github/copilot-sdk",
         "url": "https://github.com/github/copilot-sdk",
-        "stars": 6878
+        "stars": 6885
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop&q=80",
@@ -2747,7 +2747,7 @@
       "parent": {
         "name": "xai-org/grok-1",
         "url": "https://github.com/xai-org/grok-1",
-        "stars": 51470
+        "stars": 51471
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
@@ -2769,7 +2769,7 @@
       "parent": {
         "name": "firecrawl/open-researcher",
         "url": "https://github.com/firecrawl/open-researcher",
-        "stars": 601
+        "stars": 602
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -2791,7 +2791,7 @@
       "parent": {
         "name": "toon-format/toon",
         "url": "https://github.com/toon-format/toon",
-        "stars": 22525
+        "stars": 22529
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
@@ -2923,7 +2923,7 @@
       "parent": {
         "name": "apify/crawlee",
         "url": "https://github.com/apify/crawlee",
-        "stars": 21591
+        "stars": 21594
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -3055,7 +3055,7 @@
       "parent": {
         "name": "HeyPuter/puter",
         "url": "https://github.com/HeyPuter/puter",
-        "stars": 39306
+        "stars": 39313
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -3187,7 +3187,7 @@
       "parent": {
         "name": "kiraaziz/Neoflow",
         "url": "https://github.com/kiraaziz/Neoflow",
-        "stars": 241
+        "stars": 240
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -3209,7 +3209,7 @@
       "parent": {
         "name": "probberechts/soccerdata",
         "url": "https://github.com/probberechts/soccerdata",
-        "stars": 1499
+        "stars": 1500
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop&q=80",
@@ -3253,7 +3253,7 @@
       "parent": {
         "name": "memodb-io/Acontext",
         "url": "https://github.com/memodb-io/Acontext",
-        "stars": 2887
+        "stars": 2889
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
@@ -3275,7 +3275,7 @@
       "parent": {
         "name": "microsoft/vscode",
         "url": "https://github.com/microsoft/vscode",
-        "stars": 181501
+        "stars": 181508
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -3297,7 +3297,7 @@
       "parent": {
         "name": "vercel-labs/json-render",
         "url": "https://github.com/vercel-labs/json-render",
-        "stars": 10094
+        "stars": 10099
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
@@ -3341,7 +3341,7 @@
       "parent": {
         "name": "eigent-ai/eigent",
         "url": "https://github.com/eigent-ai/eigent",
-        "stars": 12092
+        "stars": 12106
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
@@ -3517,7 +3517,7 @@
       "parent": {
         "name": "midday-ai/midday",
         "url": "https://github.com/midday-ai/midday",
-        "stars": 13661
+        "stars": 13660
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
@@ -3539,7 +3539,7 @@
       "parent": {
         "name": "supermemoryai/supermemory",
         "url": "https://github.com/supermemoryai/supermemory",
-        "stars": 16304
+        "stars": 16311
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -3583,7 +3583,7 @@
       "parent": {
         "name": "pocketbase/pocketbase",
         "url": "https://github.com/pocketbase/pocketbase",
-        "stars": 55945
+        "stars": 55948
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -3693,7 +3693,7 @@
       "parent": {
         "name": "aptabase/tauri-plugin-aptabase",
         "url": "https://github.com/aptabase/tauri-plugin-aptabase",
-        "stars": 151
+        "stars": 152
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop&q=80",
@@ -3759,7 +3759,7 @@
       "parent": {
         "name": "iOfficeAI/AionUi",
         "url": "https://github.com/iOfficeAI/AionUi",
-        "stars": 12719
+        "stars": 12833
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
@@ -3781,7 +3781,7 @@
       "parent": {
         "name": "anomalyco/opencode",
         "url": "https://github.com/anomalyco/opencode",
-        "stars": 99768
+        "stars": 99908
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
@@ -3979,7 +3979,7 @@
       "parent": {
         "name": "shridarpatil/whatomate",
         "url": "https://github.com/shridarpatil/whatomate",
-        "stars": 879
+        "stars": 880
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -4045,7 +4045,7 @@
       "parent": {
         "name": "hotheadhacker/seedbox-lite",
         "url": "https://github.com/hotheadhacker/seedbox-lite",
-        "stars": 4479
+        "stars": 4480
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
@@ -4067,7 +4067,7 @@
       "parent": {
         "name": "musistudio/claude-code-router",
         "url": "https://github.com/musistudio/claude-code-router",
-        "stars": 27416
+        "stars": 27426
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
@@ -4089,7 +4089,7 @@
       "parent": {
         "name": "fstandhartinger/ralph-wiggum",
         "url": "https://github.com/fstandhartinger/ralph-wiggum",
-        "stars": 153
+        "stars": 154
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop&q=80",
@@ -4111,7 +4111,7 @@
       "parent": {
         "name": "muratcankoylan/ralph-wiggum-marketer",
         "url": "https://github.com/muratcankoylan/ralph-wiggum-marketer",
-        "stars": 619
+        "stars": 620
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop&q=80",
@@ -4133,7 +4133,7 @@
       "parent": {
         "name": "vercel-labs/agent-browser",
         "url": "https://github.com/vercel-labs/agent-browser",
-        "stars": 13128
+        "stars": 13163
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=400&fit=crop&q=80",
@@ -4155,7 +4155,7 @@
       "parent": {
         "name": "vercel-labs/agent-skills",
         "url": "https://github.com/vercel-labs/agent-skills",
-        "stars": 19387
+        "stars": 19413
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
@@ -4241,9 +4241,9 @@
       "forks": 0,
       "topics": [],
       "parent": {
-        "name": "DevAgentForge/Claude-Cowork",
-        "url": "https://github.com/DevAgentForge/Claude-Cowork",
-        "stars": 2796
+        "name": "DevAgentForge/Open-Claude-Cowork",
+        "url": "https://github.com/DevAgentForge/Open-Claude-Cowork",
+        "stars": 2799
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop&q=80",
@@ -4309,7 +4309,7 @@
       "parent": {
         "name": "ggml-org/llama.cpp",
         "url": "https://github.com/ggml-org/llama.cpp",
-        "stars": 94593
+        "stars": 94608
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=400&fit=crop&q=80",
@@ -4613,7 +4613,7 @@
       "parent": {
         "name": "Significant-Gravitas/AutoGPT",
         "url": "https://github.com/Significant-Gravitas/AutoGPT",
-        "stars": 181707
+        "stars": 181712
       },
       "type": "fork",
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop&q=80",
