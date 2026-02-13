@@ -602,7 +602,8 @@ async function main() {
         image: getRandomUnsplashUrl(i),
         forkedAt: formatDate(repo.created_at),
         updatedAt: formatDate(repo.updated_at),
-        readTime: estimateReadTime(finalArticle)
+        readTime: estimateReadTime(finalArticle),
+        knowledgeGraph: knowledgeGraph
       });
 
       // Rate limiting delay (only between AI calls, skip if rate limited)
