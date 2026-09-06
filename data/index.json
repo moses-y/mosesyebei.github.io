@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T20:19:26.900Z",
+ "generated": "2026-09-06T22:22:50.294Z",
  "links": [
   [
    482038562,
@@ -43997,7 +43997,7 @@
    ],
    "v": [
     0,
-    1,
+    2,
     2,
     0
    ],
@@ -44981,7 +44981,7 @@
    "v": [
     0,
     2,
-    2,
+    3,
     0
    ],
    "x": 2,
@@ -45082,7 +45082,7 @@
    ],
    "v": [
     0,
-    1,
+    2,
     8,
     1
    ],
@@ -45117,7 +45117,7 @@
    "v": [
     0,
     2,
-    3,
+    4,
     1
    ],
    "x": 1,
@@ -46405,7 +46405,7 @@
    ],
    "v": [
     0,
-    2,
+    3,
     8,
     1
    ],
@@ -67666,7 +67666,7 @@
    "n": "ripwire",
    "p": {
     "n": "redhat-et/ripwire",
-    "s": 144,
+    "s": 279,
     "u": "https://github.com/redhat-et/ripwire"
    },
    "r": 2,
@@ -67681,6 +67681,29 @@
    "x": 0,
    "y": 0,
    "z": "September 6, 2026"
+  },
+  {
+   "a": 1,
+   "c": "11110",
+   "d": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#)",
+   "f": 6280,
+   "g": "Systems & Infra",
+   "i": 1359488045,
+   "k": "CLI tool",
+   "l": "C#",
+   "m": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
+   "n": "Lean",
+   "p": {
+    "n": "QuantConnect/Lean",
+    "s": 21500,
+    "u": "https://github.com/QuantConnect/Lean"
+   },
+   "r": 4,
+   "s": 0,
+   "t": "Lean",
+   "x": 0,
+   "y": 0,
+   "z": "September 6, 2026"
   }
  ],
  "taxonomy": {
@@ -67688,12 +67711,12 @@
    "Backend & APIs": 478,
    "Cloud & Infra": 114,
    "Computer Vision": 37,
-   "Data Engineering": 52,
-   "Deep Learning": 160,
+   "Data Engineering": 53,
+   "Deep Learning": 161,
    "Full-Stack Web": 840,
    "Knowledge Graphs": 48,
    "LLM & Agents": 227,
-   "MLOps": 591,
+   "MLOps": 592,
    "RAG & Vector Search": 90
   },
   "domains": {
@@ -67702,11 +67725,11 @@
    "Knowledge & Content": 62,
    "Mobile": 56,
    "Other": 2,
-   "Systems & Infra": 306,
+   "Systems & Infra": 307,
    "Web & Interfaces": 525
   },
   "kinds": {
-   "CLI tool": 131,
+   "CLI tool": 132,
    "Codebase": 169,
    "Docs / content": 55,
    "Library / SDK": 75,
@@ -67718,7 +67741,7 @@
   },
   "languages": {
    "C": 19,
-   "C#": 11,
+   "C#": 12,
    "C++": 7,
    "C/C++ Header": 27,
    "CSS": 9,
@@ -67749,11 +67772,11 @@
    "reStructuredText": 2
   }
  },
- "total": 1513,
+ "total": 1514,
  "totals": {
-  "files": 1680933,
+  "files": 1687213,
   "findings": 1760,
   "links": 3444,
-  "withArticle": 1513
+  "withArticle": 1514
  }
 }

@@ -4,7 +4,7 @@
   <link href="https://moses-y.github.io"/>
   <link href="https://moses-y.github.io/atom.xml" rel="self"/>
   <id>https://moses-y.github.io/</id>
-  <updated>2026-09-06T20:19:26.900Z</updated>
+  <updated>2026-09-06T22:22:50.294Z</updated>
   <author>
     <name>Moses Yebei</name>
   </author>
@@ -206,6 +206,21 @@ This various technologies project caught my attention for its practical approach
     
   </entry>
   <entry>
+    <title>Lean</title>
+    <link href="https://moses-y.github.io/blog/Lean.html"/>
+    <id>https://moses-y.github.io/blog/Lean.html</id>
+    <updated>2026-09-06T00:00:00.000Z</updated>
+    <summary>## The Problem  
+Quantitative teams often need a production‑grade, multi‑asset back‑testing and live‑trading engine that supports both Python and C# strategies, integrates alternative data, and can be deployed behind a Docker pipeline.  Building or adapting such a stack from scratch adds engineering overhead and risks inconsistent behavior across environments.
+
+## What This Does  
+Lean is an event‑driven algorithmic‑trading engine (≈6 280 files) that ships with plug‑in points for alphas, risk ma...</summary>
+    <author>
+      <name>Moses Yebei</name>
+    </author>
+    
+  </entry>
+  <entry>
     <title>NeMo Relay</title>
     <link href="https://moses-y.github.io/blog/NeMo-Relay.html"/>
     <id>https://moses-y.github.io/blog/NeMo-Relay.html</id>
@@ -308,23 +323,6 @@ Designing Material 3 Expressive interfaces typically requires writing code or it
 
 ## What This Does
 M3E Canvas is a browser-based sketch tool for Material 3 Expressive screens. Users drag-and-drop...</summary>
-    <author>
-      <name>Moses Yebei</name>
-    </author>
-    
-  </entry>
-  <entry>
-    <title>OmniVoice</title>
-    <link href="https://moses-y.github.io/blog/OmniVoice.html"/>
-    <id>https://moses-y.github.io/blog/OmniVoice.html</id>
-    <updated>2026-09-03T00:00:00.000Z</updated>
-    <summary>## The Problem
-
-Voice cloning TTS systems typically cover a handful of languages, and multilingual models often degrade in speaker similarity or require long reference audio. OmniVoice targets zero-shot voice cloning across 600+ languages with fast inference, so a single model can clone a voice and speak in languages the original speaker never used.
-
-## What This Does
-
-OmniVoice is a diffusion language-model-style TTS that generates speech from text plus a short reference clip. It supports voice...</summary>
     <author>
       <name>Moses Yebei</name>
     </author>

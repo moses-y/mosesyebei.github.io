@@ -159,11 +159,11 @@ Keeper: **postgres** (C+, 65.4). Mean grade across the 3 audited members is 58.3
 
 Crosses a domain boundary: 1 AI & Data, 1 Systems & Infra. That is the interesting case - the same shape of problem solved in two different parts of the estate.
 
-Keeper: **CodeGraphContext** (C-, 56.7). Mean grade across the 2 audited members is 53.8. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **CodeGraphContext** (C-, 56.6). Mean grade across the 2 audited members is 53.8. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
-| **CodeGraphContext** | AI & Data | Python | C- 56.7 | 981 |
+| **CodeGraphContext** | AI & Data | Python | C- 56.6 | 981 |
 | codegraph-rust | Systems & Infra | Rust | C- 50.9 | 369 |
 
 ### c023 - 2 repositories
@@ -304,11 +304,11 @@ Keeper: **strix** (B-, 72.6). Mean grade across the 2 audited members is 70.1. E
 
 All 4 in AI & Data.
 
-Keeper: **Hyper-Extract** (B-, 72.9). Mean grade across the 4 audited members is 61.4. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **Hyper-Extract** (B-, 72.8). Mean grade across the 4 audited members is 61.3. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
-| **Hyper-Extract** | AI & Data | Python | B- 72.9 | 449 |
+| **Hyper-Extract** | AI & Data | Python | B- 72.8 | 449 |
 | graph_maker | AI & Data | Jupyter Notebook | C 62.9 | 16 |
 | knowledge_graph | AI & Data | Jupyter Notebook | C- 55.9 | 42 |
 | langextract | AI & Data | Python | C- 53.7 | 129 |
@@ -556,7 +556,7 @@ Keeper: **agent-orchestrator** (B, 78.3). Mean grade across the 2 audited member
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
 | **agent-orchestrator** | Web & Interfaces | TypeScript | B 78.3 | 315 |
-| dmux | Web & Interfaces | TypeScript | C 62.3 | 794 |
+| dmux | Web & Interfaces | TypeScript | C 62.2 | 794 |
 
 ### c038 - 2 repositories
 
@@ -683,11 +683,11 @@ Keeper: **atomic-mail-agentic** (B-, 70.9). Mean grade across the 2 audited memb
 
 All 2 in AI & Data.
 
-Keeper: **ai-agents-for-beginners** (C, 63.7). Mean grade across the 2 audited members is 60.3. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **ai-agents-for-beginners** (C, 63.5). Mean grade across the 2 audited members is 60.2. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
-| **ai-agents-for-beginners** | AI & Data | Jupyter Notebook | C 63.7 | 9284 |
+| **ai-agents-for-beginners** | AI & Data | Jupyter Notebook | C 63.5 | 9284 |
 | build-your-own-openclaw | AI & Data | Python | C- 56.9 | 844 |
 
 ### c056 - 2 repositories

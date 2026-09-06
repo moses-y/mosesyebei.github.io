@@ -1,8 +1,8 @@
 {
   "analyzedRepos": 1202,
-  "filesAnalyzed": 1680933,
+  "filesAnalyzed": 1687213,
   "findings": 116976,
-  "forked": 1491,
+  "forked": 1492,
   "languages": 33,
   "modulesMapped": 249562,
   "original": 22,
@@ -14,5 +14,5 @@
     "scripts": 59,
     "suites": 12
   },
-  "repos": 1513
+  "repos": 1514
 }
