@@ -4,7 +4,7 @@
   <link href="https://moses-y.github.io"/>
   <link href="https://moses-y.github.io/atom.xml" rel="self"/>
   <id>https://moses-y.github.io/</id>
-  <updated>2026-09-07T08:28:35.570Z</updated>
+  <updated>2026-09-07T10:16:54.986Z</updated>
   <author>
     <name>Moses Yebei</name>
   </author>
@@ -36,6 +36,23 @@ Skales is a closed-source personal AI desktop agent. This repository is not the 
 
 ## What This Does
 The repo is the distribution surface for Skales: install guides (`INSTALL-WINDOWS.md`, `INSTALL-MAC.md`, ...</summary>
+    <author>
+      <name>Moses Yebei</name>
+    </author>
+    
+  </entry>
+  <entry>
+    <title>teamai cli</title>
+    <link href="https://moses-y.github.io/blog/teamai-cli.html"/>
+    <id>https://moses-y.github.io/blog/teamai-cli.html</id>
+    <updated>2026-09-07T00:00:00.000Z</updated>
+    <summary>## The Problem
+
+Teams using AI coding agents face fragmented context, inconsistent rules, and no standardized skill set across sessions. Each agent session starts from scratch, re-inventing patterns, and there&apos;s no reliable way to push team-wide conventions, MCP configs, or knowledge bases to every agent type Claude Code, Codex, Cursor, or custom internal agents use.
+
+## What This Does
+
+`teamai-cli` is a command-line tool that manages team-wide AI configuration: skills, rules, MCP, environment v...</summary>
     <author>
       <name>Moses Yebei</name>
     </author>
@@ -310,23 +327,6 @@ Reviewing a pull request means reconstructing the system&apos;s architecture and
 
 ## What This Does
 PR Lens is a pnpm monorepo with five packages. `packages/cli` analyzes a PR (git, workspace, LLM providers), `packages/renderer` turns the change into SVG diagram...</summary>
-    <author>
-      <name>Moses Yebei</name>
-    </author>
-    
-  </entry>
-  <entry>
-    <title>camera to blender</title>
-    <link href="https://moses-y.github.io/blog/camera-to-blender.html"/>
-    <id>https://moses-y.github.io/blog/camera-to-blender.html</id>
-    <updated>2026-09-03T00:00:00.000Z</updated>
-    <summary>## The Problem
-
-Turning a physical object into a 3D model for Blender normally means photogrammetry software, multiple export/import steps, and manual cleanup. This repo collapses that to: take a phone photo, wait under a minute, and the model lands in an open Blender scene automatically.
-
-## What This Does
-
-`relay_server.py` is a FastAPI server (run via `uvicorn`) that serves the phone camera UI from `webapp/`, calls two external APIs to turn a photo into a mesh, and pushes that mesh to Blender...</summary>
     <author>
       <name>Moses Yebei</name>
     </author>

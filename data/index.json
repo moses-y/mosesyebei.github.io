@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T08:28:35.570Z",
+ "generated": "2026-09-07T10:16:54.986Z",
  "links": [
   [
    482038562,
@@ -67739,6 +67739,29 @@
    "x": 2,
    "y": 0,
    "z": "September 7, 2026"
+  },
+  {
+   "a": 1,
+   "c": "11010",
+   "d": "Make Every Team AI Native",
+   "f": 497,
+   "g": "Web & Interfaces",
+   "i": 1360048988,
+   "k": "Web app",
+   "l": "TypeScript",
+   "m": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
+   "n": "teamai-cli",
+   "p": {
+    "n": "Tencent/teamai-cli",
+    "s": 844,
+    "u": "https://github.com/Tencent/teamai-cli"
+   },
+   "r": 5,
+   "s": 0,
+   "t": "teamai cli",
+   "x": 0,
+   "y": 0,
+   "z": "September 7, 2026"
   }
  ],
  "taxonomy": {
@@ -67748,9 +67771,9 @@
    "Computer Vision": 37,
    "Data Engineering": 53,
    "Deep Learning": 161,
-   "Full-Stack Web": 841,
+   "Full-Stack Web": 842,
    "Knowledge Graphs": 48,
-   "LLM & Agents": 227,
+   "LLM & Agents": 228,
    "MLOps": 592,
    "RAG & Vector Search": 90
   },
@@ -67761,7 +67784,7 @@
    "Mobile": 56,
    "Other": 2,
    "Systems & Infra": 307,
-   "Web & Interfaces": 526
+   "Web & Interfaces": 527
   },
   "kinds": {
    "CLI tool": 132,
@@ -67772,7 +67795,7 @@
    "Notebook / research": 19,
    "Service / API": 177,
    "Unknown": 45,
-   "Web app": 739
+   "Web app": 740
   },
   "languages": {
    "C": 19,
@@ -67801,17 +67824,17 @@
    "Swift": 35,
    "TSX": 73,
    "Terraform": 2,
-   "TypeScript": 304,
+   "TypeScript": 305,
    "Vue": 7,
    "Zig": 1,
    "reStructuredText": 2
   }
  },
- "total": 1515,
+ "total": 1516,
  "totals": {
-  "files": 1687546,
+  "files": 1688043,
   "findings": 1762,
   "links": 3444,
-  "withArticle": 1515
+  "withArticle": 1516
  }
 }
