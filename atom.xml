@@ -4,19 +4,38 @@
   <link href="https://moses-y.github.io"/>
   <link href="https://moses-y.github.io/atom.xml" rel="self"/>
   <id>https://moses-y.github.io/</id>
-  <updated>2026-09-07T06:38:11.039Z</updated>
+  <updated>2026-09-07T08:28:35.570Z</updated>
   <author>
     <name>Moses Yebei</name>
   </author>
   <subtitle>Technical articles and project deep-dives by Moses Yebei</subtitle>
   <entry>
+    <title>CyberStrikeAI</title>
+    <link href="https://moses-y.github.io/blog/CyberStrikeAI.html"/>
+    <id>https://moses-y.github.io/blog/CyberStrikeAI.html</id>
+    <updated>2026-09-07T00:00:00.000Z</updated>
+    <summary>## The Problem
+
+Security testing teams juggle dozens of standalone tools—scanners, exploit frameworks, C2 servers—with no unified orchestration layer. Running an engagement means switching between UIs, manually correlating results, and keeping audit trails by hand. CyberStrikeAI consolidates tool execution, agent-driven decision-making, and result tracking into one platform with a web console and MCP interface.
+
+## What This Does
+
+CyberStrikeAI is a Go-based security testing platform. It exposes...</summary>
+    <author>
+      <name>Moses Yebei</name>
+    </author>
+    
+  </entry>
+  <entry>
     <title>skales</title>
     <link href="https://moses-y.github.io/blog/skales.html"/>
     <id>https://moses-y.github.io/blog/skales.html</id>
     <updated>2026-09-07T00:00:00.000Z</updated>
-    <summary>Personal AI desktop agent for Windows, macOS, Linux, Android &amp; iOS. Set a goal, it works on its own. Teams (pair two desktops, agents + humans), Agent2Agent, Workflows, Codework, multi-agent orgs, desktop + browser automation. 15+ AI providers, BYOK. No Docker, no terminal. Agent Skills (SKILL.md). Migration importer. Recurring autonomous tasks.
+    <summary>## The Problem
+Skales is a closed-source personal AI desktop agent. This repository is not the product&apos;s source: the README states plainly that the checked-in tree is a historical **v7 snapshot** that is &quot;not maintained, not built and not what runs on your machine.&quot; Anyone cloning this expecting to build or extend the current agent will be working against a stale artifact.
 
-This various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth...</summary>
+## What This Does
+The repo is the distribution surface for Skales: install guides (`INSTALL-WINDOWS.md`, `INSTALL-MAC.md`, ...</summary>
     <author>
       <name>Moses Yebei</name>
     </author>
@@ -308,23 +327,6 @@ Turning a physical object into a 3D model for Blender normally means photogramme
 ## What This Does
 
 `relay_server.py` is a FastAPI server (run via `uvicorn`) that serves the phone camera UI from `webapp/`, calls two external APIs to turn a photo into a mesh, and pushes that mesh to Blender...</summary>
-    <author>
-      <name>Moses Yebei</name>
-    </author>
-    
-  </entry>
-  <entry>
-    <title>Interface skills</title>
-    <link href="https://moses-y.github.io/blog/Interface-skills.html"/>
-    <id>https://moses-y.github.io/blog/Interface-skills.html</id>
-    <updated>2026-09-03T00:00:00.000Z</updated>
-    <summary>## The Problem
-
-Building a polished interface — typography, color systems, accessibility, spacing — is knowledge that lives in designers&apos; heads, not in codebases. When an AI coding agent works on UI, it produces output that is technically correct but visually mediocre, because the agent has no framework for what &quot;good&quot; means. This repo encodes that design judgment as machine-readable skill definitions so agents can apply it consistently.
-
-## What This Does
-
-A collection of 11 [Claude-style agent...</summary>
     <author>
       <name>Moses Yebei</name>
     </author>

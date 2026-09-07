@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T06:38:11.039Z",
+ "generated": "2026-09-07T08:28:35.570Z",
  "links": [
   [
    482038562,
@@ -45476,9 +45476,9 @@
    "m": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&h=400&fit=crop&q=80",
    "n": "CyberStrikeAI",
    "p": {
-    "n": "Ed1s0nZ/CyberStrikeAI",
-    "s": 6043,
-    "u": "https://github.com/Ed1s0nZ/CyberStrikeAI"
+    "n": "AIPentest/CyberStrikeAI",
+    "s": 6413,
+    "u": "https://github.com/AIPentest/CyberStrikeAI"
    },
    "r": 3,
    "s": 0,
@@ -45496,7 +45496,7 @@
    ],
    "x": 1,
    "y": 0,
-   "z": "June 10, 2026"
+   "z": "September 7, 2026"
   },
   {
    "a": 1,
@@ -67724,10 +67724,10 @@
    "n": "skales",
    "p": {
     "n": "skalesapp/skales",
-    "s": 1782,
+    "s": 1788,
     "u": "https://github.com/skalesapp/skales"
    },
-   "r": 2,
+   "r": 3,
    "s": 0,
    "t": "skales",
    "v": [

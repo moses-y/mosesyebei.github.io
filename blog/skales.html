@@ -60,7 +60,7 @@
             <div class="post-header">
                 <div class="post-meta">
                     <span>September 7, 2026</span>
-                    <span>2 min read</span>
+                    <span>3 min read</span>
                     <span class="post-language">TypeScript</span>
                     <span class="post-type">fork</span>
                 </div>
@@ -79,9 +79,24 @@
                 <span class="listen-progress" id="listen-progress" aria-live="polite"></span>
             </div>
 
-            <div class="post-content" id="post-content">
-                
-                <p>Personal AI desktop agent for Windows, macOS, Linux, Android &amp; iOS. Set a goal, it works on its own. Teams (pair two desktops, agents + humans), Agent2Agent, Workflows, Codework, multi-agent orgs, desktop + browser automation. 15+ AI providers, BYOK. No Docker, no terminal. Agent Skills (SKILL.md). Migration importer. Recurring autonomous tasks.</p><p>This various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.</p>
+            <div class="post-content numbered" id="post-content">
+                <nav class="post-toc" aria-label="Sections"><span class="post-toc-lab">Sections</span><a href="#the-problem">The Problem</a><a href="#what-this-does">What This Does</a><a href="#how-it-is-wired">How It Is Wired</a><a href="#how-to-use-it">How To Use It</a><a href="#real-world-use">Real-World Use</a><a href="#code-health-issues">Code Health &amp; Issues</a><a href="#the-bottom-line">The Bottom Line</a></nav>
+                <h3 id="the-problem">The Problem</h3>
+<p>Skales is a closed-source personal AI desktop agent. This repository is not the product&#39;s source: the README states plainly that the checked-in tree is a historical <strong>v7 snapshot</strong> that is &quot;not maintained, not built and not what runs on your machine.&quot; Anyone cloning this expecting to build or extend the current agent will be working against a stale artifact.</p>
+<h3 id="what-this-does">What This Does</h3>
+<p>The repo is the distribution surface for Skales: install guides (<code>INSTALL-WINDOWS.md</code>, <code>INSTALL-MAC.md</code>, <code>INSTALL-LINUX.md</code>), changelog, BSL 1.1 license, and the issue tracker. The code that exists is a Next.js web app (<code>apps/web</code>) wrapped by an Electron shell (<code>electron/main.js</code>), with 30+ action modules under <code>apps/web/src/actions/</code> covering chat, tasks, calendar, email, browser control, and roughly 90 API routes under <code>apps/web/src/app/api/</code>.</p>
+<h3 id="how-it-is-wired">How It Is Wired</h3>
+<p>Execution starts at <code>electron/main.js</code>, which hosts the Next.js app. The wiring hub is <code>apps/web/src/actions/</code>: <code>chat.ts</code> is the most-imported module (7 importers, 0 outgoing edges), and <code>orchestrator.ts</code> imports the most (6 modules), making it the coordination point. API routes expose these actions over HTTP — <code>autopilot</code>, <code>calendar</code>, <code>custom-skills</code>, <code>code</code>, <code>email</code>, <code>ftp</code>, and more. The import graph is clean: 190 modules, 0 circular dependencies, so no cycle-breaking cost exists today. Blast radius concentrates in <code>chat.ts</code> (752 lines, 245 branch points, nesting depth 7) — a change there ripples through 7 importers. The Electron-to-web bridge beyond <code>main.js</code> has not been mapped by this analysis.</p>
+<h3 id="how-to-use-it">How To Use It</h3>
+<p>The README is explicit: do not build this snapshot. For the product, download the signed app from skales.app. The files imply an npm workflow (<code>package.json</code>, <code>next.config.mjs</code>, <code>apps/web/package.json</code>), so a local run would be <code>npm install</code> then <code>npm run dev</code> inside <code>apps/web</code> — but the README disclaimer means there is no evidence this snapshot builds or runs as-is. Missing: no CI, no Dockerfile, no documented build command for this tree.</p>
+<h3 id="real-world-use">Real-World Use</h3>
+<p>The product scenario: hand it a goal (e.g., &quot;build me a trading bot&quot;), it works autonomously across steps, reaches you via WhatsApp or Telegram. For this repo specifically, the realistic use is a security or architecture audit of the v7 snapshot, or a reference for the action-module pattern.</p>
+<h3 id="code-health-issues">Code Health &amp; Issues</h3>
+<p>Static analysis found 108 issues (46 high, 62 medium):</p>
+<ul><li><strong>High — deep nesting (51 instances):</strong> <code>chat.ts</code>, <code>tasks.ts</code>, <code>Sidebar.tsx</code> hit indentation depth 7.</li><li><strong>High — oversized files (7):</strong> <code>chat.ts</code> and <code>orchestrator.ts</code> exceed 700 lines.</li><li><strong>High — duplicated code blocks:</strong> 53 repeated 6-line blocks across 36 files, including <code>discord-bot.js</code>, <code>telegram-bot.js</code>, <code>autopilot.ts</code>.</li><li><strong>Medium — high branching density:</strong> 245 branches over 752 lines in <code>chat.ts</code>.</li></ul>
+<p>SDLC observations: no CI pipeline; committed secrets flagged (<code>apps/web/src/actions/secrets.ts</code>); test ratio 0.026 (5 test files vs 191 source files); <code>postinstall</code> lifecycle script in <code>package.json</code>; dependencies far behind — <code>electron</code> ^28 vs current 43, <code>next</code> 14 vs 16.</p>
+<h3 id="the-bottom-line">The Bottom Line</h3>
+<p>A stale, unmaintained snapshot of a closed-source product, not a codebase to build on. The measured analysis confirms the quality decay a dead snapshot accumulates, and the README&#39;s own disclaimer makes building from it a dead end. Use it to audit the v7 architecture or study the action-module pattern; for actual use, download the signed product.</p>
             </div>
 
             
@@ -109,8 +124,53 @@
                 
 
                 
+                <div class="an-block">
+                    <span class="an-lab">Module dependencies</span>
+                    <p class="an-note">The 10 most depended-upon modules of 190, from static import analysis. Red outline marks a module in an import cycle.</p>
+                    <div class="mermaid">graph LR
+  n0_apps_web_src_actions_chat[&quot;chat&quot;]
+  n1_eb_src_lib_calendar_provider[&quot;calendar-provider&quot;]
+  n2_apps_web_src_lib_paths[&quot;paths&quot;]
+  n3_s_web_src_lib_memory_scanner[&quot;memory-scanner&quot;]
+  n4_web_src_lib_calendar_outlook[&quot;calendar-outlook&quot;]
+  n5_apps_web_src_actions_tasks[&quot;tasks&quot;]
+  n6_s_web_src_lib_calendar_apple[&quot;calendar-apple&quot;]
+  n7__web_src_lib_calendar_google[&quot;calendar-google&quot;]
+  n8_web_src_lib_memory_retrieval[&quot;memory-retrieval&quot;]
+  n9_web_src_actions_capabilities[&quot;capabilities&quot;]
+  n5_apps_web_src_actions_tasks --&gt; n0_apps_web_src_actions_chat
+  n6_s_web_src_lib_calendar_apple --&gt; n1_eb_src_lib_calendar_provider
+  n7__web_src_lib_calendar_google --&gt; n1_eb_src_lib_calendar_provider
+  n4_web_src_lib_calendar_outlook --&gt; n1_eb_src_lib_calendar_provider
+  n4_web_src_lib_calendar_outlook --&gt; n2_apps_web_src_lib_paths
+  n8_web_src_lib_memory_retrieval --&gt; n3_s_web_src_lib_memory_scanner</div>
+                </div>
 
                 
+                <div class="an-block">
+                    <span class="an-lab">Dependencies</span>
+                    <p class="an-note"><strong>22</strong> of 46 declared dependencies are a major version behind. Resolved 46 of 46 against the registry.</p>
+                    <table class="tbl an-deps">
+                        <tr><th>Package</th><th>Declared</th><th>Latest</th><th>Behind</th></tr>
+                        <tr><td><code>electron</code></td>
+                            <td>^28.0.0</td><td>43.4.0</td>
+                            <td class="beh">15 major</td></tr><tr><td><code>@types/node</code></td>
+                            <td>^20</td><td>26.2.0</td>
+                            <td class="beh">6 major</td></tr><tr><td><code>archiver</code></td>
+                            <td>^5.3.2</td><td>8.0.0</td>
+                            <td class="beh">3 major</td></tr><tr><td><code>nodemailer</code></td>
+                            <td>^6.9.14</td><td>9.0.5</td>
+                            <td class="beh">3 major</td></tr><tr><td><code>electron-store</code></td>
+                            <td>^8.1.0</td><td>11.0.2</td>
+                            <td class="beh">3 major</td></tr><tr><td><code>framer-motion</code></td>
+                            <td>^11.0.8</td><td>13.1.0</td>
+                            <td class="beh">2 major</td></tr><tr><td><code>next</code></td>
+                            <td>14.1.0</td><td>16.3.1</td>
+                            <td class="beh">2 major</td></tr><tr><td><code>node-telegram-bot-api</code></td>
+                            <td>^0.66.0</td><td>2.1.0</td>
+                            <td class="beh">2 major</td></tr>
+                    </table>
+                </div>
 
                 
                 <div class="an-block">
@@ -126,7 +186,7 @@
                 </p>
             </section>
 
-            
+            <section class="analysis rpt" aria-label="Code health audit"><h2 class="an-h">What would stop me shipping this</h2><p class="an-note">Ranked by severity &times; confidence &times; production reach. Reach is the honest discriminator across a collection that is mostly other people's code: the same finding matters more in something that ships.</p><div class="bars"><div class="bar"><span class="name">high</span><span class="track"><span class="fill high" style="width:33%"></span></span><span class="n">1</span></div><div class="bar"><span class="name">medium</span><span class="track"><span class="fill medium" style="width:100%"></span></span><span class="n">3</span></div><div class="bar"><span class="name">low</span><span class="track"><span class="fill low" style="width:33%"></span></span><span class="n">1</span></div></div><div class="finding high"><div class="head"><span class="ttl">Add a workflow that builds and tests this repository</span><span class="chip">high</span></div><div class="ev">192 source files, no CI configuration</div><div class="ev">Every change merges with nobody having run the build once, which across this estate is 499 repositories.</div><div class="rec"><b>Fix:</b> Add a workflow running the project build and test command on push and pull_request.</div></div><div class="finding medium"><div class="head"><span class="ttl">Enable Dependabot or Renovate</span><span class="chip">medium</span></div><div class="ev">2 manifest(s), no update bot configured</div><div class="ev">Without a bot a published advisory sits unpatched until someone audits by hand, which across 1,322 repositories means never.</div><div class="rec"><b>Fix:</b> Commit .github/dependabot.yml covering the repo ecosystems plus github-actions.</div></div><div class="finding medium"><div class="head"><span class="ttl">Review the install lifecycle script and disable scripts in CI</span><span class="chip">medium</span></div><div class="loc">package.json</div><div class="ev">postinstall</div><div class="ev">Install scripts are the execution vector for every npm compromise from event-stream onward, and a postinstall that fetches a binary makes the build depend on a URL nobody reviews.</div><div class="rec"><b>Fix:</b> Move the work into an explicit build step, or set ignore-scripts in CI and run it by name.</div></div><div class="finding medium"><div class="head"><span class="ttl">Expand the test suite; it cannot cover this codebase</span><span class="chip">medium</span><span class="rankchip">5 occurrences</span></div><div class="ev">5 test files against 191 source files (ratio 0.026)</div><div class="ev">A reviewer reads &quot;has tests&quot; and assumes a safety net that covers two files out of eighty-five, which is how untested paths ship behind a green badge.</div><div class="rec"><b>Fix:</b> Add tests for the highest fan-in modules first.</div></div><div class="finding low"><div class="head"><span class="ttl">Add the repository convention files this project lacks</span><span class="chip">low</span><span class="rankchip">3 occurrences</span></div><div class="ev">missing .editorconfig, .gitattributes, a formatter config</div><div class="ev">Without them one contributor's editor writes tabs into a Python file, a shell script commits with CRLF and fails in the container, and a notebook diff is unreviewable.</div><div class="rec"><b>Fix:</b> Add .editorconfig, .gitattributes with text=auto eol=lf, and a formatter config.</div></div><p class="an-note">Checked deterministically against the repository tree and a bounded set of its files: committed credentials, unpinned actions and base images, missing lockfiles and update bots, workflows that discard failures, published advisories against the declared dependencies, runtime configuration, licensing and notebook reproducibility. No language model is involved in this section.</p></section>
 
             
 

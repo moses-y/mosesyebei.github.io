@@ -10,7 +10,7 @@
   "D": 176,
   "F": 14
  },
- "generated": "2026-09-07T06:38:41.624Z",
+ "generated": "2026-09-07T08:28:47.512Z",
  "graded": 1514,
  "mean": 60.7,
  "repos": {
@@ -105869,15 +105869,6 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 89 days before the audit",
-     "key": "history",
-     "label": "History & Maintenance",
-     "partial": false,
-     "score": 88.7,
-     "weight": 8
-    },
-    {
-     "charged": [],
      "evidence": "no secret or runtime check fired",
      "key": "security",
      "label": "Security Hygiene",
@@ -105893,6 +105884,15 @@
      "partial": false,
      "score": 92,
      "weight": 12
+    },
+    {
+     "charged": [],
+     "evidence": "last pushed 0 days before the audit",
+     "key": "history",
+     "label": "History & Maintenance",
+     "partial": false,
+     "score": 95,
+     "weight": 8
     }
    ],
    "id": 1264700194,
@@ -105900,11 +105900,11 @@
    "name": "CyberStrikeAI",
    "next": {
     "letter": "C+",
-    "points": 3.4
+    "points": 2.9
    },
    "partial": false,
    "profile": "default",
-   "score": 61.6
+   "score": 62.1
   },
   "1264921235": {
    "audited": true,
