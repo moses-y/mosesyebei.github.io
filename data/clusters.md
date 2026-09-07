@@ -104,7 +104,7 @@ Keeper: **MegaMemory** (B, 79.3). Mean grade across the 5 audited members is 64.
 | **MegaMemory** | Web & Interfaces | TypeScript | B 79.3 | 44 |
 | agentmemory | Web & Interfaces | TypeScript | B 75.3 | 208 |
 | memsearch | AI & Data | Python | C+ 65.2 | 201 |
-| mcp-memory-service | AI & Data | Python | C- 58.2 | 1147 |
+| mcp-memory-service | AI & Data | Python | C- 58.1 | 1147 |
 | memora | AI & Data | Python | D 42.1 | 50 |
 
 ### c009 - 3 repositories
@@ -650,11 +650,11 @@ Keeper: **manaflow** (C+, 69.3). Mean grade across the 2 audited members is 63.1
 
 All 2 in Web & Interfaces.
 
-Keeper: **splat-transform** (C, 60.8). Mean grade across the 2 audited members is 58.3. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **splat-transform** (C, 60.7). Mean grade across the 2 audited members is 58.3. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
-| **splat-transform** | Web & Interfaces | TypeScript | C 60.8 | 149 |
+| **splat-transform** | Web & Interfaces | TypeScript | C 60.7 | 149 |
 | supersplat | Web & Interfaces | TypeScript | C- 55.8 | 221 |
 
 ### c052 - 2 repositories
