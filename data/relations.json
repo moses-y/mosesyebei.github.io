@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07T14:16:05.021Z",
+  "generated": "2026-09-07T16:15:33.112Z",
   "description": "Materialised relations between repositories. Two edge types, differing in provenance, which is the thing to check before trusting either of them.",
   "edgeTypes": {
     "stack": {
