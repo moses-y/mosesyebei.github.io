@@ -76,7 +76,7 @@ Keeper: **ai-job-search** (B+, 82.3). Mean grade across the 6 audited members is
 | marketplace | Agent Skills & Plugins | Shell | B 78.4 | 351 |
 | everything-claude-code | Agent Skills & Plugins | JavaScript | B- 74.8 | 795 |
 | claude-code-router | Web & Interfaces | TypeScript | C- 56.3 | 352 |
-| agentic-flow | Web & Interfaces | TypeScript | C- 56.2 | 4455 |
+| agentic-flow | Web & Interfaces | TypeScript | C- 56.1 | 4455 |
 | career-ops | Systems & Infra | Go | C- 54.2 | 99 |
 
 ### c004 - 5 repositories
@@ -147,13 +147,13 @@ Keeper: **iwe** (C+, 69.3). Mean grade across the 3 audited members is 62.6. Eve
 
 Crosses a domain boundary: 2 Systems & Infra, 1 Web & Interfaces. That is the interesting case - the same shape of problem solved in two different parts of the estate.
 
-Keeper: **postgres** (C+, 65.4). Mean grade across the 3 audited members is 58.3. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **postgres** (C+, 65.3). Mean grade across the 3 audited members is 58.2. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
-| **postgres** | Systems & Infra | C | C+ 65.4 | 7656 |
-| git | Systems & Infra | Shell | C- 59.5 | 4739 |
-| node | Web & Interfaces | JavaScript | C- 50 | 48185 |
+| **postgres** | Systems & Infra | C | C+ 65.3 | 7656 |
+| git | Systems & Infra | Shell | C- 59.4 | 4739 |
+| node | Web & Interfaces | JavaScript | D 49.9 | 48185 |
 
 ### c020 - 2 repositories
 
@@ -247,12 +247,12 @@ Keeper: **floci-ui** (B-, 70.2). Mean grade across the 2 audited members is 63.9
 
 Crosses a domain boundary: 1 AI & Data, 1 Systems & Infra. That is the interesting case - the same shape of problem solved in two different parts of the estate.
 
-Keeper: **OpenSandbox** (B-, 71.6). Mean grade across the 2 audited members is 66.2. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **OpenSandbox** (B-, 71.6). Mean grade across the 2 audited members is 66.1. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
 | **OpenSandbox** | AI & Data | Python | B- 71.6 | 2144 |
-| CubeSandbox | Systems & Infra | Go | C 60.7 | 1702 |
+| CubeSandbox | Systems & Infra | Go | C 60.6 | 1702 |
 
 ### c051 - 2 repositories
 
@@ -540,11 +540,11 @@ Keeper: **MemOS** (B, 75.3). Mean grade across the 2 audited members is 57.5. Ev
 
 All 2 in AI & Data.
 
-Keeper: **OpenLLM** (B-, 74.3). Mean grade across the 2 audited members is 65.7. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **OpenLLM** (B-, 74.1). Mean grade across the 2 audited members is 65.6. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
-| **OpenLLM** | AI & Data | Python | B- 74.3 | 40 |
+| **OpenLLM** | AI & Data | Python | B- 74.1 | 40 |
 | litellm | AI & Data | Python | C- 57.1 | 7169 |
 
 ### c037 - 2 repositories
@@ -573,11 +573,11 @@ Keeper: **bare-lm** (C+, 69.7). Mean grade across the 2 audited members is 66.8.
 
 All 2 in Web & Interfaces.
 
-Keeper: **node-banana** (C+, 68.4). Mean grade across the 2 audited members is 60. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **node-banana** (C+, 68.3). Mean grade across the 2 audited members is 59.9. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
-| **node-banana** | Web & Interfaces | TypeScript | C+ 68.4 | 395 |
+| **node-banana** | Web & Interfaces | TypeScript | C+ 68.3 | 395 |
 | tersa | Web & Interfaces | TSX | C- 51.5 | 103 |
 
 ### c041 - 2 repositories
@@ -595,11 +595,11 @@ Keeper: **shotgun** (C, 64.3). Mean grade across the 2 audited members is 63.1. 
 
 All 2 in AI & Data.
 
-Keeper: **hermes-webui** (C, 60.9). Mean grade across the 2 audited members is 59.1. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **hermes-webui** (C, 60.8). Mean grade across the 2 audited members is 59. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
-| **hermes-webui** | AI & Data | Python | C 60.9 | 232 |
+| **hermes-webui** | AI & Data | Python | C 60.8 | 232 |
 | hermes-agent | AI & Data | Python | C- 57.3 | 894 |
 
 ### c043 - 2 repositories
@@ -617,11 +617,11 @@ Keeper: **easy-agent** (C, 62.9). Mean grade across the 2 audited members is 60.
 
 All 2 in AI & Data.
 
-Keeper: **freqtrade** (C-, 55.2). Mean grade across the 2 audited members is 53.8. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **freqtrade** (C-, 55.1). Mean grade across the 2 audited members is 53.7. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
-| **freqtrade** | AI & Data | Python | C- 55.2 | 772 |
+| **freqtrade** | AI & Data | Python | C- 55.1 | 772 |
 | hummingbot | AI & Data | Python | C- 52.3 | 1696 |
 
 ### c047 - 2 repositories
