@@ -10,7 +10,7 @@
   "D": 175,
   "F": 14
  },
- "generated": "2026-09-07T00:48:24.888Z",
+ "generated": "2026-09-07T02:22:54.573Z",
  "graded": 1513,
  "mean": 60.7,
  "repos": {
@@ -42403,11 +42403,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 106 days before the audit",
+     "evidence": "last pushed 120 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 86.9,
+     "score": 85.3,
      "weight": 8
     }
    ],
@@ -42416,11 +42416,11 @@
    "name": "codag",
    "next": {
     "letter": "C-",
-    "points": 6.1
+    "points": 6.2
    },
    "partial": false,
    "profile": "frontend",
-   "score": 43.9
+   "score": 43.8
   },
   "1164080981": {
    "audited": true,
@@ -75119,11 +75119,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 101 days before the audit",
+     "evidence": "last pushed 115 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87.4,
+     "score": 85.9,
      "weight": 8
     },
     {
@@ -75159,11 +75159,11 @@
    "name": "bus starter",
    "next": {
     "letter": "B-",
-    "points": 3.8
+    "points": 3.9
    },
    "partial": false,
    "profile": "frontend",
-   "score": 66.2
+   "score": 66.1
   },
   "1219412910": {
    "audited": true,
@@ -95998,11 +95998,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 108 days before the audit",
+     "evidence": "last pushed 122 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 86.6,
+     "score": 85.1,
      "weight": 8
     },
     {
@@ -96029,11 +96029,11 @@
    "name": "Fun ASR",
    "next": {
     "letter": "C-",
-    "points": 0.4
+    "points": 0.6
    },
    "partial": false,
    "profile": "default",
-   "score": 49.6
+   "score": 49.4
   },
   "1233239568": {
    "audited": true,
@@ -96154,11 +96154,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 108 days before the audit",
+     "evidence": "last pushed 122 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 86.6,
+     "score": 85.1,
      "weight": 7.6
     },
     {
@@ -96185,11 +96185,11 @@
    "name": "NadirClaw",
    "next": {
     "letter": "C+",
-    "points": 3.3
+    "points": 3.4
    },
    "partial": false,
    "profile": "service",
-   "score": 61.7
+   "score": 61.6
   },
   "1233245616": {
    "audited": true,
@@ -96280,11 +96280,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 108 days before the audit",
+     "evidence": "last pushed 122 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 86.6,
+     "score": 85.1,
      "weight": 8.1
     }
    ],
@@ -96293,11 +96293,11 @@
    "name": "sidekick",
    "next": {
     "letter": "C",
-    "points": 1.1
+    "points": 1.2
    },
    "partial": true,
    "profile": "cli",
-   "score": 58.9
+   "score": 58.8
   },
   "1233250917": {
    "audited": true,
@@ -96358,11 +96358,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 108 days before the audit",
+     "evidence": "last pushed 122 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 86.6,
+     "score": 85.1,
      "weight": 8.9
     },
     {
@@ -96380,11 +96380,11 @@
    "name": "best practices",
    "next": {
     "letter": "B",
-    "points": 3.9
+    "points": 4.1
    },
    "partial": true,
    "profile": "docs",
-   "score": 71.1
+   "score": 70.9
   },
   "1233890792": {
    "audited": true,
@@ -96469,11 +96469,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 107 days before the audit",
+     "evidence": "last pushed 121 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 86.7,
+     "score": 85.2,
      "weight": 8
     },
     {
@@ -96500,11 +96500,11 @@
    "name": "open wearables",
    "next": {
     "letter": "B+",
-    "points": 4.5
+    "points": 4.6
    },
    "partial": false,
    "profile": "frontend",
-   "score": 75.5
+   "score": 75.4
   },
   "1233891329": {
    "audited": true,
@@ -96570,21 +96570,21 @@
     },
     {
      "charged": [],
+     "evidence": "last pushed 121 days before the audit",
+     "key": "history",
+     "label": "History & Maintenance",
+     "partial": false,
+     "score": 85.2,
+     "weight": 8
+    },
+    {
+     "charged": [],
      "evidence": "README present + 3 doc files",
      "key": "docs",
      "label": "Docs & Onboarding",
      "partial": false,
      "score": 85.5,
      "weight": 14
-    },
-    {
-     "charged": [],
-     "evidence": "last pushed 107 days before the audit",
-     "key": "history",
-     "label": "History & Maintenance",
-     "partial": false,
-     "score": 86.7,
-     "weight": 8
     },
     {
      "charged": [],
@@ -96601,11 +96601,11 @@
    "name": "MacPersistenceChecker",
    "next": {
     "letter": "C",
-    "points": 4.6
+    "points": 4.8
    },
    "partial": true,
    "profile": "default",
-   "score": 55.4
+   "score": 55.2
   },
   "1233998799": {
    "audited": true,
@@ -96666,11 +96666,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 107 days before the audit",
+     "evidence": "last pushed 121 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 86.7,
+     "score": 85.2,
      "weight": 8.9
     },
     {
@@ -96688,11 +96688,11 @@
    "name": "free voice clone",
    "next": {
     "letter": "B-",
-    "points": 3.6
+    "points": 3.8
    },
    "partial": true,
    "profile": "docs",
-   "score": 66.4
+   "score": 66.2
   },
   "1233999367": {
    "audited": true,
@@ -96808,11 +96808,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 107 days before the audit",
+     "evidence": "last pushed 121 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 86.7,
+     "score": 85.2,
      "weight": 8
     },
     {
@@ -96839,11 +96839,11 @@
    "name": "Memori",
    "next": {
     "letter": "C+",
-    "points": 0.8
+    "points": 1
    },
    "partial": false,
    "profile": "frontend",
-   "score": 64.2
+   "score": 64
   },
   "1234403003": {
    "audited": true,
@@ -96991,11 +96991,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 106 days before the audit",
+     "evidence": "last pushed 120 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 86.9,
+     "score": 85.3,
      "weight": 8
     }
    ],
@@ -97004,11 +97004,11 @@
    "name": "meetily",
    "next": {
     "letter": "C-",
-    "points": 6.5
+    "points": 6.6
    },
    "partial": false,
    "profile": "frontend",
-   "score": 43.5
+   "score": 43.4
   },
   "1234459507": {
    "audited": true,
@@ -97103,11 +97103,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 106 days before the audit",
+     "evidence": "last pushed 120 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 86.9,
+     "score": 85.3,
      "weight": 7.6
     },
     {
@@ -97125,11 +97125,11 @@
    "name": "SphereSfM",
    "next": {
     "letter": "C",
-    "points": 7.4
+    "points": 7.5
    },
    "partial": false,
    "profile": "service",
-   "score": 52.6
+   "score": 52.5
   },
   "1234460039": {
    "audited": true,
@@ -97242,11 +97242,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 106 days before the audit",
+     "evidence": "last pushed 120 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 86.9,
+     "score": 85.3,
      "weight": 8.1
     },
     {
@@ -97264,11 +97264,11 @@
    "name": "claurst",
    "next": {
     "letter": "C",
-    "points": 1.9
+    "points": 2
    },
    "partial": true,
    "profile": "cli",
-   "score": 58.1
+   "score": 58
   },
   "1234882154": {
    "audited": true,
@@ -97349,21 +97349,21 @@
     },
     {
      "charged": [],
+     "evidence": "last pushed 120 days before the audit",
+     "key": "history",
+     "label": "History & Maintenance",
+     "partial": false,
+     "score": 85.3,
+     "weight": 8.9
+    },
+    {
+     "charged": [],
      "evidence": "README present + 3 doc files",
      "key": "docs",
      "label": "Docs & Onboarding",
      "partial": false,
      "score": 85.5,
      "weight": 37.8
-    },
-    {
-     "charged": [],
-     "evidence": "last pushed 106 days before the audit",
-     "key": "history",
-     "label": "History & Maintenance",
-     "partial": false,
-     "score": 86.9,
-     "weight": 8.9
     }
    ],
    "id": 1234882154,
@@ -97371,11 +97371,11 @@
    "name": "playwright skill",
    "next": {
     "letter": "C+",
-    "points": 0.5
+    "points": 0.7
    },
    "partial": true,
    "profile": "docs",
-   "score": 64.5
+   "score": 64.3
   },
   "1235162396": {
    "audited": true,
@@ -97479,11 +97479,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 105 days before the audit",
+     "evidence": "last pushed 119 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87,
+     "score": 85.5,
      "weight": 8
     }
    ],
@@ -97492,11 +97492,11 @@
    "name": "Metrolist",
    "next": {
     "letter": "C",
-    "points": 5.4
+    "points": 5.5
    },
    "partial": false,
    "profile": "default",
-   "score": 54.6
+   "score": 54.5
   },
   "1235163156": {
    "audited": true,
@@ -97555,11 +97555,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 105 days before the audit",
+     "evidence": "last pushed 119 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87,
+     "score": 85.5,
      "weight": 8
     },
     {
@@ -97586,11 +97586,11 @@
    "name": "RepoStore",
    "next": {
     "letter": "C",
-    "points": 1.1
+    "points": 1.2
    },
    "partial": true,
    "profile": "default",
-   "score": 58.9
+   "score": 58.8
   },
   "1235163579": {
    "audited": true,
@@ -97680,11 +97680,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 105 days before the audit",
+     "evidence": "last pushed 119 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87,
+     "score": 85.5,
      "weight": 8.9
     }
    ],
@@ -97693,11 +97693,11 @@
    "name": "Apify agent skills",
    "next": {
     "letter": "B-",
-    "points": 1.2
+    "points": 1.4
    },
    "partial": true,
    "profile": "docs",
-   "score": 68.8
+   "score": 68.6
   },
   "1235196281": {
    "audited": true,
@@ -97749,11 +97749,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 105 days before the audit",
+     "evidence": "last pushed 119 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87,
+     "score": 85.5,
      "weight": 8
     },
     {
@@ -97780,11 +97780,11 @@
    "name": "MarkdownTaskManager",
    "next": {
     "letter": "C",
-    "points": 3.1
+    "points": 3.3
    },
    "partial": true,
    "profile": "frontend",
-   "score": 56.9
+   "score": 56.7
   },
   "1235244084": {
    "audited": true,
@@ -97885,11 +97885,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 105 days before the audit",
+     "evidence": "last pushed 119 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87,
+     "score": 85.5,
      "weight": 8
     },
     {
@@ -97907,11 +97907,11 @@
    "name": "sigma file manager",
    "next": {
     "letter": "B",
-    "points": 0.5
+    "points": 0.6
    },
    "partial": false,
    "profile": "frontend",
-   "score": 74.5
+   "score": 74.4
   },
   "1235341364": {
    "audited": true,
@@ -98002,11 +98002,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 105 days before the audit",
+     "evidence": "last pushed 119 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87,
+     "score": 85.5,
      "weight": 8.1
     },
     {
@@ -98033,11 +98033,11 @@
    "name": "npcpy",
    "next": {
     "letter": "C+",
-    "points": 0.5
+    "points": 0.6
    },
    "partial": false,
    "profile": "cli",
-   "score": 64.5
+   "score": 64.4
   },
   "1235384022": {
    "audited": true,
@@ -98128,21 +98128,21 @@
     },
     {
      "charged": [],
+     "evidence": "last pushed 119 days before the audit",
+     "key": "history",
+     "label": "History & Maintenance",
+     "partial": false,
+     "score": 85.5,
+     "weight": 8
+    },
+    {
+     "charged": [],
      "evidence": "21 medium and 0 low findings across 233 modules",
      "key": "cleanliness",
      "label": "Code Cleanliness",
      "partial": false,
      "score": 86.9,
      "weight": 17
-    },
-    {
-     "charged": [],
-     "evidence": "last pushed 105 days before the audit",
-     "key": "history",
-     "label": "History & Maintenance",
-     "partial": false,
-     "score": 87,
-     "weight": 8
     },
     {
      "charged": [],
@@ -98159,11 +98159,11 @@
    "name": "hunk",
    "next": {
     "letter": "B+",
-    "points": 3.6
+    "points": 3.8
    },
    "partial": false,
    "profile": "frontend",
-   "score": 76.4
+   "score": 76.2
   },
   "1237680703": {
    "audited": true,
@@ -98270,11 +98270,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 103 days before the audit",
+     "evidence": "last pushed 117 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87.2,
+     "score": 85.7,
      "weight": 8
     },
     {
@@ -98292,11 +98292,11 @@
    "name": "mails",
    "next": {
     "letter": "B-",
-    "points": 1
+    "points": 1.1
    },
    "partial": false,
    "profile": "frontend",
-   "score": 69
+   "score": 68.9
   },
   "1237685352": {
    "audited": true,
@@ -98380,11 +98380,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 103 days before the audit",
+     "evidence": "last pushed 117 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87.2,
+     "score": 85.7,
      "weight": 8
     }
    ],
@@ -98393,11 +98393,11 @@
    "name": "autoresearch mlx",
    "next": {
     "letter": "C-",
-    "points": 0.9
+    "points": 1
    },
    "partial": true,
    "profile": "default",
-   "score": 49.1
+   "score": 49
   },
   "1237712124": {
    "audited": true,
@@ -98454,11 +98454,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 103 days before the audit",
+     "evidence": "last pushed 117 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87.2,
+     "score": 85.7,
      "weight": 7.5
     },
     {
@@ -98494,11 +98494,11 @@
    "name": "ta",
    "next": {
     "letter": "B+",
-    "points": 3.5
+    "points": 3.7
    },
    "partial": false,
    "profile": "library",
-   "score": 76.5
+   "score": 76.3
   },
   "1237947271": {
    "audited": true,
@@ -98605,11 +98605,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 103 days before the audit",
+     "evidence": "last pushed 117 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87.2,
+     "score": 85.7,
      "weight": 8.1
     },
     {
@@ -98627,11 +98627,11 @@
    "name": "dealve tui",
    "next": {
     "letter": "C",
-    "points": 2.9
+    "points": 3
    },
    "partial": true,
    "profile": "cli",
-   "score": 57.1
+   "score": 57
   },
   "1237991432": {
    "audited": true,
@@ -98740,11 +98740,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 103 days before the audit",
+     "evidence": "last pushed 117 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87.2,
+     "score": 85.7,
      "weight": 8
     },
     {
@@ -98771,11 +98771,11 @@
    "name": "scanopy",
    "next": {
     "letter": "C+",
-    "points": 4.3
+    "points": 4.4
    },
    "partial": false,
    "profile": "frontend",
-   "score": 60.7
+   "score": 60.6
   },
   "1238021217": {
    "audited": true,
@@ -98843,11 +98843,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 103 days before the audit",
+     "evidence": "last pushed 117 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87.2,
+     "score": 85.7,
      "weight": 8
     },
     {
@@ -98865,11 +98865,11 @@
    "name": "Spotify2YoutubeMusic",
    "next": {
     "letter": "C",
-    "points": 8.5
+    "points": 8.6
    },
    "partial": true,
    "profile": "default",
-   "score": 51.5
+   "score": 51.4
   },
   "1238024857": {
    "audited": true,
@@ -98966,11 +98966,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 103 days before the audit",
+     "evidence": "last pushed 117 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87.2,
+     "score": 85.7,
      "weight": 7.6
     },
     {
@@ -98997,11 +98997,11 @@
    "name": "MARM Systems",
    "next": {
     "letter": "C+",
-    "points": 1.8
+    "points": 1.9
    },
    "partial": false,
    "profile": "service",
-   "score": 63.2
+   "score": 63.1
   },
   "1238552744": {
    "audited": true,
@@ -99053,11 +99053,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 102 days before the audit",
+     "evidence": "last pushed 116 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87.3,
+     "score": 85.8,
      "weight": 8.9
     },
     {
@@ -99084,11 +99084,11 @@
    "name": "openclaw agents",
    "next": {
     "letter": "B",
-    "points": 1.8
+    "points": 1.9
    },
    "partial": true,
    "profile": "docs",
-   "score": 73.2
+   "score": 73.1
   },
   "1238723099": {
    "audited": true,
@@ -99192,21 +99192,21 @@
     },
     {
      "charged": [],
+     "evidence": "last pushed 116 days before the audit",
+     "key": "history",
+     "label": "History & Maintenance",
+     "partial": false,
+     "score": 85.8,
+     "weight": 7.6
+    },
+    {
+     "charged": [],
      "evidence": "40 modules · 0 in cycles · 1 high-severity structural findings",
      "key": "architecture",
      "label": "Architecture & Robustness",
      "partial": false,
      "score": 86.5,
      "weight": 19
-    },
-    {
-     "charged": [],
-     "evidence": "last pushed 102 days before the audit",
-     "key": "history",
-     "label": "History & Maintenance",
-     "partial": false,
-     "score": 87.3,
-     "weight": 7.6
     },
     {
      "charged": [],
@@ -99223,11 +99223,11 @@
    "name": "Cairn",
    "next": {
     "letter": "C",
-    "points": 1.8
+    "points": 1.9
    },
    "partial": false,
    "profile": "service",
-   "score": 58.2
+   "score": 58.1
   },
   "1240474530": {
    "audited": true,
@@ -99295,11 +99295,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 100 days before the audit",
+     "evidence": "last pushed 114 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87.5,
+     "score": 86,
      "weight": 8
     },
     {
@@ -99317,11 +99317,11 @@
    "name": "DeepDive",
    "next": {
     "letter": "C-",
-    "points": 2.5
+    "points": 2.6
    },
    "partial": false,
    "profile": "default",
-   "score": 47.5
+   "score": 47.4
   },
   "1240474927": {
    "audited": true,
@@ -99428,11 +99428,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 100 days before the audit",
+     "evidence": "last pushed 114 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87.5,
+     "score": 86,
      "weight": 7.6
     },
     {
@@ -99450,11 +99450,11 @@
    "name": "Horizon",
    "next": {
     "letter": "B-",
-    "points": 3.4
+    "points": 3.5
    },
    "partial": false,
    "profile": "service",
-   "score": 66.6
+   "score": 66.5
   },
   "1240478291": {
    "audited": true,
@@ -99558,11 +99558,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 100 days before the audit",
+     "evidence": "last pushed 114 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87.5,
+     "score": 86,
      "weight": 8
     },
     {
@@ -99589,11 +99589,11 @@
    "name": "OpenGuider",
    "next": {
     "letter": "B",
-    "points": 2.2
+    "points": 2.3
    },
    "partial": false,
    "profile": "frontend",
-   "score": 72.8
+   "score": 72.7
   },
   "1240478567": {
    "audited": true,
@@ -99693,21 +99693,21 @@
     },
     {
      "charged": [],
+     "evidence": "last pushed 114 days before the audit",
+     "key": "history",
+     "label": "History & Maintenance",
+     "partial": false,
+     "score": 86,
+     "weight": 8
+    },
+    {
+     "charged": [],
      "evidence": "13 medium and 0 low findings across 149 modules",
      "key": "cleanliness",
      "label": "Code Cleanliness",
      "partial": false,
      "score": 87.1,
      "weight": 17
-    },
-    {
-     "charged": [],
-     "evidence": "last pushed 100 days before the audit",
-     "key": "history",
-     "label": "History & Maintenance",
-     "partial": false,
-     "score": 87.5,
-     "weight": 8
     },
     {
      "charged": [],
@@ -99733,11 +99733,11 @@
    "name": "OpenWA",
    "next": {
     "letter": "B",
-    "points": 0.6
+    "points": 0.7
    },
    "partial": false,
    "profile": "frontend",
-   "score": 74.4
+   "score": 74.3
   },
   "1240493492": {
    "audited": true,
@@ -99789,11 +99789,11 @@
     },
     {
      "charged": [],
-     "evidence": "last pushed 100 days before the audit",
+     "evidence": "last pushed 114 days before the audit",
      "key": "history",
      "label": "History & Maintenance",
      "partial": false,
-     "score": 87.5,
+     "score": 86,
      "weight": 8
     },
     {
@@ -99820,11 +99820,11 @@
    "name": "PositionSizer",
    "next": {
     "letter": "C",
-    "points": 1.2
+    "points": 1.3
    },
    "partial": true,
    "profile": "default",
-   "score": 58.8
+   "score": 58.7
   },
   "1241259225": {
    "audited": true,

@@ -20,7 +20,7 @@ Each group names a keeper: the highest-graded member, breaking ties on stars and
 
 Crosses a domain boundary: 7 Agent Skills & Plugins, 5 Web & Interfaces, 3 AI & Data. That is the interesting case - the same shape of problem solved in two different parts of the estate.
 
-Keeper: **openskills** (B+, 82.5). Mean grade across the 15 audited members is 70.4. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **openskills** (B+, 82.5). Mean grade across the 15 audited members is 70.3. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
@@ -33,8 +33,8 @@ Keeper: **openskills** (B+, 82.5). Mean grade across the 15 audited members is 7
 | asm | Web & Interfaces | TypeScript | B 75.2 | 402 |
 | skills | Web & Interfaces | TypeScript | B- 72.1 | 67 |
 | agentskills | Web & Interfaces | JavaScript | B- 71.4 | 187 |
-| best-practices | Agent Skills & Plugins |  | B- 71.1 | 23 |
 | ai-design-skills | Agent Skills & Plugins |  | B- 71.1 | 4 |
+| best-practices | Agent Skills & Plugins |  | B- 70.9 | 23 |
 | agent-skills | Agent Skills & Plugins | Shell | C+ 68.7 | 56 |
 | dbt-agent-skills | AI & Data | Python | C+ 68.2 | 123 |
 | SkillNet | AI & Data | Python | C- 54.9 | 380 |
@@ -672,12 +672,12 @@ Keeper: **DeepTutor** (C-, 59). Mean grade across the 2 audited members is 50.1.
 
 All 2 in Web & Interfaces.
 
-Keeper: **atomic-mail-agentic** (B-, 70.9). Mean grade across the 2 audited members is 70. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **atomic-mail-agentic** (B-, 70.9). Mean grade across the 2 audited members is 69.9. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
 | **atomic-mail-agentic** | Web & Interfaces | TypeScript | B- 70.9 | 424 |
-| mails | Web & Interfaces | TypeScript | C+ 69 | 91 |
+| mails | Web & Interfaces | TypeScript | C+ 68.9 | 91 |
 
 ### c054 - 2 repositories
 
