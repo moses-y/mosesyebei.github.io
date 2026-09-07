@@ -25,7 +25,7 @@ Keeper: **openskills** (B+, 82.5). Mean grade across the 15 audited members is 7
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
 | **openskills** | Web & Interfaces | TypeScript | B+ 82.5 | 94 |
-| Grafanaskills | Agent Skills & Plugins | Shell | B 78.8 | 95 |
+| Grafanaskills | Agent Skills & Plugins | Shell | B 78.7 | 95 |
 | skillsz | Agent Skills & Plugins | Shell | B 76.8 | 51 |
 | lich-skills | Agent Skills & Plugins | Shell | B 75.6 | 46 |
 | text-to-cad | Agent Skills & Plugins | JavaScript | B 75.4 | 1663 |
@@ -424,7 +424,7 @@ Keeper: **iot-projects** (C, 62.9). Mean grade across the 2 audited members is 6
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
 | **iot-projects** | Knowledge & Content |  | C 62.9 | 5 |
-| awesome-electronics | Knowledge & Content |  | C- 59.1 | 7 |
+| awesome-electronics | Knowledge & Content |  | C- 59 | 7 |
 
 ### c022 - 2 repositories
 
@@ -736,4 +736,4 @@ Keeper: **awesome-agents** (C+, 68.1). Mean grade across the 2 audited members i
 
 ---
 
-Generated from data/clusters.json built 2026-09-06. Regenerate with `node src/stages/build-relations.js`.
+Generated from data/clusters.json built 2026-09-07. Regenerate with `node src/stages/build-relations.js`.

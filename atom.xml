@@ -4,7 +4,7 @@
   <link href="https://moses-y.github.io"/>
   <link href="https://moses-y.github.io/atom.xml" rel="self"/>
   <id>https://moses-y.github.io/</id>
-  <updated>2026-09-06T22:22:50.294Z</updated>
+  <updated>2026-09-07T00:48:08.772Z</updated>
   <author>
     <name>Moses Yebei</name>
   </author>
@@ -197,9 +197,13 @@ The `README.md` (the repository&apos;s sole file) curates links to 30+ agent orc
     <link href="https://moses-y.github.io/blog/ripwire.html"/>
     <id>https://moses-y.github.io/blog/ripwire.html</id>
     <updated>2026-09-06T00:00:00.000Z</updated>
-    <summary>The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server giving coding agents a ranked, deterministic map of any repo, blast radius, tests-to-run and quality deltas. Signatures at 80% fewer bytes than bodies; ~5% of a grep-and-read pass&apos;s tokens.
+    <summary>## The Problem
 
-This various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.</summary>
+Coding agents burn tokens grepping a repository and reading whole files to answer one question: *what do I touch, what breaks, and which tests prove it?* ripwire replaces that pass with a ranked, deterministic call graph — signatures at 80% fewer bytes than bodies, roughly 5% of a grep-and-read pass&apos;s tokens — so the agent gets a map before it reads anything.
+
+## What This Does
+
+ripwire is a zero-dependency C++23 CLI plus an optional MCP server. It parses 21 languages via vendore...</summary>
     <author>
       <name>Moses Yebei</name>
     </author>

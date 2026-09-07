@@ -60,7 +60,7 @@
             <div class="post-header">
                 <div class="post-meta">
                     <span>September 6, 2026</span>
-                    <span>2 min read</span>
+                    <span>3 min read</span>
                     <span class="post-language">Shell</span>
                     <span class="post-type">fork</span>
                 </div>
@@ -79,9 +79,29 @@
                 <span class="listen-progress" id="listen-progress" aria-live="polite"></span>
             </div>
 
-            <div class="post-content" id="post-content">
-                
-                <p>The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server giving coding agents a ranked, deterministic map of any repo, blast radius, tests-to-run and quality deltas. Signatures at 80% fewer bytes than bodies; ~5% of a grep-and-read pass&#39;s tokens.</p><p>This various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth studying for anyone working in this space.</p>
+            <div class="post-content numbered" id="post-content">
+                <nav class="post-toc" aria-label="Sections"><span class="post-toc-lab">Sections</span><a href="#the-problem">The Problem</a><a href="#what-this-does">What This Does</a><a href="#how-it-is-wired">How It Is Wired</a><a href="#how-to-use-it">How To Use It</a><a href="#real-world-use">Real-World Use</a><a href="#code-health-issues">Code Health &amp; Issues</a><a href="#the-bottom-line">The Bottom Line</a></nav>
+                <h3 id="the-problem">The Problem</h3>
+<p>Coding agents burn tokens grepping a repository and reading whole files to answer one question: <em>what do I touch, what breaks, and which tests prove it?</em> ripwire replaces that pass with a ranked, deterministic call graph — signatures at 80% fewer bytes than bodies, roughly 5% of a grep-and-read pass&#39;s tokens — so the agent gets a map before it reads anything.</p>
+<h3 id="what-this-does">What This Does</h3>
+<p>ripwire is a zero-dependency C++23 CLI plus an optional MCP server. It parses 21 languages via vendored tree-sitter grammars (<code>src/</code>, 154 files) and emits a ranked symbol list with per-symbol risk: complexity, git churn, change amplification (touch <code>ingest</code> and 266 graph nodes feel it), purity, and test coverage. Output is a token-budgeted answer or a self-contained HTML call-graph (<code>--html</code>, no CDN).</p>
+<p>The <code>skills/</code> folder (24 files) installs task-shaped agent skills so Claude Code, Codex, Cursor, Windsurf, Gemini, opencode, and aider know <em>when</em> to invoke the tool. <code>bench/</code> (299 files) is a serious evaluation harness — head-to-head runs against other repo tools with preregistered protocols (<code>bench/headtohead/r3-headroom-2026-08-03/PREREGISTRATION.md</code>) and an agent-loop edit suite (<code>bench/agentloop/editsuite/</code>).</p>
+<h3 id="how-it-is-wired">How It Is Wired</h3>
+<p>The static analysis mapped 189 internal modules but resolved only 13 import edges — all in <code>test/</code> fixtures, zero circular dependencies. That means the core <code>src/</code> call graph has not been traced by this pipeline; I won&#39;t invent it. What is grounded: the install script (<code>scripts/install.sh</code>) drops a single binary and activates skills for every agent on the machine; the MCP endpoint is configured via <code>.mcp.json</code> and <code>.codex-plugin/plugin.json</code>; <code>CMakeLists.txt</code> builds the binary. The bench fixtures (<code>bench/h4fixtures/*/main.*</code>) are language parsers&#39; test inputs, not the product entry point.</p>
+<h3 id="how-to-use-it">How To Use It</h3>
+<p>The README documents both steps verbatim:</p>
+<pre data-lang="bash"><code>RIPWIRE_REPO=redhat-et/ripwire bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/redhat-et/ripwire/main/scripts/install.sh)&quot;
+ripwire . --for=&quot;incremental cache invalidation&quot;</code></pre>
+<p>That second line answers in ~4.3K tokens: ranked symbols with doc comments quoted in place, risk annotated, and one-hop call context. No API key, no embeddings, no daemon. The MCP server is the optional second interface.</p>
+<h3 id="real-world-use">Real-World Use</h3>
+<p>Before editing <code>ingest</code> in this repo, an agent runs <code>ripwire . --for=&quot;incremental cache invalidation&quot;</code>. The output ranks <code>kCacheMagic</code> first, flags <code>ingest</code> as high-churn (128 recent edits) with 266 downstream graph nodes affected, and names the tests that reach it. The agent edits with a blast-radius map instead of guessing.</p>
+<h3 id="code-health-issues">Code Health &amp; Issues</h3>
+<p>Static analysis found 1,009 findings (250 high, 758 medium, 1 low), one kind: deep nesting ×60 in three bench files (<code>bench/bench_sort_large.cpp</code>, <code>bench/bench_svector_diff.cpp</code>, <code>bench/bench_svector_wave.cpp</code>), max indentation depth 17. Fix: early returns and extracted inner blocks.</p>
+<p>SDLC audit (7 findings, 0 critical):</p>
+<ul><li><strong>High</strong> — GitHub Actions pinned to tags, not commit SHAs (<code>.github/workflows</code>, e.g. <code>softprops/action-gh-release@v2</code>). Tags can be moved; pin to SHA.</li><li><strong>High</strong> — <code>continue-on-error</code> on a correctness step (<code>.github/workflows/ci.yml:107</code>) lets failing tests report green.</li><li><strong>Med</strong> — No least-privilege <code>GITHUB_TOKEN</code> declaration in CI.</li><li><strong>Med</strong> — No Dependabot/Renovate; advisories sit unpatched.</li><li><strong>Med</strong> — No dependency vulnerability scan in CI.</li><li><strong>Med</strong> — 12 blobs over 5MB in <code>third_party/deps/csharp/src/parser.c</code> (28.3MB, 26.9MB, 19.7MB); every clone pays for them.</li><li><strong>Low</strong> — No <code>timeout-minutes</code> on CI jobs.</li></ul>
+<p>Tests, CI, license, and lockfile are present; no committed secrets. <code>present/</code> declares <code>typescript</code> (2 majors behind) and <code>react</code> (1 major behind), but that&#39;s the showcase deck, not the product.</p>
+<h3 id="the-bottom-line">The Bottom Line</h3>
+<p>Serious engineering: honest benchmarks with preregistered protocols, a real token-budget story, and a clean zero-dependency design. The CI hygiene gaps are exactly the kind a consultant flags before production. Use it if your agents spend real tokens mapping unfamiliar repos; the bench suite alone is worth reading.</p>
             </div>
 
             
