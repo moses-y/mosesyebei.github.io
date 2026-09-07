@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T04:19:16.949Z",
+ "generated": "2026-09-07T06:38:11.039Z",
  "links": [
   [
    482038562,
@@ -40711,7 +40711,7 @@
    "v": [
     0,
     1,
-    2,
+    3,
     0
    ],
    "x": 2,
@@ -40879,9 +40879,9 @@
     0.1973
    ],
    "v": [
-    0,
-    3,
-    3,
+    1,
+    4,
+    4,
     0
    ],
    "x": 3,
@@ -67710,6 +67710,35 @@
    "x": 0,
    "y": 0,
    "z": "September 6, 2026"
+  },
+  {
+   "a": 1,
+   "c": "10011",
+   "d": "Personal AI desktop agent for Windows, macOS, Linux, Android & iOS. Set a goal, it works on its own. Teams (pair two desktops, agents + humans), Agent2Agent, Workflows, Codework, m",
+   "f": 333,
+   "g": "Web & Interfaces",
+   "i": 1359761595,
+   "k": "Web app",
+   "l": "TypeScript",
+   "m": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop&q=80",
+   "n": "skales",
+   "p": {
+    "n": "skalesapp/skales",
+    "s": 1782,
+    "u": "https://github.com/skalesapp/skales"
+   },
+   "r": 2,
+   "s": 0,
+   "t": "skales",
+   "v": [
+    0,
+    1,
+    3,
+    1
+   ],
+   "x": 2,
+   "y": 0,
+   "z": "September 7, 2026"
   }
  ],
  "taxonomy": {
@@ -67719,7 +67748,7 @@
    "Computer Vision": 37,
    "Data Engineering": 53,
    "Deep Learning": 161,
-   "Full-Stack Web": 840,
+   "Full-Stack Web": 841,
    "Knowledge Graphs": 48,
    "LLM & Agents": 227,
    "MLOps": 592,
@@ -67732,7 +67761,7 @@
    "Mobile": 56,
    "Other": 2,
    "Systems & Infra": 307,
-   "Web & Interfaces": 525
+   "Web & Interfaces": 526
   },
   "kinds": {
    "CLI tool": 132,
@@ -67743,7 +67772,7 @@
    "Notebook / research": 19,
    "Service / API": 177,
    "Unknown": 45,
-   "Web app": 738
+   "Web app": 739
   },
   "languages": {
    "C": 19,
@@ -67772,17 +67801,17 @@
    "Swift": 35,
    "TSX": 73,
    "Terraform": 2,
-   "TypeScript": 303,
+   "TypeScript": 304,
    "Vue": 7,
    "Zig": 1,
    "reStructuredText": 2
   }
  },
- "total": 1514,
+ "total": 1515,
  "totals": {
-  "files": 1687213,
-  "findings": 1760,
+  "files": 1687546,
+  "findings": 1762,
   "links": 3444,
-  "withArticle": 1514
+  "withArticle": 1515
  }
 }

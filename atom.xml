@@ -4,11 +4,24 @@
   <link href="https://moses-y.github.io"/>
   <link href="https://moses-y.github.io/atom.xml" rel="self"/>
   <id>https://moses-y.github.io/</id>
-  <updated>2026-09-07T04:19:16.949Z</updated>
+  <updated>2026-09-07T06:38:11.039Z</updated>
   <author>
     <name>Moses Yebei</name>
   </author>
   <subtitle>Technical articles and project deep-dives by Moses Yebei</subtitle>
+  <entry>
+    <title>skales</title>
+    <link href="https://moses-y.github.io/blog/skales.html"/>
+    <id>https://moses-y.github.io/blog/skales.html</id>
+    <updated>2026-09-07T00:00:00.000Z</updated>
+    <summary>Personal AI desktop agent for Windows, macOS, Linux, Android &amp; iOS. Set a goal, it works on its own. Teams (pair two desktops, agents + humans), Agent2Agent, Workflows, Codework, multi-agent orgs, desktop + browser automation. 15+ AI providers, BYOK. No Docker, no terminal. Agent Skills (SKILL.md). Migration importer. Recurring autonomous tasks.
+
+This various technologies project caught my attention for its practical approach to solving real developer problems. The codebase offers patterns worth...</summary>
+    <author>
+      <name>Moses Yebei</name>
+    </author>
+    
+  </entry>
   <entry>
     <title>feynman</title>
     <link href="https://moses-y.github.io/blog/feynman.html"/>
@@ -312,21 +325,6 @@ Building a polished interface — typography, color systems, accessibility, spac
 ## What This Does
 
 A collection of 11 [Claude-style agent...</summary>
-    <author>
-      <name>Moses Yebei</name>
-    </author>
-    
-  </entry>
-  <entry>
-    <title>m3e canvas</title>
-    <link href="https://moses-y.github.io/blog/m3e-canvas.html"/>
-    <id>https://moses-y.github.io/blog/m3e-canvas.html</id>
-    <updated>2026-09-03T00:00:00.000Z</updated>
-    <summary>## The Problem
-Designing Material 3 Expressive interfaces typically requires writing code or iterating through design tools, creating a friction point for teams needing rapid prototypes for AI coding assistants. Teams building vibe-coding workflows need a path from a visual sketch to a natural-language prompt describing layout, interaction, and theming without manual transcription.
-
-## What This Does
-M3E Canvas is a browser-based sketch tool for Material 3 Expressive screens. Users drag-and-drop...</summary>
     <author>
       <name>Moses Yebei</name>
     </author>

@@ -1,10 +1,10 @@
 {
-  "analyzedRepos": 1202,
-  "filesAnalyzed": 1687213,
-  "findings": 116976,
-  "forked": 1492,
+  "analyzedRepos": 1203,
+  "filesAnalyzed": 1687546,
+  "findings": 117084,
+  "forked": 1493,
   "languages": 33,
-  "modulesMapped": 249562,
+  "modulesMapped": 249752,
   "original": 22,
   "originalProjects": 50,
   "pipeline": {
@@ -14,5 +14,5 @@
     "scripts": 59,
     "suites": 12
   },
-  "repos": 1514
+  "repos": 1515
 }

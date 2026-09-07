@@ -27,7 +27,7 @@ Keeper: **openskills** (B+, 82.5). Mean grade across the 15 audited members is 7
 | **openskills** | Web & Interfaces | TypeScript | B+ 82.5 | 94 |
 | Grafanaskills | Agent Skills & Plugins | Shell | B 78.7 | 95 |
 | skillsz | Agent Skills & Plugins | Shell | B 76.8 | 51 |
-| lich-skills | Agent Skills & Plugins | Shell | B 75.6 | 46 |
+| lich-skills | Agent Skills & Plugins | Shell | B 75.4 | 46 |
 | text-to-cad | Agent Skills & Plugins | JavaScript | B 75.4 | 1663 |
 | mercury-agent-skills | Web & Interfaces | JavaScript | B 75.3 | 151 |
 | asm | Web & Interfaces | TypeScript | B 75.2 | 402 |
@@ -661,11 +661,11 @@ Keeper: **splat-transform** (C, 60.7). Mean grade across the 2 audited members i
 
 All 2 in AI & Data.
 
-Keeper: **DeepTutor** (C-, 59). Mean grade across the 2 audited members is 50.1. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **DeepTutor** (C-, 58.8). Mean grade across the 2 audited members is 50. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
-| **DeepTutor** | AI & Data | Python | C- 59 | 1012 |
+| **DeepTutor** | AI & Data | Python | C- 58.8 | 1012 |
 | VideoAgent | AI & Data | Python | D 41.3 | 853 |
 
 ### c053 - 2 repositories

@@ -3214,6 +3214,17 @@
   {
     "cycles": 0,
     "findings": 108,
+    "high": 46,
+    "id": "1359761595",
+    "language": "TypeScript",
+    "low": 0,
+    "medium": 62,
+    "modules": 190,
+    "name": "skales"
+  },
+  {
+    "cycles": 0,
+    "findings": 108,
     "high": 27,
     "id": "1134788719",
     "language": "PHP",
