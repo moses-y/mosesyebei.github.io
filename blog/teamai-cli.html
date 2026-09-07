@@ -138,6 +138,39 @@ teamai init https://github.com/yourorg/yourrepo</code></pre>
                 
 
                 
+                <div class="an-block">
+                    <span class="an-lab">Module dependencies</span>
+                    <p class="an-note">The 10 most depended-upon modules of 447, from static import analysis. Red outline marks a module in an import cycle.</p>
+                    <div class="mermaid">graph LR
+  n0_src_types[&quot;types&quot;]
+  n1_src_utils_logger[&quot;logger&quot;]
+  n2_src_utils_fs[&quot;fs&quot;]
+  n3_src_config[&quot;config&quot;]
+  n4_src_utils_home[&quot;home&quot;]
+  n5_src_utils_git[&quot;git&quot;]
+  n6_src_providers_types[&quot;types&quot;]
+  n7_src_hooks[&quot;hooks&quot;]
+  n8_src_resources_base[&quot;base&quot;]
+  n9_de_knowledge_code_extractors[&quot;code-extractors&quot;]
+  n3_src_config --&gt; n0_src_types
+  n3_src_config --&gt; n2_src_utils_fs
+  n3_src_config --&gt; n5_src_utils_git
+  n3_src_config --&gt; n1_src_utils_logger
+  n7_src_hooks --&gt; n2_src_utils_fs
+  n7_src_hooks --&gt; n1_src_utils_logger
+  n7_src_hooks --&gt; n0_src_types
+  n7_src_hooks --&gt; n4_src_utils_home
+  n8_src_resources_base --&gt; n0_src_types
+  n8_src_resources_base --&gt; n2_src_utils_fs
+  n8_src_resources_base --&gt; n4_src_utils_home
+  n0_src_types --&gt; n4_src_utils_home
+  n2_src_utils_fs --&gt; n1_src_utils_logger
+  n2_src_utils_fs --&gt; n4_src_utils_home
+  n5_src_utils_git --&gt; n1_src_utils_logger
+  n1_src_utils_logger --&gt; n4_src_utils_home
+  classDef cyc stroke:#ef4444,stroke-width:2px;
+  class n9_de_knowledge_code_extractors cyc;</div>
+                </div>
 
                 
 
