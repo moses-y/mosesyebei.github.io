@@ -52,7 +52,7 @@ Keeper: **openwiki** (B+, 82.7). Mean grade across the 15 audited members is 63.
 | looperators | Web & Interfaces | TypeScript | B 78.1 | 294 |
 | magnitude | Web & Interfaces | TypeScript | C+ 67.9 | 1862 |
 | zero-agent | Systems & Infra | Go | C+ 67.2 | 1438 |
-| t1code | Web & Interfaces | TypeScript | C 64.9 | 600 |
+| t1code | Web & Interfaces | TypeScript | C 64.8 | 600 |
 | vscode | Web & Interfaces | TypeScript | C 63.5 | 9809 |
 | sandbox-agent | Web & Interfaces | TypeScript | C 63.4 | 785 |
 | sharedcontext | Web & Interfaces | TypeScript | C 62.7 | 42 |
@@ -258,12 +258,12 @@ Keeper: **OpenSandbox** (B-, 71.6). Mean grade across the 2 audited members is 6
 
 Crosses a domain boundary: 1 Mobile, 1 Systems & Infra. That is the interesting case - the same shape of problem solved in two different parts of the estate.
 
-Keeper: **ghostapp** (C-, 56.6). Mean grade across the 2 audited members is 53. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **ghostapp** (C-, 56.6). Mean grade across the 2 audited members is 52.9. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
 | **ghostapp** | Systems & Infra | Rust | C- 56.6 | 249 |
-| ghost-os | Mobile | Swift | D 49.4 | 51 |
+| ghost-os | Mobile | Swift | D 49.2 | 51 |
 
 ### c055 - 2 repositories
 
@@ -474,11 +474,11 @@ Keeper: **tsl-node-editor** (C, 63.9). Mean grade across the 2 audited members i
 
 All 2 in Web & Interfaces.
 
-Keeper: **codexia** (C+, 68.6). Mean grade across the 2 audited members is 58.8. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **codexia** (C+, 68.5). Mean grade across the 2 audited members is 58.8. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
-| **codexia** | Web & Interfaces | TypeScript | C+ 68.6 | 1025 |
+| **codexia** | Web & Interfaces | TypeScript | C+ 68.5 | 1025 |
 | opcode | Web & Interfaces | TSX | D 49 | 234 |
 
 ### c029 - 2 repositories
@@ -639,23 +639,23 @@ Keeper: **homepage** (B-, 73). Mean grade across the 2 audited members is 64.2. 
 
 All 2 in Web & Interfaces.
 
-Keeper: **manaflow** (C+, 69.3). Mean grade across the 2 audited members is 63.1. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **manaflow** (C+, 69.1). Mean grade across the 2 audited members is 62.9. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
-| **manaflow** | Web & Interfaces | TypeScript | C+ 69.3 | 1730 |
-| parallel-code | Web & Interfaces | TypeScript | C- 56.9 | 254 |
+| **manaflow** | Web & Interfaces | TypeScript | C+ 69.1 | 1730 |
+| parallel-code | Web & Interfaces | TypeScript | C- 56.8 | 254 |
 
 ### c049 - 2 repositories
 
 All 2 in Web & Interfaces.
 
-Keeper: **splat-transform** (C, 60.7). Mean grade across the 2 audited members is 58.3. Every member is audited, so the choice of keeper rests on evidence.
+Keeper: **splat-transform** (C, 60.7). Mean grade across the 2 audited members is 58.2. Every member is audited, so the choice of keeper rests on evidence.
 
 | repository | domain | language | grade | files |
 | --- | --- | --- | --- | --- |
 | **splat-transform** | Web & Interfaces | TypeScript | C 60.7 | 149 |
-| supersplat | Web & Interfaces | TypeScript | C- 55.8 | 221 |
+| supersplat | Web & Interfaces | TypeScript | C- 55.7 | 221 |
 
 ### c052 - 2 repositories
 
